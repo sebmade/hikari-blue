@@ -1,0 +1,192 @@
+{% extends '_layouts/base.nunjucks' %} {% block content %}
+<div class="mdl-layout__container">
+  <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+    <header class="mdl-layout__header">
+      <div class="mdl-layout__drawer-button" aria-label="Toggle menu" aria-expanded="false">
+        <i class="material-icons icon icon--open" role="presentation">menu</i>
+        <i class="material-icons icon icon--close" role="presentation">close</i>
+      </div>
+      <div class="mdl-layout__header-row">
+        <span class="mdl-layout-title">Hikari Blue</span>
+        <div class="mdl-layout-spacer"></div>
+        <nav class="mdl-navigation mdl-layout--large-screen-only">
+          <a class="mdl-navigation__link" href="">Études de cas</a>
+          <a class="mdl-navigation__link" href="">Raison d'être</a>
+          <a class="mdl-navigation__link" href="">Méthode</a>
+          <a class="mdl-navigation__link" href="">Expertises</a>
+          <a class="mdl-navigation__link" href="">Actualités</a>
+          <a class="mdl-navigation__link" href="">Contact</a>
+        </nav>
+      </div>
+    </header>
+    <div class="mdl-layout__drawer navigation-drawer">
+      <nav class="mdl-navigation">
+        <a class="mdl-navigation__link" href="">Études de cas</a>
+        <a class="mdl-navigation__link" href="">Raison d'être</a>
+        <a class="mdl-navigation__link" href="">Méthode</a>
+        <a class="mdl-navigation__link" href="">Expertises</a>
+        <a class="mdl-navigation__link" href="">Actualités</a>
+        <a class="mdl-navigation__link" href="">Contact</a>
+      </nav>
+    </div>
+    <main class="mdl-layout__content main-content">
+      <section class="section-intro">
+        <h1>Construire ensemble des solutions innovantes</h1>
+        <h2>Analyser, proposer, concevoir, réaliser, pour chaque projet Hikari Blue vous apporte des solutions co-construite
+          pour envisager l'avenir de manière innovante.</h2>
+      </section>
+      <section>
+        <div class="mdl-grid">
+          <div class="mdl-cell mdl-cell--12-col">
+            <h3>Etudes de cas</h3>
+          </div>
+          <div class="mdl-cell mdl-cell--6-col">
+            <div class="mdl-card mdl-shadow--2dp hb-card--media">
+              <div class="mdl-card__media hb-card__img-container">
+                <img src="images/lex-servier.png" alt="">
+              </div>
+              <div class="mdl-card__title">
+                Learning Expedition Servier
+              </div>
+              <div class="mdl-card__supporting-text">
+                Voyages apprenant au coeur de la Silicon Valley pour 12 personnes de l'équipe dirigeante de Servier Brésil. Visites de startups
+                dans l'e-santé et découverte de l'écosystème de la santé numérique de la Silicon Valley.
+              </div>
+              <div class="mdl-card__actions">
+                ETUDE DE CAS
+              </div>
+            </div>
+          </div>
+          <div class="mdl-cell mdl-cell--6-col">
+            <div class="mdl-card mdl-shadow--2dp hb-card--media">
+              <div class="mdl-card__media hb-card__img-container">
+                <img src="images/keydiag.png" alt="">
+              </div>
+              <div class="mdl-card__title">
+                Keydiag
+              </div>
+              <div class="mdl-card__supporting-text">
+                Issu de notre événement d'innovation Hacking Health Camp, nous avons accompagné une équipe de radiologue à concevoir l'outil
+                innovant leur permettant de créer de la valeur ajoutée en complément des solutions d'IA d'analyse d'image.
+              </div>
+              <div class="mdl-card__actions">
+                ETUDE DE CAS
+              </div>
+            </div>
+          </div>
+          <div class="mdl-cell mdl-cell--12-col">
+            <button class="mdl-button mdl-js-button mdl-js-ripple-effect">
+              TOUTES NOS HISTOIRES
+            </button>
+          </div>
+        </div>
+      </section>
+      <section>
+        <h3>Raison d'être</h3>
+        <h4>Implémenter l'innovation au coeur des entreprises</h4>
+        <h5>Notre société vit une transformation fondamentale liée au numérique</h5>
+        <h5>Pour chaque entreprise il y a des opportunités d'amélioration ...</h5>
+        <h4>Notre approche</h4>
+        <h5>Hikari Blue offre à ses clients toutes les compétences nécessaires</h5>
+      </section>
+      <section>
+        <h3>Méthode</h3>
+      </section>
+      <section>
+        <h3>Expertises</h3>
+        <div class="mdl-grid">
+          <div class="mdl-cell mdl-cell--3-col">
+            <img src="" alt="">
+            <h4>Value Proposition Design</h4>
+            <h5>En partant d'un état de l'entreprise, d'un de ses processus ou d'une expérience client</h5>
+          </div>
+          <div class="mdl-cell mdl-cell--3-col">
+            <img src="" alt="">
+            <h4>Business Model Design</h4>
+            <h5>En partant d'un état de l'entreprise, d'un de ses processus ou d'une expérience client</h5>
+          </div>
+        </div>
+      </section>
+      <section>
+        <h3>Actualités</h3>
+      </section>
+    </main>
+    <footer class="mdl-mega-footer">
+      <div class="mdl-mega-footer__middle-section">
+        <div class="mdl-mega-footer__drop-down-section">
+          <input class="mdl-mega-footer__heading-checkbox" type="checkbox" checked>
+          <h1 class="mdl-mega-footer__heading">Hikari Blue</h1>
+          <ul class="mdl-mega-footer__link-list">
+            <li>
+              <a href="#">Nos histoires</a>
+            </li>
+            <li>
+              <a href="#">Notre raison d'être</a>
+            </li>
+            <li>
+              <a href="#">Notre méthode</a>
+            </li>
+            <li>
+              <a href="#">Nos Expertises</a>
+            </li>
+            <li>
+              <a href="#">Actualités</a>
+            </li>
+            <li>
+              <a href="#">Contact</a>
+            </li>
+          </ul>
+        </div>
+        <div class="mdl-mega-footer__drop-down-section">
+          <input class="mdl-mega-footer__heading-checkbox" type="checkbox" checked>
+          <h1 class="mdl-mega-footer__heading">Suivez-nous</h1>
+          <ul class="mdl-mega-footer__link-list">
+            <li>
+              <a href="#">Facebook</a>
+            </li>
+            <li>
+              <a href="#">Twitter</a>
+            </li>
+            <li>
+              <a href="#">Linkedin</a>
+            </li>
+            <li>
+              <a href="#">Medium</a>
+            </li>
+          </ul>
+        </div>
+        <div class="mdl-mega-footer__drop-down-section">
+          <input class="mdl-mega-footer__heading-checkbox" type="checkbox" checked>
+          <h1 class="mdl-mega-footer__heading">Newsletter</h1>
+          <ul class="mdl-mega-footer__link-list">
+            <li>
+              <form action="#">
+                <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                  <input class="mdl-textfield__input" type="text" id="sample3">
+                  <label class="mdl-textfield__label" for="sample3">Votre email</label>
+                </div>
+                <button class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored">
+                  Je m'inscris
+                </button>
+              </form>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="mdl-mega-footer__bottom-section">
+        <div class="mdl-logo">Mentions Légales</div>
+        <ul class="mdl-mega-footer__link-list">
+          <li>
+            c2017 Hikari Blue - Tous droits réservés
+          </li>
+          <li>
+            Liberty Finances, SàRL au capital de 1 000 000 €
+          </li>
+          <li>ISO 9241 CCU</li>
+        </ul>
+      </div>
+    </footer>
+  </div>
+
+</div>
+{% endblock %}
