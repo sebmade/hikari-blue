@@ -50,7 +50,7 @@ $text-color: #878d8f;
     span {
       vertical-align: middle;
     }
-    a {
+    .mdl-button {
       float: right;
       text-align: right;
       margin-left: auto;
@@ -59,13 +59,14 @@ $text-color: #878d8f;
       i {
         font-size: 38px;
       }
+      border-width: 0;
     }
   }
 }
 
 h2,
 h3,
-h5 {
+p {
   color: $text-color;
   font-weight: 100;
   letter-spacing: 2px;
@@ -106,6 +107,26 @@ section {
 
 .mdl-cell {
   margin: auto;
+}
+
+.mdl-button {
+  border: unquote('rgb(#{$color-primary})') 1px solid;
+  color: unquote('rgb(#{$color-primary})');
+}
+
+.section-contact {
+  background-color: unquote("rgb(#{$color-primary})");
+  color: unquote("rgb(#{$color-white})");
+  padding-bottom: 30px;
+  h3 {
+    margin-top: 0;
+    color: unquote("rgb(#{$color-white})");
+    font-size: 50px;
+  }
+  .mdl-button {
+    color: unquote("rgb(#{$color-white})"); 
+    border-color: unquote("rgb(#{$color-white})"); 
+  }
 }
 
 ////////////////////////

@@ -92,16 +92,16 @@
       <section>
         <h3>Raison d'être</h3>
         <h4>Implémenter l'innovation au coeur des entreprises</h4>
-        <h5>Notre société vit une transformation fondamentale liée au numérique et aux nouvelles technologies. Toutes les entreprises
+        <p>Notre société vit une transformation fondamentale liée au numérique et aux nouvelles technologies. Toutes les entreprises
           sont impactées et choisissent soit de subir et au final de mourir soit d’être un acteur de cette transformation.
-        </h5>
-        <h5>Pour chaque entreprise il y a des opportunités d’amélioration et d’optimisation de leur modèle économique leur permettant
+        </p>
+        <p>Pour chaque entreprise il y a des opportunités d’amélioration et d’optimisation de leur modèle économique leur permettant
           d’être plus compétitives et plus rentables. Le numérique permet de réduire les couts, de faciliter le travail des
-          employés et principalement d’améliorer la satisfaction des clients par une meilleur expérience utilisateur.</h5>
+          employés et principalement d’améliorer la satisfaction des clients par une meilleur expérience utilisateur.</p>
         <h4>Notre approche</h4>
-        <h5>Hikari Blue offre à ses clients toutes les compétences nécessaires pour être acteur de cette transformation. Notre
+        <p>Hikari Blue offre à ses clients toutes les compétences nécessaires pour être acteur de cette transformation. Notre
           approche consiste à identifier avec vous les facteurs d’amélioration et d’optimisation en analysant votre modèle
-          économique existant puis en testant des alternatives.</h5>
+          économique existant puis en testant des alternatives.</p>
       </section>
       <section>
         <h3>Méthode</h3>
@@ -109,17 +109,21 @@
       <section class="section-expertises">
         <h3>Expertises</h3>
         <div class="mdl-grid">
-          <div class="mdl-cell mdl-cell--3-col mdl-cell-stretch">
+          <div class="mdl-cell mdl-cell--3-col">
             <img src="images/value-proposition-design.svg" alt="">
             <h4>Value Proposition Design</h4>
-            <h5>En partant d'un état de l'entreprise, d'un de ses processus ou d'une expérience client</h5>
+            <p>En partant du modèle économique existant de l’entreprise nous imaginons avec tous les acteurs de l’entreprise des alternatives pour proposer de nouvelles formes de rentabilité, de nouveaux produits, de nouvelles organisations.</p>
           </div>
-          <div class="mdl-cell mdl-cell--3-col mdl-cell-stretch">
+          <div class="mdl-cell mdl-cell--3-col">
             <img src="images/business-model-design.svg" alt="">
             <h4>Business Model Design</h4>
-            <h5>En partant d'un état de l'entreprise, d'un de ses processus ou d'une expérience client</h5>
+            <p>En partant du modèle économique existant de l’entreprise nous imaginons avec tous les acteurs de l’entreprise des alternatives pour proposer de nouvelles formes de rentabilité, de nouveaux produits, de nouvelles organisations.</p>
           </div>
         </div>
+      </section>
+      <section class="section-contact">
+        <h3>Travaillons ensemble</h3>
+        <button class="mdl-button mdj-js-button">CONTACT</button>
       </section>
       <section>
         <h3>Actualités</h3>
