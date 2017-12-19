@@ -7,7 +7,7 @@
         <i class="material-icons icon icon--close" role="presentation">close</i>
       </div>
       <div class="mdl-layout__header-row">
-        <span class="mdl-layout-title">Hikari Blue</span>
+        <img src="images/hikari-blue-logo.svg" alt="hikari-blue" class="logo">
         <div class="mdl-layout-spacer"></div>
         <nav class="mdl-navigation mdl-layout--large-screen-only">
           <a class="mdl-navigation__link" href="">Études de cas</a>
@@ -41,7 +41,7 @@
             <h3>Etudes de cas</h3>
           </div>
           <div class="mdl-cell mdl-cell--6-col">
-            <div class="mdl-card mdl-shadow--2dp hb-card--media">
+            <div class="mdl-card mdl-shadow--2dp hb-card--media hb-case-study">
               <div class="mdl-card__media hb-card__img-container">
                 <img src="images/lex-servier.png" alt="">
               </div>
@@ -53,12 +53,16 @@
                 dans l'e-santé et découverte de l'écosystème de la santé numérique de la Silicon Valley.
               </div>
               <div class="mdl-card__actions">
-                ETUDE DE CAS
+                  <i class="material-icons">content_paste</i>
+                  <span>ETUDE DE CAS</span>
+                  <a class="mdl-button mdl-js-button">
+                    <i class="material-icons">trending_flat</i>
+                  </a>
+                </div>
               </div>
-            </div>
           </div>
           <div class="mdl-cell mdl-cell--6-col">
-            <div class="mdl-card mdl-shadow--2dp hb-card--media">
+            <div class="mdl-card mdl-shadow--2dp hb-card--media hb-case-study">
               <div class="mdl-card__media hb-card__img-container">
                 <img src="images/keydiag.png" alt="">
               </div>
@@ -70,7 +74,11 @@
                 innovant leur permettant de créer de la valeur ajoutée en complément des solutions d'IA d'analyse d'image.
               </div>
               <div class="mdl-card__actions">
-                ETUDE DE CAS
+                <i class="material-icons">content_paste</i>
+                <span>ETUDE DE CAS</span>
+                <a class="mdl-button mdl-js-button">
+                  <i class="material-icons">trending_flat</i>
+                </a>
               </div>
             </div>
           </div>
@@ -84,24 +92,30 @@
       <section>
         <h3>Raison d'être</h3>
         <h4>Implémenter l'innovation au coeur des entreprises</h4>
-        <h5>Notre société vit une transformation fondamentale liée au numérique</h5>
-        <h5>Pour chaque entreprise il y a des opportunités d'amélioration ...</h5>
+        <h5>Notre société vit une transformation fondamentale liée au numérique et aux nouvelles technologies. Toutes les entreprises
+          sont impactées et choisissent soit de subir et au final de mourir soit d’être un acteur de cette transformation.
+        </h5>
+        <h5>Pour chaque entreprise il y a des opportunités d’amélioration et d’optimisation de leur modèle économique leur permettant
+          d’être plus compétitives et plus rentables. Le numérique permet de réduire les couts, de faciliter le travail des
+          employés et principalement d’améliorer la satisfaction des clients par une meilleur expérience utilisateur.</h5>
         <h4>Notre approche</h4>
-        <h5>Hikari Blue offre à ses clients toutes les compétences nécessaires</h5>
+        <h5>Hikari Blue offre à ses clients toutes les compétences nécessaires pour être acteur de cette transformation. Notre
+          approche consiste à identifier avec vous les facteurs d’amélioration et d’optimisation en analysant votre modèle
+          économique existant puis en testant des alternatives.</h5>
       </section>
       <section>
         <h3>Méthode</h3>
       </section>
-      <section>
+      <section class="section-expertises">
         <h3>Expertises</h3>
         <div class="mdl-grid">
-          <div class="mdl-cell mdl-cell--3-col">
-            <img src="" alt="">
+          <div class="mdl-cell mdl-cell--3-col mdl-cell-stretch">
+            <img src="images/value-proposition-design.svg" alt="">
             <h4>Value Proposition Design</h4>
             <h5>En partant d'un état de l'entreprise, d'un de ses processus ou d'une expérience client</h5>
           </div>
-          <div class="mdl-cell mdl-cell--3-col">
-            <img src="" alt="">
+          <div class="mdl-cell mdl-cell--3-col mdl-cell-stretch">
+            <img src="images/business-model-design.svg" alt="">
             <h4>Business Model Design</h4>
             <h5>En partant d'un état de l'entreprise, d'un de ses processus ou d'une expérience client</h5>
           </div>

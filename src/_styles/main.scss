@@ -1,9 +1,11 @@
 // Normalize Styles
 @import 'node_modules/normalize.css/normalize';
-
 $color-primary: '48,79,254';
-
 @import 'node_modules/material-design-lite/src/material-design-lite';
+html,
+body {
+  font-family: Raleway, Arial, Helvetica, sans-serif
+}
 
 .mdl-layout,
 .mdl_layout__container {
@@ -11,6 +13,12 @@ $color-primary: '48,79,254';
   height: auto;
   position: static;
   width: auto
+}
+
+.logo {
+  width: 178px;
+  height: 39px;
+  object-fit: contain;
 }
 
 .main-content {
@@ -28,57 +36,98 @@ $color-primary: '48,79,254';
   }
 }
 
-$text-color: #cfcfcf;
+$text-color: #878d8f;
 
-h2, h3, h5 {
-  color: $text-color;
+.hb-case-study {
+  margin: 10px 0;
+  text-align: left;
+  .mdl-card__actions {
+    color: $text-color;
+    text-align: left;
+    i {
+      vertical-align: middle;
+    }
+    span {
+      vertical-align: middle;
+    }
+    a {
+      float: right;
+      text-align: right;
+      margin-left: auto;
+      margin-right: -9px;
+      color: unquote("rgb(#{$color-primary})");
+      i {
+        font-size: 38px;
+      }
+    }
+  }
 }
+
+h2,
+h3,
+h5 {
+  color: $text-color;
+  font-weight: 100;
+  letter-spacing: 2px;
+  line-height: 1.43;
+}
+
+h5 {
+  font-size: 14px;
+}
+
 h1 {
-  font-size: 42px;
+  font-size: 50px;
   line-height: 64px;
 }
+
 h2 {
   font-size: 18px;
   line-height: 26px;
 }
 
-section {
-  padding: 0px 10px;
+h3 {
+  font-size: 50px;
+  padding: 40px 0;
 }
 
+section {
+  padding: 0px 20px;
+  text-align: center;
+}
+
+.section-expertises {
+  background-color: unquote("rgb(#{$color-black})");
+  color: unquote("rgb(#{$color-white})");
+  h3 {
+    color: unquote("rgb(#{$color-white})");
+  }
+}
+
+.mdl-cell {
+  margin: auto;
+}
 
 ////////////////////////
 .mdl-layout__header {
-  position: fixed
+  position: fixed;
+  background-color: white;
 }
 
 @media only screen and (max-width:840px) {
-  .mdl-layout__header .branding {
-    -ms-flex-align: center;
-    align-items: center;
-    display: -ms-flexbox;
-    display: flex;
-    height: 56px;
-    left: calc(50% - 54px);
-    position: absolute;
-    top: 0
-  }
   .mdl-layout__header .mdl-layout__header-row .mdl-navigation {
     display: none
   }
 }
 
 .mdl-layout__header .mdl-layout__drawer-button {
-  color: #fff;
+  color: unquote("rgb(#{$color-primary})");
   height: 56px;
-  left: auto;
+  left: initial;
   line-height: 53px;
   margin: 0;
-  width: 56px
-}
-
-.mdl-layout__header .mdl-layout__drawer-button:hover {
-  border-bottom: 3px solid #00bcd4
+  width: 56px;
+  right: 0;
 }
 
 .mdl-layout__header .mdl-layout__drawer-button--close {
@@ -91,6 +140,10 @@ section {
 .mdl-layout__header .mdl-layout__header-row {
   height: 56px;
   min-height: 56px
+}
+
+.mdl-layout__header .mdl-layout__header-row {
+  padding: 0 0 0 16px;
 }
 
 @media only screen and (min-width:841px) and (max-width:1200px) {
@@ -110,6 +163,7 @@ section {
 }
 
 .mdl-layout__header .mdl-layout__header-row .mdl-navigation__link {
+  color: unquote("rgb(#{$color-primary})");
   border-bottom: 3px solid transparent;
   box-sizing: border-box;
   font-size: 14px;
@@ -125,12 +179,7 @@ section {
 }
 
 .mdl-layout__header .mdl-layout__header-row .mdl-navigation__link:hover {
-  border-bottom: 3px solid #00bcd4;
   text-decoration: none
-}
-
-.mdl-layout__header .mdl-layout__header-row .mdl-layout-search {
-  padding: 20px
 }
 
 .mdl-layout__header .mdl-layout-title {
@@ -138,26 +187,8 @@ section {
 }
 
 @media only screen and (min-width:841px) {
-  .mdl-layout__header .mdl-layout__drawer-button,
-  .mdl-layout__header .search-icon__mobile {
+  .mdl-layout__header .mdl-layout__drawer-button {
     display: none
-  }
-}
-
-@media only screen and (max-width:840px) {
-  .mdl-layout__header .search-icon__desktop,
-  .mdl-layout__header .search-textfield--hidden {
-    display: none
-  }
-  .mdl-layout__header .mdl-textfield--absolute {
-    left: 0;
-    position: absolute;
-    top: 56px;
-    width: 100%
-  }
-  .mdl-layout__header .mdl-textfield.is-focused .mdl-textfield__expandable-holder {
-    max-width: 100%;
-    width: 95%
   }
 }
 
@@ -192,7 +223,7 @@ section {
 }
 
 .navigation-drawer {
-  background-color: rgb(48, 79, 254);
+  background-color: unquote("rgb(#{$color-primary})");
   opacity: 0;
   position: fixed;
   top: 56px;
@@ -242,7 +273,6 @@ section {
 }
 
 ////////////////////////
-
 // Box sizing partial styles:
 // Apply a natural box layout model to all elements
 *,
