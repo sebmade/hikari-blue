@@ -129,6 +129,33 @@ section {
   }
 }
 
+.section-method {
+  background-color: #a8afb2;
+  color: white;
+  h3 {
+    color: white;
+  }
+  h4 {
+    color: black;
+  }
+  h5 {
+    font-size: 22px;
+    text-transform: uppercase;
+  }
+  .mdl-cell--3-col {
+    //width: 100%;
+    //margin: 0 auto;
+  }
+  .oval {
+    width: 122px;
+    height: 122px;
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 50%;
+    margin: auto;
+  }
+}
+
 ////////////////////////
 .mdl-layout__header {
   position: fixed;
@@ -272,20 +299,20 @@ section {
 }
 
 .navigation-drawer .mdl-navigation {
-  margin-bottom: 50px;
-  padding: 0 30px
+  margin-bottom: 20px;
+  margin-top: 20px;
+  padding: 0px 30px
 }
 
 .navigation-drawer .mdl-navigation .mdl-navigation__link {
-  -ms-flex-align: center;
   align-items: center;
   color: #fff;
-  display: -ms-flexbox;
   display: flex;
-  font-weight: 400;
+  font-weight: 200;
   height: 48px;
+  font-size: 28px;
   padding: 0 0 0 16px;
-  text-transform: uppercase
+  //text-transform: uppercase
 }
 
 .navigation-drawer .mdl-navigation .mdl-navigation__link:hover {
@@ -293,7 +320,26 @@ section {
   text-decoration: none
 }
 
+.navigation-drawer hr {
+  margin: 10px 40px;
+  //border-color: #2156E8;
+}
+
+.navigation-drawer ul li {
+  padding: 0 1em;
+  list-style-type: none;
+  display: inline;
+  color: #052D9C;
+  a {
+    color: #fff;
+    text-decoration: none;
+  }
+}
+
 ////////////////////////
+
+
+
 // Box sizing partial styles:
 // Apply a natural box layout model to all elements
 *,

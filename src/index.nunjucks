@@ -28,6 +28,25 @@
         <a class="mdl-navigation__link" href="">Actualités</a>
         <a class="mdl-navigation__link" href="">Contact</a>
       </nav>
+      <hr>
+      <ul>
+        <li>
+          <a href="#" target="_blank">Facebook</a>
+        </li>
+        <li>
+          <a href="#" target="_blank">Twitter</a>
+        </li>
+        <li>
+          <a href="#" target="_blank">LinkedIn</a>
+        </li>
+        <li>
+          <a href="#" target="_blank">Medium</a>
+        </li>
+      </ul>
+      <ul>
+        <li>&copy; Hikari Blue</li>
+        <li style="float: right; margin-right: 30px;">ISO 9141 CCU</li>
+      </ul>
     </div>
     <main class="mdl-layout__content main-content">
       <section class="section-intro">
@@ -43,26 +62,24 @@
           <div class="mdl-cell mdl-cell--6-col">
             <div class="mdl-card mdl-shadow--2dp hb-card--media hb-case-study">
               <div class="mdl-card__media hb-card__img-container">
-                <img src="images/servier.jpg"
-                srcset="images/servier@2x.jpg 2x,
-                      images/servier@3x.jpg 3x"
-                class="servier">
+                <img src="images/servier.jpg" srcset="images/servier@2x.jpg 2x,
+                      images/servier@3x.jpg 3x" class="servier">
               </div>
               <div class="mdl-card__title">
-                Learning Expedition Servier
+                Acculturation au numérique dans la santé
               </div>
               <div class="mdl-card__supporting-text">
                 Voyages apprenant au coeur de la Silicon Valley pour 12 personnes de l'équipe dirigeante de Servier Brésil. Visites de startups
                 dans l'e-santé et découverte de l'écosystème de la santé numérique de la Silicon Valley.
               </div>
               <div class="mdl-card__actions">
-                  <i class="material-icons">content_paste</i>
-                  <span>ETUDE DE CAS</span>
-                  <a class="mdl-button mdl-js-button">
-                    <i class="material-icons">trending_flat</i>
-                  </a>
-                </div>
+                <i class="material-icons">content_paste</i>
+                <span>ETUDE DE CAS</span>
+                <a class="mdl-button mdl-js-button">
+                  <i class="material-icons">trending_flat</i>
+                </a>
               </div>
+            </div>
           </div>
           <div class="mdl-cell mdl-cell--6-col">
             <div class="mdl-card mdl-shadow--2dp hb-card--media hb-case-study">
@@ -70,7 +87,7 @@
                 <img src="images/keydiag.png" alt="">
               </div>
               <div class="mdl-card__title">
-                Keydiag
+                Le radiologue du futur
               </div>
               <div class="mdl-card__supporting-text">
                 Issu de notre événement d'innovation Hacking Health Camp, nous avons accompagné une équipe de radiologue à concevoir l'outil
@@ -95,19 +112,100 @@
       <section>
         <h3>Raison d'être</h3>
         <h4>Implémenter l'innovation au coeur des entreprises</h4>
-        <p>Notre société vit une transformation fondamentale liée au numérique et aux nouvelles technologies. Toutes les entreprises
-          sont impactées et choisissent soit de subir et au final de mourir soit d’être un acteur de cette transformation.
+        <p>Notre société vit une transformation fondamentale liée au numérique et aux nouvelles technologies.
+          <b>Toutes les entreprises sont impactées et choisissent soit de subir et au final de mourir soit d’être un acteur
+            de cette transformation</b>.
         </p>
-        <p>Pour chaque entreprise il y a des opportunités d’amélioration et d’optimisation de leur modèle économique leur permettant
-          d’être plus compétitives et plus rentables. Le numérique permet de réduire les couts, de faciliter le travail des
-          employés et principalement d’améliorer la satisfaction des clients par une meilleur expérience utilisateur.</p>
+        <p>Pour chaque entreprise il y a des
+          <b>opportunités d’amélioration et d’optimisation</b> de leur modèle économique leur permettant d’être
+          <b>plus compétitives et plus rentables</b>. Le numérique permet de
+          <b>réduire les couts</b>, de faciliter le travail des employés et principalement d’
+          <b>améliorer la satisfaction des clients</b> par une
+          <b>meilleur expérience utilisateur</b>.</p>
         <h4>Notre approche</h4>
-        <p>Hikari Blue offre à ses clients toutes les compétences nécessaires pour être acteur de cette transformation. Notre
-          approche consiste à identifier avec vous les facteurs d’amélioration et d’optimisation en analysant votre modèle
-          économique existant puis en testant des alternatives.</p>
+        <p>
+          <span class="highlight">Hikari Blue</span> offre à ses clients toutes les compétences nécessaires pour être acteur de cette transformation.
+          Notre approche consiste à
+          <b>identifier avec vous les facteurs d’amélioration et d’optimisation</b> en analysant votre
+          <b>modèle économique existant</b> puis en testant des
+          <b>alternatives</b>.</p>
       </section>
-      <section>
+      <div class="animate-h metho_under">
+        <h5>Répétition jusqu'à la preuve</h5>
+      </div>
+
+      <section class="section-method">
         <h3>Méthode</h3>
+        <h4>L'INNOVATION EN 4 ÉTAPES</h4>
+        <div class="mdl-grid">
+          <div class="mdl-cell--5-col">
+            <h5 class="metho">Recherche d'un modèle
+              <br>économique</h5>
+
+            <div class="mdl-grid">
+
+              <div class="mdl-cell--3-col">
+                <div class="oval">
+                  <img src="images/icon-recherche.svg">
+                </div>
+                <h5>Recherche</h5>
+              </div>
+
+              <div class="mdl-cell--3-col">
+                <i class="material-icons">keyboard_arrow_down</i>
+              </div>
+
+              <div class="mdl-cell--3-col">
+                <div class="oval">
+                  <img src="images/icon-validation.svg">
+                </div>
+                <h5>Validation</h5>
+              </div>
+
+              <div class="mdl-cell--3-col">
+                <i class="material-icons">keyboard_arrow_down</i>
+              </div>
+
+            </div>
+          </div>
+          <div class="mdl-cell--1-col">
+            <div class="visuel visuel_text">
+              <h5>Adéquation
+                <br>produit / marché</h5>
+            </div>
+          </div>
+          <div class="mdl-cell--5-col">
+            <h5 class="metho">Exécution du nouveau
+              <br>modèle économique</h5>
+
+            <div class="mdl-grid">
+
+              <div class="mdl-cell--3-col">
+                <i class="material-icons">keyboard_arrow_down</i>
+              </div>
+
+              <div class="mdl-cell--3-col metho_puce metho_puce_4">
+                <div class="oval">
+                  <img src="images/icon-creation.svg">
+                </div>
+                <h5>Création</h5>
+              </div>
+
+              <div class="mdl-cell--3-col">
+                <i class="material-icons">keyboard_arrow_down</i>
+              </div>
+
+              <div class="mdl-cell--3-col">
+                <div class="oval">
+                  <img src="images/icon-execution.svg">
+                </div>
+                <h5>Exécution</h5>
+              </div>
+
+            </div>
+
+          </div>
+        </div>
       </section>
       <section class="section-expertises">
         <h3>Expertises</h3>
@@ -115,17 +213,21 @@
           <div class="mdl-cell mdl-cell--3-col">
             <img src="images/value-proposition-design.svg" alt="">
             <h4>Value Proposition Design</h4>
-            <p>Pour chaque nouvelles idées, étudier avec tous les acteurs impliqués les points de frustrations, faire émerger les gains et les attentes idéales en questionnant les acteurs, identifier les facteurs d’amélioration et ainsi créer une proposition de valeur avec une adéquation entre produit et marché.</p>
+            <p>Pour chaque nouvelles idées, étudier avec tous les acteurs impliqués les points de frustrations, faire émerger
+              les gains et les attentes idéales en questionnant les acteurs, identifier les facteurs d’amélioration et ainsi
+              créer une proposition de valeur avec une adéquation entre produit et marché.</p>
           </div>
           <div class="mdl-cell mdl-cell--3-col">
             <img src="images/business-model-design.svg" alt="">
             <h4>Business Model Design</h4>
-            <p>Imaginer avec tous les acteurs de l’entreprise des alternatives pour proposer de nouvelles formes de rentabilité, de nouveaux produits, de nouvelles organisations.</p>
+            <p>Imaginer avec tous les acteurs de l’entreprise des alternatives pour proposer de nouvelles formes de rentabilité,
+              de nouveaux produits, de nouvelles organisations.</p>
           </div>
           <div class="mdl-cell mdl-cell--3-col">
             <img src="images/design-thinking.svg" alt="">
             <h4>Design Thinking</h4>
-            <p>Faire émerger les idées des collaborateurs et les aider à prototyper des solutions et vérifier ainsi les hypothèses pour démarrer de nouveaux projets.</p>
+            <p>Faire émerger les idées des collaborateurs et les aider à prototyper des solutions et vérifier ainsi les hypothèses
+              pour démarrer de nouveaux projets.</p>
           </div>
           <div class="mdl-cell mdl-cell--3-col">
             <img src="images/user-experience.svg" alt="">
@@ -135,22 +237,29 @@
           <div class="mdl-cell mdl-cell--3-col">
             <img src="images/developpement.svg" alt="">
             <h4>Développement</h4>
-            <p>Pour tous vos projets, développer la solution avec la technologie la plus adaptée pour mettre en production un produit ou un service le plus rapidement possible. Nos experts maitrisent les technologies backend et frontend, les langages les plus populaires (Java, JavaScript, C#, Python, Go, Swift), les frameworks du moment (Angular, React) et les plateformes (iOS, Android, Google Cloud, Amazon, Azure)</p>
+            <p>Pour tous vos projets, développer la solution avec la technologie la plus adaptée pour mettre en production un
+              produit ou un service le plus rapidement possible. Nos experts maitrisent les technologies backend et frontend,
+              les langages les plus populaires (Java, JavaScript, C#, Python, Go, Swift), les frameworks du moment (Angular,
+              React) et les plateformes (iOS, Android, Google Cloud, Amazon, Azure)</p>
           </div>
           <div class="mdl-cell mdl-cell--3-col">
             <img src="images/agilite.svg" alt="">
             <h4>Agilité</h4>
-            <p>Pour chaque projet, mettre en place un mode d’organisation permettant de privilégier l’expérimentation par itérations courtes pour permettre de s’assurer au quotidien de la validité de la solution.</p>
+            <p>Pour chaque projet, mettre en place un mode d’organisation permettant de privilégier l’expérimentation par itérations
+              courtes pour permettre de s’assurer au quotidien de la validité de la solution.</p>
           </div>
           <div class="mdl-cell mdl-cell--3-col">
             <img src="images/metriques-data.svg" alt="">
             <h4>Métriques &amp; Data</h4>
-            <p>Étalonner en amont du projet, mettre en place les métriques pertinentes pour chaque projet et pouvoir ainsi valider les hypothèses sur des élèments factuels et guider les décisions d'amélioration.</p>
+            <p>Étalonner en amont du projet, mettre en place les métriques pertinentes pour chaque projet et pouvoir ainsi valider
+              les hypothèses sur des élèments factuels et guider les décisions d'amélioration.</p>
           </div>
           <div class="mdl-cell mdl-cell--3-col">
             <img src="images/marketing-digital.svg" alt="">
             <h4>Marketing Digital</h4>
-            <p>Promouvoir les projets avec les outils adaptés, capter l'audience ciblée de la meilleure façon et activer la croissance.</p>
+            <p>Promouvoir les projets avec les outils adaptés, capter l'audience ciblée de la meilleure façon et activer la
+              croissance.
+            </p>
           </div>
         </div>
       </section>
@@ -228,7 +337,7 @@
         <div class="mdl-logo">Mentions Légales</div>
         <ul class="mdl-mega-footer__link-list">
           <li>
-            c2017 Hikari Blue - Tous droits réservés
+            &copy; 2017 Hikari Blue - Tous droits réservés
           </li>
           <li>
             Liberty Finances, SàRL au capital de 1 000 000 €
