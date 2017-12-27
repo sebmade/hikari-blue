@@ -43,7 +43,10 @@
           <div class="mdl-cell mdl-cell--6-col">
             <div class="mdl-card mdl-shadow--2dp hb-card--media hb-case-study">
               <div class="mdl-card__media hb-card__img-container">
-                <img src="images/lex-servier.png" alt="">
+                <img src="images/servier.jpg"
+                srcset="images/servier@2x.jpg 2x,
+                      images/servier@3x.jpg 3x"
+                class="servier">
               </div>
               <div class="mdl-card__title">
                 Learning Expedition Servier
@@ -112,12 +115,42 @@
           <div class="mdl-cell mdl-cell--3-col">
             <img src="images/value-proposition-design.svg" alt="">
             <h4>Value Proposition Design</h4>
-            <p>En partant du modèle économique existant de l’entreprise nous imaginons avec tous les acteurs de l’entreprise des alternatives pour proposer de nouvelles formes de rentabilité, de nouveaux produits, de nouvelles organisations.</p>
+            <p>Pour chaque nouvelles idées, étudier avec tous les acteurs impliqués les points de frustrations, faire émerger les gains et les attentes idéales en questionnant les acteurs, identifier les facteurs d’amélioration et ainsi créer une proposition de valeur avec une adéquation entre produit et marché.</p>
           </div>
           <div class="mdl-cell mdl-cell--3-col">
             <img src="images/business-model-design.svg" alt="">
             <h4>Business Model Design</h4>
-            <p>En partant du modèle économique existant de l’entreprise nous imaginons avec tous les acteurs de l’entreprise des alternatives pour proposer de nouvelles formes de rentabilité, de nouveaux produits, de nouvelles organisations.</p>
+            <p>Imaginer avec tous les acteurs de l’entreprise des alternatives pour proposer de nouvelles formes de rentabilité, de nouveaux produits, de nouvelles organisations.</p>
+          </div>
+          <div class="mdl-cell mdl-cell--3-col">
+            <img src="images/design-thinking.svg" alt="">
+            <h4>Design Thinking</h4>
+            <p>Faire émerger les idées des collaborateurs et les aider à prototyper des solutions et vérifier ainsi les hypothèses pour démarrer de nouveaux projets.</p>
+          </div>
+          <div class="mdl-cell mdl-cell--3-col">
+            <img src="images/user-experience.svg" alt="">
+            <h4>User Experience UX/UI</h4>
+            <p>Concevoir et tester des expériences utilisateurs innovantes au plus près des attentes des clients. </p>
+          </div>
+          <div class="mdl-cell mdl-cell--3-col">
+            <img src="images/developpement.svg" alt="">
+            <h4>Développement</h4>
+            <p>Pour tous vos projets, développer la solution avec la technologie la plus adaptée pour mettre en production un produit ou un service le plus rapidement possible. Nos experts maitrisent les technologies backend et frontend, les langages les plus populaires (Java, JavaScript, C#, Python, Go, Swift), les frameworks du moment (Angular, React) et les plateformes (iOS, Android, Google Cloud, Amazon, Azure)</p>
+          </div>
+          <div class="mdl-cell mdl-cell--3-col">
+            <img src="images/agilite.svg" alt="">
+            <h4>Agilité</h4>
+            <p>Pour chaque projet, mettre en place un mode d’organisation permettant de privilégier l’expérimentation par itérations courtes pour permettre de s’assurer au quotidien de la validité de la solution.</p>
+          </div>
+          <div class="mdl-cell mdl-cell--3-col">
+            <img src="images/metriques-data.svg" alt="">
+            <h4>Métriques &amp; Data</h4>
+            <p>Étalonner en amont du projet, mettre en place les métriques pertinentes pour chaque projet et pouvoir ainsi valider les hypothèses sur des élèments factuels et guider les décisions d'amélioration.</p>
+          </div>
+          <div class="mdl-cell mdl-cell--3-col">
+            <img src="images/marketing-digital.svg" alt="">
+            <h4>Marketing Digital</h4>
+            <p>Promouvoir les projets avec les outils adaptés, capter l'audience ciblée de la meilleure façon et activer la croissance.</p>
           </div>
         </div>
       </section>
