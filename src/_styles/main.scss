@@ -37,7 +37,6 @@ body {
 }
 
 $text-color: #878d8f;
-
 .hb-case-study {
   margin: 10px 0;
   text-align: left;
@@ -124,8 +123,8 @@ section {
     font-size: 50px;
   }
   .mdl-button {
-    color: unquote("rgb(#{$color-white})"); 
-    border-color: unquote("rgb(#{$color-white})"); 
+    color: unquote("rgb(#{$color-white})");
+    border-color: unquote("rgb(#{$color-white})");
   }
 }
 
@@ -153,6 +152,29 @@ section {
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
     border-radius: 50%;
     margin: auto;
+  }
+  .method-underline {
+    position: relative;
+    text-align: center;
+    transform: rotate(-90deg);
+    top: -300px;
+    left: 120px;
+    h5 {
+      letter-spacing: 0.22em;
+      line-height: 23px;
+      text-transform: inherit;
+      font-size: 10px;
+    }
+    &:before {
+      content: '';
+      top: -12px;
+      left: 100px;
+      right: 100px;
+      height: 5px;
+      position: absolute;
+      border: 1px solid #c6c7c9;
+      border-top: 0px;
+    }
   }
 }
 
@@ -311,8 +333,7 @@ section {
   font-weight: 200;
   height: 48px;
   font-size: 28px;
-  padding: 0 0 0 16px;
-  //text-transform: uppercase
+  padding: 0 0 0 16px; //text-transform: uppercase
 }
 
 .navigation-drawer .mdl-navigation .mdl-navigation__link:hover {
@@ -321,8 +342,7 @@ section {
 }
 
 .navigation-drawer hr {
-  margin: 10px 40px;
-  //border-color: #2156E8;
+  margin: 10px 40px; //border-color: #2156E8;
 }
 
 .navigation-drawer ul li {
@@ -337,9 +357,6 @@ section {
 }
 
 ////////////////////////
-
-
-
 // Box sizing partial styles:
 // Apply a natural box layout model to all elements
 *,

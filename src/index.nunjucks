@@ -130,10 +130,6 @@
           <b>modèle économique existant</b> puis en testant des
           <b>alternatives</b>.</p>
       </section>
-      <div class="animate-h metho_under">
-        <h5>Répétition jusqu'à la preuve</h5>
-      </div>
-
       <section class="section-method">
         <h3>Méthode</h3>
         <h4>L'INNOVATION EN 4 ÉTAPES</h4>
@@ -167,6 +163,11 @@
               </div>
 
             </div>
+
+            <div class="method-underline">
+              <h5>Répétition jusqu'à la preuve</h5>
+            </div>
+
           </div>
           <div class="mdl-cell--1-col">
             <div class="visuel visuel_text">
