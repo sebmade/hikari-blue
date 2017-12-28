@@ -134,32 +134,36 @@
         <h3>Méthode</h3>
         <h4>L'INNOVATION EN 4 ÉTAPES</h4>
         <div class="mdl-grid">
-          <div class="mdl-cell--5-col">
-            <h5 class="metho">Recherche d'un modèle
+          <div class="mdl-cell--5-col mdl-cell--12-col-tablet mdl-cell--12-col-phone margin-auto">
+            <h5>Recherche d'un modèle
               <br>économique</h5>
 
-            <div class="mdl-grid">
+            <div class="mdl-grid ">
 
-              <div class="mdl-cell--3-col">
-                <div class="oval">
+              <div class="mdl-cell--5-col mdl-cell--12-col-tablet mdl-cell--12-col-phone margin-auto">
+                <div class="oval vertical-align-middle">
                   <img src="images/icon-recherche.svg">
                 </div>
                 <h5>Recherche</h5>
               </div>
 
-              <div class="mdl-cell--3-col">
-                <i class="material-icons">keyboard_arrow_down</i>
+              <div class="mdl-cell--1-col mdl-cell--12-col-tablet mdl-cell--12-col-phone margin-auto">
+                <div class="vertical-align-middle">
+                  <i class="material-icons">keyboard_arrow_down</i>
+                </div>
               </div>
 
-              <div class="mdl-cell--3-col">
-                <div class="oval">
+              <div class="mdl-cell--5-col mdl-cell--12-col-tablet mdl-cell--12-col-phone margin-auto">
+                <div class="oval vertical-align-middle">
                   <img src="images/icon-validation.svg">
                 </div>
                 <h5>Validation</h5>
               </div>
 
-              <div class="mdl-cell--3-col">
-                <i class="material-icons">keyboard_arrow_down</i>
+              <div class="mdl-cell--1-col mdl-cell--12-col-tablet mdl-cell--12-col-phone margin-auto">
+                  <div class="vertical-align-middle">
+                    <i class="material-icons">keyboard_arrow_down</i>
+                  </div>
               </div>
 
             </div>
@@ -169,35 +173,39 @@
             </div>
 
           </div>
-          <div class="mdl-cell--1-col">
-            <div class="visuel visuel_text">
+          <div class="mdl-cell--2-col mdl-cell--12-col-tablet mdl-cell--12-col-phone margin-auto">
+            <div class="vertical-align-middle">
               <h5>Adéquation
                 <br>produit / marché</h5>
             </div>
           </div>
-          <div class="mdl-cell--5-col">
-            <h5 class="metho">Exécution du nouveau
+          <div class="mdl-cell--5-col mdl-cell--12-col-tablet mdl-cell--12-col-phone margin-auto">
+            <h5>Exécution du nouveau
               <br>modèle économique</h5>
 
             <div class="mdl-grid">
 
-              <div class="mdl-cell--3-col">
-                <i class="material-icons">keyboard_arrow_down</i>
+              <div class="mdl-cell--1-col mdl-cell--12-col-tablet mdl-cell--12-col-phone margin-auto">
+                  <div class="vertical-align-middle">
+                    <i class="material-icons">keyboard_arrow_down</i>
+                  </div>    
               </div>
 
-              <div class="mdl-cell--3-col metho_puce metho_puce_4">
-                <div class="oval">
+              <div class="mdl-cell--5-col mdl-cell--12-col-tablet mdl-cell--12-col-phone margin-auto">
+                <div class="oval vertical-align-middle">
                   <img src="images/icon-creation.svg">
                 </div>
                 <h5>Création</h5>
               </div>
 
-              <div class="mdl-cell--3-col">
-                <i class="material-icons">keyboard_arrow_down</i>
+              <div class="mdl-cell--1-col mdl-cell--12-col-tablet mdl-cell--12-col-phone margin-auto">
+                  <div class="vertical-align-middle">
+                    <i class="material-icons">keyboard_arrow_down</i>
+                  </div>
               </div>
 
-              <div class="mdl-cell--3-col">
-                <div class="oval">
+              <div class="mdl-cell--5-col mdl-cell--12-col-tablet mdl-cell--12-col-phone margin-auto">
+                <div class="oval vertical-align-middle">
                   <img src="images/icon-execution.svg">
                 </div>
                 <h5>Exécution</h5>
