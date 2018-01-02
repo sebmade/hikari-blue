@@ -1,53 +1,5 @@
-{% extends '_layouts/base.nunjucks' %} {% block content %}
-<div class="mdl-layout__container">
-  <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
-    <header class="mdl-layout__header">
-      <div class="mdl-layout__drawer-button" aria-label="Toggle menu" aria-expanded="false">
-        <i class="material-icons icon icon--open" role="presentation">menu</i>
-        <i class="material-icons icon icon--close" role="presentation">close</i>
-      </div>
-      <div class="mdl-layout__header-row">
-        <img src="images/hikari-blue-logo.svg" alt="hikari-blue" class="logo">
-        <div class="mdl-layout-spacer"></div>
-        <nav class="mdl-navigation mdl-layout--large-screen-only">
-          <a class="mdl-navigation__link" href="">Études de cas</a>
-          <a class="mdl-navigation__link" href="">Raison d'être</a>
-          <a class="mdl-navigation__link" href="">Méthode</a>
-          <a class="mdl-navigation__link" href="">Expertises</a>
-          <a class="mdl-navigation__link" href="">Actualités</a>
-          <a class="mdl-navigation__link" href="">Contact</a>
-        </nav>
-      </div>
-    </header>
-    <div class="mdl-layout__drawer navigation-drawer">
-      <nav class="mdl-navigation">
-        <a class="mdl-navigation__link" href="">Études de cas</a>
-        <a class="mdl-navigation__link" href="">Raison d'être</a>
-        <a class="mdl-navigation__link" href="">Méthode</a>
-        <a class="mdl-navigation__link" href="">Expertises</a>
-        <a class="mdl-navigation__link" href="">Actualités</a>
-        <a class="mdl-navigation__link" href="">Contact</a>
-      </nav>
-      <hr>
-      <ul>
-        <li>
-          <a href="#" target="_blank">Facebook</a>
-        </li>
-        <li>
-          <a href="#" target="_blank">Twitter</a>
-        </li>
-        <li>
-          <a href="#" target="_blank">LinkedIn</a>
-        </li>
-        <li>
-          <a href="#" target="_blank">Medium</a>
-        </li>
-      </ul>
-      <ul>
-        <li>&copy; Hikari Blue</li>
-        <li style="float: right; margin-right: 30px;">ISO 9141 CCU</li>
-      </ul>
-    </div>
+{% extends '_layouts/base.nunjucks' %} 
+{% block content %}
     <main class="mdl-layout__content main-content">
       <section class="section-intro">
         <h1>Construire ensemble des solutions innovantes</h1>
@@ -128,7 +80,7 @@
           Notre approche consiste à
           <b>identifier avec vous les facteurs d’amélioration et d’optimisation</b> en analysant votre
           <b>modèle économique existant</b> puis en testant des
-          <b>alternatives</b>.</p>
+          <b>alternatives</b>. Nos <b>experts</b> sont <b>à votre disposition</b> pour construire avec vous le futur de votre entreprise.</p>
       </section>
       <section class="section-method">
         <h3>Méthode</h3>
@@ -274,88 +226,10 @@
       </section>
       <section class="section-contact">
         <h3>Travaillons ensemble</h3>
-        <button class="mdl-button mdj-js-button">CONTACT</button>
+        <a href="contact.html" class="mdl-button mdj-js-button">CONTACT</a>
       </section>
       <section>
         <h3>Actualités</h3>
       </section>
     </main>
-    <footer class="mdl-mega-footer">
-      <div class="mdl-mega-footer__middle-section">
-        <div class="mdl-mega-footer__drop-down-section">
-          <input class="mdl-mega-footer__heading-checkbox" type="checkbox" checked>
-          <h1 class="mdl-mega-footer__heading">Hikari Blue</h1>
-          <ul class="mdl-mega-footer__link-list">
-            <li>
-              <a href="#">Nos histoires</a>
-            </li>
-            <li>
-              <a href="#">Notre raison d'être</a>
-            </li>
-            <li>
-              <a href="#">Notre méthode</a>
-            </li>
-            <li>
-              <a href="#">Nos Expertises</a>
-            </li>
-            <li>
-              <a href="#">Actualités</a>
-            </li>
-            <li>
-              <a href="#">Contact</a>
-            </li>
-          </ul>
-        </div>
-        <div class="mdl-mega-footer__drop-down-section">
-          <input class="mdl-mega-footer__heading-checkbox" type="checkbox" checked>
-          <h1 class="mdl-mega-footer__heading">Suivez-nous</h1>
-          <ul class="mdl-mega-footer__link-list">
-            <li>
-              <a href="#">Facebook</a>
-            </li>
-            <li>
-              <a href="#">Twitter</a>
-            </li>
-            <li>
-              <a href="#">Linkedin</a>
-            </li>
-            <li>
-              <a href="#">Medium</a>
-            </li>
-          </ul>
-        </div>
-        <div class="mdl-mega-footer__drop-down-section">
-          <input class="mdl-mega-footer__heading-checkbox" type="checkbox" checked>
-          <h1 class="mdl-mega-footer__heading">Newsletter</h1>
-          <ul class="mdl-mega-footer__link-list">
-            <li>
-              <form action="#">
-                <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-                  <input class="mdl-textfield__input" type="text" id="sample3">
-                  <label class="mdl-textfield__label" for="sample3">Votre email</label>
-                </div>
-                <button class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored">
-                  Je m'inscris
-                </button>
-              </form>
-            </li>
-          </ul>
-        </div>
-      </div>
-      <div class="mdl-mega-footer__bottom-section">
-        <div class="mdl-logo">Mentions Légales</div>
-        <ul class="mdl-mega-footer__link-list">
-          <li>
-            &copy; 2017 Hikari Blue - Tous droits réservés
-          </li>
-          <li>
-            Liberty Finances, SàRL au capital de 1 000 000 €
-          </li>
-          <li>ISO 9241 CCU</li>
-        </ul>
-      </div>
-    </footer>
-  </div>
-
-</div>
 {% endblock %}

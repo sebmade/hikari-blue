@@ -21,7 +21,12 @@ body {
   object-fit: contain;
 }
 
-.main-content {
+.highlight {
+  color: unquote("rgb(#{$color-primary})");
+  font-weight: 500;
+}
+
+.main-content,.contact-page {
   margin-top: 56px;
 }
 
@@ -368,6 +373,24 @@ section {
 }
 
 ////////////////////////
+
+.contact-page {
+  .mdl-cell {
+    max-width: 800px;
+  }
+  .mdl-cell div,h3,button {
+    width: 100%;
+  }
+  .mdl-cell h3 {
+    font-size: 24px;
+    text-align: center
+  }
+  .mdl-cell button {
+    margin: 15px 0;
+  }
+}
+
+
 // Box sizing partial styles:
 // Apply a natural box layout model to all elements
 *,

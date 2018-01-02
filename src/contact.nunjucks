@@ -1,0 +1,59 @@
+{% extends '_layouts/base.nunjucks' %} {% block content %}
+<main class="mdl-layout__content contact-page">
+  <form action="#">
+    <div class="mdl-grid">
+      <div class="mdl-cell mdl-cell--6-col mdl-cell--12-col-phone">
+        <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+          <input class="mdl-textfield__input" type="text" id="name">
+          <label class="mdl-textfield__label" for="name">Nom</label>
+        </div>
+      </div>
+      <div class="mdl-cell mdl-cell--6-col mdl-cell--12-col-phone">
+        <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+          <input class="mdl-textfield__input" type="text" id="email">
+          <label class="mdl-textfield__label" for="email">Email</label>
+        </div>
+      </div>
+      <div class="mdl-cell mdl-cell--12-col">
+        <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+          <input class="mdl-textfield__input" type="text" id="company">
+          <label class="mdl-textfield__label" for="company">Entreprise</label>
+        </div>
+      </div>
+      <div class="mdl-cell mdl-cell--12-col">
+        <h3>Comment peut on vous aider ?</h3>
+      </div>
+      <div class="mdl-cell mdl-cell--12-col">
+        <button class="mdl-button mdl-js-button mdl-js-ripple-effect">
+          J'ai un super projet
+        </button>
+      </div>
+      <div class="mdl-cell mdl-cell--12-col">
+        <button class="mdl-button mdl-js-button mdl-js-ripple-effect">
+          Je voudrais rejoindre vos équipes
+        </button>
+      </div>
+      <div class="mdl-cell mdl-cell--12-col">
+        <h3>Dites nous en plus</h3>
+      </div>
+      <div class="mdl-cell mdl-cell--12-col">
+        <div class="mdl-textfield mdl-js-textfield">
+          <textarea class="mdl-textfield__input" type="text" rows="3" id="message"></textarea>
+          <label class="mdl-textfield__label" for="message">Votre message ...</label>
+        </div>
+      </div>
+      <div class="mdl-cell mdl-cell--12-col">
+        <div class="mdl-textfield mdl-js-textfield">
+          <textarea class="mdl-textfield__input" type="text" rows="3" id="from"></textarea>
+          <label class="mdl-textfield__label" for="from">Comment nous avez-vous connu ?</label>
+        </div>
+      </div>
+      <div class="mdl-cell mdl-cell--12-col">
+        <button class="mdl-button mdl-js-button mdl-js-ripple-effect">
+          Envoyer
+        </button>
+      </div>
+    </div>
+  </form>
+</main>
+{% endblock %}
