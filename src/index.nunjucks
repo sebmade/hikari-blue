@@ -1,235 +1,254 @@
-{% extends '_layouts/base.nunjucks' %} 
-{% block content %}
-    <main class="mdl-layout__content main-content">
-      <section class="section-intro">
-        <h1>Construire ensemble des solutions innovantes</h1>
-        <h2>Analyser, proposer, concevoir, réaliser, pour chaque projet Hikari Blue vous apporte des solutions co-construite
-          pour envisager l'avenir de manière innovante.</h2>
-      </section>
-      <section>
-        <div class="mdl-grid">
-          <div class="mdl-cell mdl-cell--12-col">
-            <h3>Etudes de cas</h3>
-          </div>
-          <div class="mdl-cell mdl-cell--6-col">
-            <div class="mdl-card mdl-shadow--2dp hb-card--media hb-case-study">
-              <div class="mdl-card__media hb-card__img-container">
-                <img src="images/servier.jpg" srcset="images/servier@2x.jpg 2x,
+{% extends '_layouts/base.nunjucks' %} {% block content %}
+<main class="mdl-layout__content main-content">
+  <section class="section-intro">
+    <h1>Construire ensemble des
+      <b>solutions innovantes</b>
+    </h1>
+    <h2>Analyser, proposer, concevoir, réaliser, pour chaque projet Hikari Blue vous apporte des solutions co-construite pour
+      envisager l'avenir de manière innovante.</h2>
+  </section>
+  <section>
+    <div class="mdl-grid">
+      <div class="mdl-cell mdl-cell--12-col">
+        <h3>Etudes
+          <br>de cas</h3>
+      </div>
+      <div class="mdl-cell mdl-cell--6-col">
+        <div class="mdl-card mdl-shadow--2dp hb-card--media hb-case-study">
+          <div class="mdl-card__media hb-card__img-container">
+            <img src="images/servier.jpg" srcset="images/servier@2x.jpg 2x,
                       images/servier@3x.jpg 3x" class="servier">
-              </div>
-              <div class="mdl-card__title">
-                Acculturation au numérique dans la santé
-              </div>
-              <div class="mdl-card__supporting-text">
-                Voyages apprenant au coeur de la Silicon Valley pour 12 personnes de l'équipe dirigeante de Servier Brésil. Visites de startups
-                dans l'e-santé et découverte de l'écosystème de la santé numérique de la Silicon Valley.
-              </div>
-              <div class="mdl-card__actions">
-                <i class="material-icons">content_paste</i>
-                <span>ETUDE DE CAS</span>
-                <a class="mdl-button mdl-js-button">
-                  <i class="material-icons">trending_flat</i>
-                </a>
-              </div>
-            </div>
           </div>
-          <div class="mdl-cell mdl-cell--6-col">
-            <div class="mdl-card mdl-shadow--2dp hb-card--media hb-case-study">
-              <div class="mdl-card__media hb-card__img-container">
-                <img src="images/keydiag.png" alt="">
-              </div>
-              <div class="mdl-card__title">
-                Le radiologue du futur
-              </div>
-              <div class="mdl-card__supporting-text">
-                Issu de notre événement d'innovation Hacking Health Camp, nous avons accompagné une équipe de radiologue à concevoir l'outil
-                innovant leur permettant de créer de la valeur ajoutée en complément des solutions d'IA d'analyse d'image.
-              </div>
-              <div class="mdl-card__actions">
-                <i class="material-icons">content_paste</i>
-                <span>ETUDE DE CAS</span>
-                <a class="mdl-button mdl-js-button">
-                  <i class="material-icons">trending_flat</i>
-                </a>
-              </div>
-            </div>
+          <div class="mdl-card__title">
+            Acculturation au numérique dans la santé
           </div>
-          <div class="mdl-cell mdl-cell--12-col">
-            <button class="mdl-button mdl-js-button mdl-js-ripple-effect">
-              TOUTES NOS HISTOIRES
-            </button>
+          <div class="mdl-card__supporting-text">
+            Voyages apprenant au coeur de la Silicon Valley pour 12 personnes de l'équipe dirigeante de Servier Brésil. Visites de startups
+            dans l'e-santé et découverte de l'écosystème de la santé numérique de la Silicon Valley.
+          </div>
+          <div class="mdl-card__actions">
+            <i class="material-icons">content_paste</i>
+            <span>ETUDE DE CAS</span>
+            <a class="mdl-button mdl-js-button">
+              <i class="material-icons">trending_flat</i>
+            </a>
           </div>
         </div>
-      </section>
-      <section>
+      </div>
+      <div class="mdl-cell mdl-cell--6-col">
+        <div class="mdl-card mdl-shadow--2dp hb-card--media hb-case-study">
+          <div class="mdl-card__media hb-card__img-container">
+            <img src="images/keydiag.png" alt="">
+          </div>
+          <div class="mdl-card__title">
+            Le radiologue du futur
+          </div>
+          <div class="mdl-card__supporting-text">
+            Issu de notre événement d'innovation Hacking Health Camp, nous avons accompagné une équipe de radiologue à concevoir l'outil
+            innovant leur permettant de créer de la valeur ajoutée en complément des solutions d'IA d'analyse d'image.
+          </div>
+          <div class="mdl-card__actions">
+            <i class="material-icons">content_paste</i>
+            <span>ETUDE DE CAS</span>
+            <a class="mdl-button mdl-js-button">
+              <i class="material-icons">trending_flat</i>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="mdl-cell mdl-cell--12-col">
+        <button class="mdl-button mdl-js-button mdl-js-ripple-effect hb-button__case-studies">
+          TOUTES NOS HISTOIRES
+        </button>
+      </div>
+    </div>
+  </section>
+  <section class="section-being">
+    <div class="mdl-grid">
+      <div class="mdl-cell mdl-cell--2-col mdl-cell--12-col-phone">
         <h3>Raison d'être</h3>
-        <h4>Implémenter l'innovation au coeur des entreprises</h4>
-        <p>Notre société vit une transformation fondamentale liée au numérique et aux nouvelles technologies.
-          <b>Toutes les entreprises sont impactées et choisissent soit de subir et au final de mourir soit d’être un acteur
-            de cette transformation</b>.
-        </p>
-        <p>Pour chaque entreprise il y a des
-          <b>opportunités d’amélioration et d’optimisation</b> de leur modèle économique leur permettant d’être
-          <b>plus compétitives et plus rentables</b>. Le numérique permet de
-          <b>réduire les couts</b>, de faciliter le travail des employés et principalement d’
-          <b>améliorer la satisfaction des clients</b> par une
-          <b>meilleur expérience utilisateur</b>.</p>
-        <h4>Notre approche</h4>
-        <p>
-          <span class="highlight">Hikari Blue</span> offre à ses clients toutes les compétences nécessaires pour être acteur de cette transformation.
-          Notre approche consiste à
-          <b>identifier avec vous les facteurs d’amélioration et d’optimisation</b> en analysant votre
-          <b>modèle économique existant</b> puis en testant des
-          <b>alternatives</b>. Nos <b>experts</b> sont <b>à votre disposition</b> pour construire avec vous le futur de votre entreprise.</p>
-      </section>
-      <section class="section-method">
-        <h3>Méthode</h3>
-        <h4>L'INNOVATION EN 4 ÉTAPES</h4>
+      </div>
+      <div class="mdl-cell mdl-cell--10-col mdl-cell--12-col-phone">
         <div class="mdl-grid">
-          <div class="mdl-cell--5-col mdl-cell--12-col-tablet mdl-cell--12-col-phone margin-auto">
-            <h5>Recherche d'un modèle
-              <br>économique</h5>
-
-            <div class="mdl-grid ">
-
-              <div class="mdl-cell--5-col mdl-cell--12-col-tablet mdl-cell--12-col-phone margin-auto">
-                <div class="oval vertical-align-middle">
-                  <img src="images/icon-recherche.svg">
-                </div>
-                <h5>Recherche</h5>
-              </div>
-
-              <div class="mdl-cell--1-col mdl-cell--12-col-tablet mdl-cell--12-col-phone margin-auto">
-                <div class="vertical-align-middle">
-                  <i class="material-icons">keyboard_arrow_down</i>
-                </div>
-              </div>
-
-              <div class="mdl-cell--5-col mdl-cell--12-col-tablet mdl-cell--12-col-phone margin-auto">
-                <div class="oval vertical-align-middle">
-                  <img src="images/icon-validation.svg">
-                </div>
-                <h5>Validation</h5>
-              </div>
-
-              <div class="mdl-cell--1-col mdl-cell--12-col-tablet mdl-cell--12-col-phone margin-auto">
-                  <div class="vertical-align-middle">
-                    <i class="material-icons">keyboard_arrow_down</i>
-                  </div>
-              </div>
-
-            </div>
-
-            <div class="method-underline">
-              <h5>Répétition jusqu'à la preuve</h5>
-            </div>
-
-          </div>
-          <div class="mdl-cell--2-col mdl-cell--12-col-tablet mdl-cell--12-col-phone margin-auto">
-            <div class="vertical-align-middle">
-              <h5>Adéquation
-                <br>produit / marché</h5>
-            </div>
-          </div>
-          <div class="mdl-cell--5-col mdl-cell--12-col-tablet mdl-cell--12-col-phone margin-auto">
-            <h5>Exécution du nouveau
-              <br>modèle économique</h5>
-
-            <div class="mdl-grid">
-
-              <div class="mdl-cell--1-col mdl-cell--12-col-tablet mdl-cell--12-col-phone margin-auto">
-                  <div class="vertical-align-middle">
-                    <i class="material-icons">keyboard_arrow_down</i>
-                  </div>    
-              </div>
-
-              <div class="mdl-cell--5-col mdl-cell--12-col-tablet mdl-cell--12-col-phone margin-auto">
-                <div class="oval vertical-align-middle">
-                  <img src="images/icon-creation.svg">
-                </div>
-                <h5>Création</h5>
-              </div>
-
-              <div class="mdl-cell--1-col mdl-cell--12-col-tablet mdl-cell--12-col-phone margin-auto">
-                  <div class="vertical-align-middle">
-                    <i class="material-icons">keyboard_arrow_down</i>
-                  </div>
-              </div>
-
-              <div class="mdl-cell--5-col mdl-cell--12-col-tablet mdl-cell--12-col-phone margin-auto">
-                <div class="oval vertical-align-middle">
-                  <img src="images/icon-execution.svg">
-                </div>
-                <h5>Exécution</h5>
-              </div>
-
-            </div>
-
-          </div>
-        </div>
-      </section>
-      <section class="section-expertises">
-        <h3>Expertises</h3>
-        <div class="mdl-grid">
-          <div class="mdl-cell mdl-cell--3-col">
-            <img src="images/value-proposition-design.svg" alt="">
-            <h4>Value Proposition Design</h4>
-            <p>Pour chaque nouvelles idées, étudier avec tous les acteurs impliqués les points de frustrations, faire émerger
-              les gains et les attentes idéales en questionnant les acteurs, identifier les facteurs d’amélioration et ainsi
-              créer une proposition de valeur avec une adéquation entre produit et marché.</p>
-          </div>
-          <div class="mdl-cell mdl-cell--3-col">
-            <img src="images/business-model-design.svg" alt="">
-            <h4>Business Model Design</h4>
-            <p>Imaginer avec tous les acteurs de l’entreprise des alternatives pour proposer de nouvelles formes de rentabilité,
-              de nouveaux produits, de nouvelles organisations.</p>
-          </div>
-          <div class="mdl-cell mdl-cell--3-col">
-            <img src="images/design-thinking.svg" alt="">
-            <h4>Design Thinking</h4>
-            <p>Faire émerger les idées des collaborateurs et les aider à prototyper des solutions et vérifier ainsi les hypothèses
-              pour démarrer de nouveaux projets.</p>
-          </div>
-          <div class="mdl-cell mdl-cell--3-col">
-            <img src="images/user-experience.svg" alt="">
-            <h4>User Experience UX/UI</h4>
-            <p>Concevoir et tester des expériences utilisateurs innovantes au plus près des attentes des clients. </p>
-          </div>
-          <div class="mdl-cell mdl-cell--3-col">
-            <img src="images/developpement.svg" alt="">
-            <h4>Développement</h4>
-            <p>Pour tous vos projets, développer la solution avec la technologie la plus adaptée pour mettre en production un
-              produit ou un service le plus rapidement possible. Nos experts maitrisent les technologies backend et frontend,
-              les langages les plus populaires (Java, JavaScript, C#, Python, Go, Swift), les frameworks du moment (Angular,
-              React) et les plateformes (iOS, Android, Google Cloud, Amazon, Azure)</p>
-          </div>
-          <div class="mdl-cell mdl-cell--3-col">
-            <img src="images/agilite.svg" alt="">
-            <h4>Agilité</h4>
-            <p>Pour chaque projet, mettre en place un mode d’organisation permettant de privilégier l’expérimentation par itérations
-              courtes pour permettre de s’assurer au quotidien de la validité de la solution.</p>
-          </div>
-          <div class="mdl-cell mdl-cell--3-col">
-            <img src="images/metriques-data.svg" alt="">
-            <h4>Métriques &amp; Data</h4>
-            <p>Étalonner en amont du projet, mettre en place les métriques pertinentes pour chaque projet et pouvoir ainsi valider
-              les hypothèses sur des élèments factuels et guider les décisions d'amélioration.</p>
-          </div>
-          <div class="mdl-cell mdl-cell--3-col">
-            <img src="images/marketing-digital.svg" alt="">
-            <h4>Marketing Digital</h4>
-            <p>Promouvoir les projets avec les outils adaptés, capter l'audience ciblée de la meilleure façon et activer la
-              croissance.
+          <div class="mdl-cell mdl-cell--6-col mdl-cell--12-col-phone">
+            <h4>
+              <b>Implémenter l'innovation</b> au coeur des entreprises</h4>
+            <p>Notre société vit une transformation fondamentale liée au numérique et aux nouvelles technologies.
+              <b>Toutes les entreprises sont impactées et choisissent soit de subir et au final de mourir soit d’être un acteur
+                de cette transformation</b>.
             </p>
+            <p>Pour chaque entreprise il y a des
+              <b>opportunités d’amélioration et d’optimisation</b> de leur modèle économique leur permettant d’être
+              <b>plus compétitives et plus rentables</b>. Le numérique permet de
+              <b>réduire les couts</b>, de faciliter le travail des employés et principalement d’
+              <b>améliorer la satisfaction des clients</b> par une
+              <b>meilleur expérience utilisateur</b>.</p>
+          </div>
+          <div class="mdl-cell mdl-cell--6-col mdl-cell--12-col-phone">
+            <h4>Notre
+              <br>
+              <b>approche</b>
+            </h4>
+            <p>
+              <span class="highlight">Hikari Blue</span> offre à ses clients toutes les compétences nécessaires pour être acteur de cette transformation.
+              Notre approche consiste à
+              <b>identifier avec vous les facteurs d’amélioration et d’optimisation</b> en analysant votre
+              <b>modèle économique existant</b> puis en testant des
+              <b>alternatives</b>. Nos
+              <b>experts</b> sont
+              <b>à votre disposition</b> pour construire avec vous le futur de votre entreprise.</p>
           </div>
         </div>
-      </section>
-      <section class="section-contact">
-        <h3>Travaillons ensemble</h3>
-        <a href="contact.html" class="mdl-button mdj-js-button">CONTACT</a>
-      </section>
-      <section>
-        <h3>Actualités</h3>
-      </section>
-    </main>
+      </div>
+    </div>
+  </section>
+  <section class="section-method">
+    <h3>Méthode</h3>
+    <h4>L'INNOVATION EN 4 ÉTAPES</h4>
+    <div class="mdl-grid">
+      <div class="mdl-cell--5-col mdl-cell--12-col-tablet mdl-cell--12-col-phone margin-auto">
+        <h5>Recherche d'un modèle
+          <br>économique</h5>
+
+        <div class="mdl-grid ">
+
+          <div class="mdl-cell--5-col mdl-cell--12-col-tablet mdl-cell--12-col-phone margin-auto">
+            <div class="oval vertical-align-middle">
+              <img src="images/icon-recherche.svg">
+            </div>
+            <h5>Recherche</h5>
+          </div>
+
+          <div class="mdl-cell--1-col mdl-cell--12-col-tablet mdl-cell--12-col-phone margin-auto">
+            <div class="vertical-align-middle">
+              <i class="material-icons">keyboard_arrow_down</i>
+            </div>
+          </div>
+
+          <div class="mdl-cell--5-col mdl-cell--12-col-tablet mdl-cell--12-col-phone margin-auto">
+            <div class="oval vertical-align-middle">
+              <img src="images/icon-validation.svg">
+            </div>
+            <h5>Validation</h5>
+          </div>
+
+          <div class="mdl-cell--1-col mdl-cell--12-col-tablet mdl-cell--12-col-phone margin-auto">
+            <div class="vertical-align-middle">
+              <i class="material-icons">keyboard_arrow_down</i>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="method-underline">
+          <h5>Répétition jusqu'à la preuve</h5>
+        </div>
+
+      </div>
+      <div class="mdl-cell--2-col mdl-cell--12-col-tablet mdl-cell--12-col-phone margin-auto">
+        <div class="vertical-align-middle">
+          <h5>Adéquation
+            <br>produit / marché</h5>
+        </div>
+      </div>
+      <div class="mdl-cell--5-col mdl-cell--12-col-tablet mdl-cell--12-col-phone margin-auto">
+        <h5>Exécution du nouveau
+          <br>modèle économique</h5>
+
+        <div class="mdl-grid">
+
+          <div class="mdl-cell--1-col mdl-cell--12-col-tablet mdl-cell--12-col-phone margin-auto">
+            <div class="vertical-align-middle">
+              <i class="material-icons">keyboard_arrow_down</i>
+            </div>
+          </div>
+
+          <div class="mdl-cell--5-col mdl-cell--12-col-tablet mdl-cell--12-col-phone margin-auto">
+            <div class="oval vertical-align-middle">
+              <img src="images/icon-creation.svg">
+            </div>
+            <h5>Création</h5>
+          </div>
+
+          <div class="mdl-cell--1-col mdl-cell--12-col-tablet mdl-cell--12-col-phone margin-auto">
+            <div class="vertical-align-middle">
+              <i class="material-icons">keyboard_arrow_down</i>
+            </div>
+          </div>
+
+          <div class="mdl-cell--5-col mdl-cell--12-col-tablet mdl-cell--12-col-phone margin-auto">
+            <div class="oval vertical-align-middle">
+              <img src="images/icon-execution.svg">
+            </div>
+            <h5>Exécution</h5>
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+  </section>
+  <section class="section-expertises">
+    <h3>Expertises</h3>
+    <div class="mdl-grid">
+      <div class="mdl-cell mdl-cell--3-col">
+        <img src="images/value-proposition-design.svg" alt="">
+        <h4>Value Proposition Design</h4>
+        <p>Pour chaque nouvelles idées, étudier avec tous les acteurs impliqués les points de frustrations, faire émerger les
+          gains et les attentes idéales en questionnant les acteurs, identifier les facteurs d’amélioration et ainsi créer
+          une proposition de valeur avec une adéquation entre produit et marché.</p>
+      </div>
+      <div class="mdl-cell mdl-cell--3-col">
+        <img src="images/business-model-design.svg" alt="">
+        <h4>Business Model Design</h4>
+        <p>Imaginer avec tous les acteurs de l’entreprise des alternatives pour proposer de nouvelles formes de rentabilité,
+          de nouveaux produits, de nouvelles organisations.</p>
+      </div>
+      <div class="mdl-cell mdl-cell--3-col">
+        <img src="images/design-thinking.svg" alt="">
+        <h4>Design Thinking</h4>
+        <p>Faire émerger les idées des collaborateurs et les aider à prototyper des solutions et vérifier ainsi les hypothèses
+          pour démarrer de nouveaux projets.</p>
+      </div>
+      <div class="mdl-cell mdl-cell--3-col">
+        <img src="images/user-experience.svg" alt="">
+        <h4>User Experience UX/UI</h4>
+        <p>Concevoir et tester des expériences utilisateurs innovantes au plus près des attentes des clients. </p>
+      </div>
+      <div class="mdl-cell mdl-cell--3-col">
+        <img src="images/developpement.svg" alt="">
+        <h4>Développement</h4>
+        <p>Pour tous vos projets, développer la solution avec la technologie la plus adaptée pour mettre en production un produit
+          ou un service le plus rapidement possible. Nos experts maitrisent les technologies backend et frontend, les langages
+          les plus populaires (Java, JavaScript, C#, Python, Go, Swift), les frameworks du moment (Angular, React) et les
+          plateformes (iOS, Android, Google Cloud, Amazon, Azure)</p>
+      </div>
+      <div class="mdl-cell mdl-cell--3-col">
+        <img src="images/agilite.svg" alt="">
+        <h4>Agilité</h4>
+        <p>Pour chaque projet, mettre en place un mode d’organisation permettant de privilégier l’expérimentation par itérations
+          courtes pour permettre de s’assurer au quotidien de la validité de la solution.</p>
+      </div>
+      <div class="mdl-cell mdl-cell--3-col">
+        <img src="images/metriques-data.svg" alt="">
+        <h4>Métriques &amp; Data</h4>
+        <p>Étalonner en amont du projet, mettre en place les métriques pertinentes pour chaque projet et pouvoir ainsi valider
+          les hypothèses sur des élèments factuels et guider les décisions d'amélioration.</p>
+      </div>
+      <div class="mdl-cell mdl-cell--3-col">
+        <img src="images/marketing-digital.svg" alt="">
+        <h4>Marketing Digital</h4>
+        <p>Promouvoir les projets avec les outils adaptés, capter l'audience ciblée de la meilleure façon et activer la croissance.
+        </p>
+      </div>
+    </div>
+  </section>
+  <section class="section-contact">
+    <h3>Travaillons ensemble</h3>
+    <a href="contact.html" class="mdl-button mdj-js-button hb-button__contact">CONTACT</a>
+  </section>
+  <section>
+    <h3>Actualités</h3>
+  </section>
+</main>
 {% endblock %}

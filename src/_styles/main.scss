@@ -1,15 +1,16 @@
 // Normalize Styles
 @import 'node_modules/normalize.css/normalize';
 $color-primary: '48,79,254';
+$preferred_font: Raleway, Arial, Helvetica, sans-serif;
+$performance_font: Raleway, 'Helvetica', 'Arial', sans-serif;
+
 @import 'node_modules/material-design-lite/src/material-design-lite';
-html,
-body {
-  font-family: Raleway, Arial, Helvetica, sans-serif
-}
 
 .mdl-layout,
 .mdl_layout__container {
-  background-color: #fff;
+  background-color: #F8F8F8;
+  background: url(/images/background.svg) no-repeat center fixed;
+  background-size: cover;
   height: auto;
   position: static;
   width: auto
@@ -26,7 +27,7 @@ body {
   font-weight: 500;
 }
 
-.main-content,.contact-page {
+.main-content, .contact-page {
   margin-top: 56px;
 }
 
@@ -41,10 +42,21 @@ body {
   }
 }
 
-$text-color: #878d8f;
+$text-color: #CECECE;
 .hb-case-study {
   margin: 10px 0;
   text-align: left;
+  .mdl-card__title {
+    font-size: 17px;
+    font-weight: bold;
+    color: #111114;
+  }
+  .mdl-card__supporting-text {
+    font-size: 14px;
+    line-height: 1.43;
+    letter-spacing: 1px;
+    color: #878d8f;
+  }
   .mdl-card__actions {
     color: $text-color;
     text-align: left;
@@ -53,6 +65,9 @@ $text-color: #878d8f;
     }
     span {
       vertical-align: middle;
+      font-size: 12px;
+      font-weight: 600;
+      letter-spacing: 1px;
     }
     .mdl-button {
       float: right;
@@ -70,11 +85,15 @@ $text-color: #878d8f;
 
 h2,
 h3,
+h4,
 p {
   color: $text-color;
-  font-weight: 100;
-  letter-spacing: 2px;
-  line-height: 1.43;
+  font-size: 14px;
+	line-height: 1.43;
+	letter-spacing: 1px;
+	text-align: center;
+	color: #878d8f;
+  //padding: 0px 30px;
 }
 
 h5 {
@@ -83,22 +102,42 @@ h5 {
 
 h1 {
   font-size: 50px;
-  line-height: 64px;
+  font-weight: lighter;
+  line-height: 54px;
+  max-width: 600px;
+  margin: auto;
 }
 
 h2 {
   font-size: 18px;
   line-height: 26px;
+  max-width: 700px;
+  margin: auto;
 }
 
 h3 {
   font-size: 50px;
-  padding: 40px 0;
+	font-weight: 300;
+	line-height: 0.94;
+  color: #cecece;
+  padding: 10px 0;
+}
+
+h4 {
+  font-size: 27px;
+	font-weight: 300;
+  color: #111114;
+  b {
+    font-weight: bold;
+  }
 }
 
 section {
-  padding: 24px 20px 0px 20px;
   text-align: center;
+  padding: 24px 100px 0px 100px;
+  @media screen and (max-width: $layout-screen-size-threshold) {
+    padding: 24px 15px 0px 15px;
+  }
 }
 
 .margin-auto {
@@ -112,11 +151,32 @@ section {
   height: 100%;
 }
 
+.section-being {
+  @media screen and (min-width: $layout-screen-size-threshold + 1px) {
+    .mdl-cell {
+      margin: 0;
+    }
+    h2, h3, h4, p {
+      text-align: left;
+    }
+  }
+}
+
 .section-expertises {
   background-color: unquote("rgb(#{$color-black})");
   color: unquote("rgb(#{$color-white})");
+  img {
+    margin-top: 25px;
+  }
   h3 {
     color: unquote("rgb(#{$color-white})");
+  }
+  h4 {
+    color: white;
+    padding: 0;
+  }
+  p {
+    padding: 0;
   }
 }
 
@@ -127,6 +187,14 @@ section {
 .mdl-button {
   border: unquote('rgb(#{$color-primary})') 1px solid;
   color: unquote('rgb(#{$color-primary})');
+}
+
+.hb-button__case-studies, .hb-button__contact {
+  width: 232px;
+	height: 45px;
+  letter-spacing: 1px;
+  margin-top: 15px;
+  line-height: 45px;
 }
 
 .section-contact {
