@@ -1,6 +1,17 @@
 {% extends '_layouts/base.nunjucks' %} {% block content %}
 <main class="mdl-layout__content main-content">
   <section class="section-intro">
+    <ul class="cb-slideshow">
+      <li>
+        <span>Image 01</span>
+      </li>
+      <li>
+        <span>Image 02</span>
+      </li>
+      <li>
+        <span>Image 03</span>
+      </li>
+    </ul>
     <h1>Construire ensemble des
       <b>solutions innovantes</b>
     </h1>
@@ -10,49 +21,76 @@
   <section>
     <div class="mdl-grid">
       <div class="mdl-cell mdl-cell--12-col">
-        <h3>Etudes
-          <br>de cas</h3>
+        <h3>Etudes de cas</h3>
       </div>
-      <div class="mdl-cell mdl-cell--6-col">
-        <div class="mdl-card mdl-shadow--2dp hb-card--media hb-case-study">
-          <div class="mdl-card__media hb-card__img-container">
+      <div class="mdl-cell mdl-cell--4-col">
+        <div class="hb-card hb-card--media mdl-card mdl-shadow--2dp ">
+          <div class="hb-card__img-container">
             <img src="images/servier.jpg" srcset="images/servier@2x.jpg 2x,
-                      images/servier@3x.jpg 3x" class="servier">
+                      images/servier@3x.jpg 3x">
           </div>
-          <div class="mdl-card__title">
-            Acculturation au numérique dans la santé
-          </div>
-          <div class="mdl-card__supporting-text">
-            Voyages apprenant au coeur de la Silicon Valley pour 12 personnes de l'équipe dirigeante de Servier Brésil. Visites de startups
-            dans l'e-santé et découverte de l'écosystème de la santé numérique de la Silicon Valley.
-          </div>
-          <div class="mdl-card__actions">
-            <i class="material-icons">content_paste</i>
-            <span>ETUDE DE CAS</span>
-            <a class="mdl-button mdl-js-button">
-              <i class="material-icons">trending_flat</i>
-            </a>
+          <div class="hb-card__content">
+            <div class="hb-card__title">
+              Acculturation au numérique dans la santé
+            </div>
+            <div class="hb-card__body">
+              Voyages apprenant au coeur de la Silicon Valley pour 12 personnes de l'équipe dirigeante de Servier Brésil. Visites de startups
+              dans l'e-santé et découverte de l'écosystème de la santé numérique de la Silicon Valley.
+            </div>
+            <div class="hb-card__actions">
+              <i class="material-icons">content_paste</i>
+              <span>ETUDE DE CAS</span>
+              <a class="mdl-button mdl-js-button">
+                <i class="material-icons">trending_flat</i>
+              </a>
+            </div>
           </div>
         </div>
       </div>
-      <div class="mdl-cell mdl-cell--6-col">
-        <div class="mdl-card mdl-shadow--2dp hb-card--media hb-case-study">
-          <div class="mdl-card__media hb-card__img-container">
-            <img src="images/keydiag.png" alt="">
+      <div class="mdl-cell mdl-cell--4-col">
+        <div class="hb-card hb-card--media mdl-card mdl-shadow--2dp">
+          <div class="hb-card__img-container">
+            <img src="images/keydiag.png">
           </div>
-          <div class="mdl-card__title">
-            Le radiologue du futur
+          <div class="hb-card__content">
+            <div class="hb-card__title">
+              Le radiologue du futur
+            </div>
+            <div class="hb-card__body">
+              Issu de notre événement d'innovation Hacking Health Camp, nous avons accompagné une équipe de radiologue à concevoir l'outil
+              innovant leur permettant de créer de la valeur ajoutée en complément des solutions d'IA d'analyse d'image.
+            </div>
+            <div class="hb-card__actions">
+              <i class="material-icons">content_paste</i>
+              <span>ETUDE DE CAS</span>
+              <a class="mdl-button mdl-js-button">
+                <i class="material-icons">trending_flat</i>
+              </a>
+            </div>
           </div>
-          <div class="mdl-card__supporting-text">
-            Issu de notre événement d'innovation Hacking Health Camp, nous avons accompagné une équipe de radiologue à concevoir l'outil
-            innovant leur permettant de créer de la valeur ajoutée en complément des solutions d'IA d'analyse d'image.
+        </div>
+      </div>
+      <div class="mdl-cell mdl-cell--4-col">
+        <div class="hb-card hb-card--media mdl-card mdl-shadow--2dp">
+          <div class="hb-card__img-container">
+            <img src="images/hello-victor.jpg">
           </div>
-          <div class="mdl-card__actions">
-            <i class="material-icons">content_paste</i>
-            <span>ETUDE DE CAS</span>
-            <a class="mdl-button mdl-js-button">
-              <i class="material-icons">trending_flat</i>
-            </a>
+          <div class="hb-card__content">
+            <div class="hb-card__title">
+              Réinventer l'assurance pour les millénials
+            </div>
+            <div class="hb-card__body">
+              Transformer le secteur de l'assurance pour proposer une expérience utilisateur répondant aux attentes des jeunes, c'est l'objectif
+              du projet Hello Victor développé sur la base d'une idée simple : pouvoir souscrire à une assurance en 3 clics
+              et pouvoir assurer tous types de biens.
+            </div>
+            <div class="hb-card__actions">
+              <i class="material-icons">content_paste</i>
+              <span>ETUDE DE CAS</span>
+              <a class="mdl-button mdl-js-button">
+                <i class="material-icons">trending_flat</i>
+              </a>
+            </div>
           </div>
         </div>
       </div>
@@ -61,8 +99,7 @@
           TOUTES NOS HISTOIRES
         </button>
       </div>
-    </div>
-  </section>
+</section>
   <section class="section-being">
     <div class="mdl-grid">
       <div class="mdl-cell mdl-cell--2-col mdl-cell--12-col-phone">
@@ -191,31 +228,31 @@
   <section class="section-expertises">
     <h3>Expertises</h3>
     <div class="mdl-grid">
-      <div class="mdl-cell mdl-cell--3-col">
+      <div class="mdl-cell mdl-cell--4-col">
         <img src="images/value-proposition-design.svg" alt="">
         <h4>Value Proposition Design</h4>
         <p>Pour chaque nouvelles idées, étudier avec tous les acteurs impliqués les points de frustrations, faire émerger les
           gains et les attentes idéales en questionnant les acteurs, identifier les facteurs d’amélioration et ainsi créer
           une proposition de valeur avec une adéquation entre produit et marché.</p>
       </div>
-      <div class="mdl-cell mdl-cell--3-col">
+      <div class="mdl-cell mdl-cell--4-col">
         <img src="images/business-model-design.svg" alt="">
         <h4>Business Model Design</h4>
         <p>Imaginer avec tous les acteurs de l’entreprise des alternatives pour proposer de nouvelles formes de rentabilité,
           de nouveaux produits, de nouvelles organisations.</p>
       </div>
-      <div class="mdl-cell mdl-cell--3-col">
+      <div class="mdl-cell mdl-cell--4-col">
         <img src="images/design-thinking.svg" alt="">
         <h4>Design Thinking</h4>
         <p>Faire émerger les idées des collaborateurs et les aider à prototyper des solutions et vérifier ainsi les hypothèses
           pour démarrer de nouveaux projets.</p>
       </div>
-      <div class="mdl-cell mdl-cell--3-col">
+      <div class="mdl-cell mdl-cell--4-col">
         <img src="images/user-experience.svg" alt="">
         <h4>User Experience UX/UI</h4>
         <p>Concevoir et tester des expériences utilisateurs innovantes au plus près des attentes des clients. </p>
       </div>
-      <div class="mdl-cell mdl-cell--3-col">
+      <div class="mdl-cell mdl-cell--4-col">
         <img src="images/developpement.svg" alt="">
         <h4>Développement</h4>
         <p>Pour tous vos projets, développer la solution avec la technologie la plus adaptée pour mettre en production un produit
@@ -223,19 +260,19 @@
           les plus populaires (Java, JavaScript, C#, Python, Go, Swift), les frameworks du moment (Angular, React) et les
           plateformes (iOS, Android, Google Cloud, Amazon, Azure)</p>
       </div>
-      <div class="mdl-cell mdl-cell--3-col">
+      <div class="mdl-cell mdl-cell--4-col">
         <img src="images/agilite.svg" alt="">
         <h4>Agilité</h4>
         <p>Pour chaque projet, mettre en place un mode d’organisation permettant de privilégier l’expérimentation par itérations
           courtes pour permettre de s’assurer au quotidien de la validité de la solution.</p>
       </div>
-      <div class="mdl-cell mdl-cell--3-col">
+      <div class="mdl-cell mdl-cell--4-col">
         <img src="images/metriques-data.svg" alt="">
         <h4>Métriques &amp; Data</h4>
         <p>Étalonner en amont du projet, mettre en place les métriques pertinentes pour chaque projet et pouvoir ainsi valider
           les hypothèses sur des élèments factuels et guider les décisions d'amélioration.</p>
       </div>
-      <div class="mdl-cell mdl-cell--3-col">
+      <div class="mdl-cell mdl-cell--4-col">
         <img src="images/marketing-digital.svg" alt="">
         <h4>Marketing Digital</h4>
         <p>Promouvoir les projets avec les outils adaptés, capter l'audience ciblée de la meilleure façon et activer la croissance.
