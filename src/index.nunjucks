@@ -12,11 +12,54 @@
         <span>Image 03</span>
       </li>
     </ul>
-    <h1>Construire ensemble des
-      <b>solutions innovantes</b>
-    </h1>
-    <h2>Analyser, proposer, concevoir, réaliser, pour chaque projet Hikari Blue vous apporte des solutions co-construite pour
-      envisager l'avenir de manière innovante.</h2>
+    <div class="section-intro-content">
+      <h1 class="mdl-typography--font-light">Construire ensemble<br />
+        <span class="mdl-typography--font-bold"> des solutions innovantes</span>
+      </h1>
+      <h2>Analyser, proposer, concevoir, réaliser, pour chaque projet Hikari Blue vous apporte des solutions co-construite pour
+        envisager l'avenir de manière innovante.</h2>
+      <i class="material-icons">trending_flat</i>
+    </div>
+  </section>
+  <section class="section-being">
+    <div class="mdl-grid container">
+      <div class="mdl-cell mdl-cell--4-col mdl-cell--12-col-phone">
+        <h3>Raison d'être</h3>
+      </div>
+      <div class="mdl-cell mdl-cell--8-col mdl-cell--12-col-phone">
+        <div class="mdl-grid">
+          <div class="mdl-cell mdl-cell--6-col mdl-cell--12-col-phone">
+            <h4>
+              Implémenter l'innovation <br/><span class="mdl-typography--font-bold">au coeur des entreprises</span></h4>
+            <p>Notre société vit une transformation fondamentale liée au numérique et aux nouvelles technologies.
+              <b>Toutes les entreprises sont impactées et choisissent soit de subir et au final de mourir soit d’être un acteur
+                de cette transformation</b>.
+            </p>
+            <p>Pour chaque entreprise il y a des
+              <b>opportunités d’amélioration et d’optimisation</b> de leur modèle économique leur permettant d’être
+              <b>plus compétitives et plus rentables</b>. Le numérique permet de
+              <b>réduire les couts</b>, de faciliter le travail des employés et principalement d’
+              <b>améliorer la satisfaction des clients</b> par une
+              <b>meilleur expérience utilisateur</b>.</p>
+          </div>
+          <div class="mdl-layout-spacer"></div>
+          <div class="mdl-cell mdl-cell--6-col mdl-cell--12-col-phone">
+            <h4>Notre
+              <br>
+              <span class="mdl-typography--font-bold">approche</span>
+            </h4>
+            <p>
+              <span class="highlight">Hikari Blue</span> offre à ses clients toutes les compétences nécessaires pour être acteur de cette transformation.
+              Notre approche consiste à
+              <b>identifier avec vous les facteurs d’amélioration et d’optimisation</b> en analysant votre
+              <b>modèle économique existant</b> puis en testant des
+              <b>alternatives</b>. Nos
+              <b>experts</b> sont
+              <b>à votre disposition</b> pour construire avec vous le futur de votre entreprise.</p>
+          </div>
+        </div>
+      </div>
+    </div>
   </section>
   <section>
     <div class="mdl-grid">
@@ -100,45 +143,7 @@
         </button>
       </div>
 </section>
-  <section class="section-being">
-    <div class="mdl-grid">
-      <div class="mdl-cell mdl-cell--2-col mdl-cell--12-col-phone">
-        <h3>Raison d'être</h3>
-      </div>
-      <div class="mdl-cell mdl-cell--10-col mdl-cell--12-col-phone">
-        <div class="mdl-grid">
-          <div class="mdl-cell mdl-cell--6-col mdl-cell--12-col-phone">
-            <h4>
-              <b>Implémenter l'innovation</b> au coeur des entreprises</h4>
-            <p>Notre société vit une transformation fondamentale liée au numérique et aux nouvelles technologies.
-              <b>Toutes les entreprises sont impactées et choisissent soit de subir et au final de mourir soit d’être un acteur
-                de cette transformation</b>.
-            </p>
-            <p>Pour chaque entreprise il y a des
-              <b>opportunités d’amélioration et d’optimisation</b> de leur modèle économique leur permettant d’être
-              <b>plus compétitives et plus rentables</b>. Le numérique permet de
-              <b>réduire les couts</b>, de faciliter le travail des employés et principalement d’
-              <b>améliorer la satisfaction des clients</b> par une
-              <b>meilleur expérience utilisateur</b>.</p>
-          </div>
-          <div class="mdl-cell mdl-cell--6-col mdl-cell--12-col-phone">
-            <h4>Notre
-              <br>
-              <b>approche</b>
-            </h4>
-            <p>
-              <span class="highlight">Hikari Blue</span> offre à ses clients toutes les compétences nécessaires pour être acteur de cette transformation.
-              Notre approche consiste à
-              <b>identifier avec vous les facteurs d’amélioration et d’optimisation</b> en analysant votre
-              <b>modèle économique existant</b> puis en testant des
-              <b>alternatives</b>. Nos
-              <b>experts</b> sont
-              <b>à votre disposition</b> pour construire avec vous le futur de votre entreprise.</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
+
   <section class="section-method">
     <h3>Méthode</h3>
     <h4>L'INNOVATION EN 4 ÉTAPES</h4>
