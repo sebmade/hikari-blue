@@ -1,0 +1,60 @@
+html, body, p{
+  font-size: 17px;
+  color: #878d8f;
+}
+
+h2,
+h3,
+h4{
+  letter-spacing: 1px;
+  text-align: center;
+  //color: #878d8f;
+  //padding: 0px 30px;
+}
+
+h1 {
+  font-size: 50px;
+  font-weight: lighter;
+  line-height: 54px;
+  max-width: 600px;
+  margin: auto;
+  color: $custom-black;
+}
+
+h2 {
+  font-size: 18px;
+  line-height: 26px;
+  max-width: 700px;
+  margin: auto;
+}
+
+h3 {
+  font-size: 50px;
+  font-weight: 300;
+  line-height: 0.94;
+  //color: #cecece;
+  padding: 10px 0;
+}
+
+h4 {
+  font-size: 27px;
+  font-weight: 300;
+  color: #111114;
+  b {
+    font-weight: bold;
+  }
+}
+h5 {
+  font-size: 14px;
+}
+
+p{
+  line-height: 1.8;
+}
+
+.mdl-typography--font-bold {
+  font-weight: 600 !important;
+}
+.mdl-typography--font-bolder {
+  font-weight: 700 !important;
+}

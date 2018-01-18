@@ -1,53 +1,43 @@
-{# Custom Configuration #} 
-{% block config %} 
+{# Custom Configuration #}
+{% block config %}
 {# Setup site's base URL to match the "baseUrl" key within `package.json` #}
-{# Otherwise default to relative pathing #} 
-{% set baseUrl = config.baseUrl or './' %} 
+{# Otherwise default to relative pathing #}
+{% set baseUrl = config.baseUrl or './' %}
 {% endblock %}
 
 <!DOCTYPE html>
 <html lang="en" class="no-js">
 
 <head>
-  <meta charset="utf-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta charset="utf-8"/>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
   <title>Hikari Blue</title>
-  <meta name="description" content="Resolve problems with innovative solutions" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Resolve problems with innovative solutions"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-  <link rel="stylesheet" href="{{baseUrl}}styles/main.css" /> 
+  <link rel="stylesheet" href="{{baseUrl}}styles/main.css"/>
   {% block stylesheets %}{% endblock %}
 
 </head>
 
 <body>
-  <!--[if lt IE 11]>
-    <p class="browsehappy">
-      You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.
-    </p>
-    <![endif]-->
-  <div class="mdl-layout__container">
-    <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
-      <header class="mdl-layout__header">
-        <div class="mdl-layout__drawer-button" aria-label="Toggle menu" aria-expanded="false">
-          <i class="material-icons icon icon--open" role="presentation">menu</i>
-          <i class="material-icons icon icon--close" role="presentation">close</i>
-        </div>
-        <div class="mdl-layout__header-row">
-          <img src="images/hikari-blue-logo.svg" alt="hikari-blue" class="logo">
-          <div class="mdl-layout-spacer"></div>
-          <nav class="mdl-navigation mdl-layout--large-screen-only">
-            <a class="mdl-navigation__link" href="">Études de cas</a>
-            <a class="mdl-navigation__link" href="">Raison d'être</a>
-            <a class="mdl-navigation__link" href="">Méthode</a>
-            <a class="mdl-navigation__link" href="">Expertises</a>
-            <a class="mdl-navigation__link" href="">Actualités</a>
-            <a class="mdl-navigation__link" href="contact.html">Contact</a>
-          </nav>
-        </div>
-      </header>
-      <div class="mdl-layout__drawer navigation-drawer">
-        <nav class="mdl-navigation">
+<!--[if lt IE 11]>
+<p class="browsehappy">
+  You are using an <strong>outdated</strong> browser. Please
+  <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.
+</p>
+<![endif]-->
+<div class="mdl-layout__container">
+  <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+    <header class="mdl-layout__header">
+      <div class="mdl-layout__drawer-button" aria-label="Toggle menu" aria-expanded="false">
+        <i class="material-icons icon icon--open" role="presentation">menu</i>
+        <i class="material-icons icon icon--close" role="presentation">close</i>
+      </div>
+      <div class="mdl-layout__header-row">
+        <img src="images/hikari-blue-logo.svg" alt="hikari-blue" class="logo">
+        <div class="mdl-layout-spacer"></div>
+        <nav class="mdl-navigation mdl-layout--large-screen-only">
           <a class="mdl-navigation__link" href="">Études de cas</a>
           <a class="mdl-navigation__link" href="">Raison d'être</a>
           <a class="mdl-navigation__link" href="">Méthode</a>
@@ -55,32 +45,53 @@
           <a class="mdl-navigation__link" href="">Actualités</a>
           <a class="mdl-navigation__link" href="contact.html">Contact</a>
         </nav>
-        <hr>
-        <ul>
-          <li>
-            <a href="#" target="_blank">Facebook</a>
-          </li>
-          <li>
-            <a href="#" target="_blank">Twitter</a>
-          </li>
-          <li>
-            <a href="#" target="_blank">LinkedIn</a>
-          </li>
-          <li>
-            <a href="#" target="_blank">Medium</a>
-          </li>
-        </ul>
-        <ul>
-          <li>&copy; Hikari Blue</li>
-          <li style="float: right; margin-right: 30px;">ISO 9141 CCU</li>
-        </ul>
       </div>
-      {% block content %}{% endblock %}
-      <footer class="mdl-mega-footer">
+    </header>
+    <div class="mdl-layout__drawer navigation-drawer">
+      <nav class="mdl-navigation">
+        <a class="mdl-navigation__link" href="">Études de cas</a>
+        <a class="mdl-navigation__link" href="">Raison d'être</a>
+        <a class="mdl-navigation__link" href="">Méthode</a>
+        <a class="mdl-navigation__link" href="">Expertises</a>
+        <a class="mdl-navigation__link" href="">Actualités</a>
+        <a class="mdl-navigation__link" href="contact.html">Contact</a>
+      </nav>
+      <hr>
+      <ul>
+        <li>
+          <a href="#" target="_blank">Facebook</a>
+        </li>
+        <li>
+          <a href="#" target="_blank">Twitter</a>
+        </li>
+        <li>
+          <a href="#" target="_blank">LinkedIn</a>
+        </li>
+        <li>
+          <a href="#" target="_blank">Medium</a>
+        </li>
+      </ul>
+      <ul>
+        <li>&copy; Hikari Blue</li>
+        <li style="float: right; margin-right: 30px;">ISO 9141 CCU</li>
+      </ul>
+    </div>
+    {% block content %}{% endblock %}
+    <footer class="mdl-mega-footer">
+      <div class="container">
         <div class="mdl-mega-footer__middle-section">
           <div class="mdl-mega-footer__drop-down-section">
-            <input class="mdl-mega-footer__heading-checkbox" type="checkbox" checked>
-            <h1 class="mdl-mega-footer__heading">Hikari Blue</h1>
+            <img src="images/hikari-blue-logo.svg" alt="hikari-blue" class="logo">
+            <div class="copyright">
+              &copy; 2017 Hikari Blue - Tous droits réservés
+              <br/>
+              Liberty Finances, SARL au capital de 1.000.000 €
+              <br/>
+              ISO 9241 CCU
+            </div>
+          </div>
+          <div class="mdl-mega-footer__drop-down-section">
+            <span class="border-links"></span>
             <ul class="mdl-mega-footer__link-list">
               <li>
                 <a href="#">Nos histoires</a>
@@ -138,21 +149,17 @@
             </ul>
           </div>
         </div>
-        <div class="mdl-mega-footer__bottom-section">
-          <div class="mdl-logo">Mentions Légales</div>
-          <ul class="mdl-mega-footer__link-list">
-            <li>
-              &copy; 2017 Hikari Blue - Tous droits réservés
-            </li>
-            <li>ISO 9241 CCU</li>
-          </ul>
-        </div>
-      </footer>
-    </div>
-  </div>
+      </div>
+      <div class="mdl-mega-footer__bottom-section">
+        <div class="mdl-logo">Mentions Légales</div>
 
-  <script src="{{baseUrl}}scripts/main.js"></script> 
-  {% block scripts %}{% endblock %}
+      </div>
+    </footer>
+  </div>
+</div>
+
+<script src="{{baseUrl}}scripts/main.js"></script>
+{% block scripts %}{% endblock %}
 </body>
 
 </html>

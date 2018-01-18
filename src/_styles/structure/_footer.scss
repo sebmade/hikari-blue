@@ -1,0 +1,20 @@
+.mdl-mega-footer{
+  padding-top: 50px;
+  .logo{
+    margin-bottom: 30px;
+  }
+  .border-links{
+    display:block;
+    width: 40px;
+    height: 1px;
+    background: unquote('rgb(#{$color-primary})');
+    margin-bottom: 30px;
+  }
+  .mdl-mega-footer__link-list {
+    a{
+      color: $custom-black;
+      font-size: 19px;
+      padding: 10px 0;
+    }
+  }
+}
