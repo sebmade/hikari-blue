@@ -42,8 +42,17 @@
     width: 56px;
     right: 0;
   }
-  .mdl-layout__drawer-button {
-    display: none;
+  .mdl-layout__drawer-button[aria-expanded=true]{
+    color: #fff;
+    & + .mdl-layout__header-row{
+      background: #2962ff;
+    }
+  }
+
+  @media(min-width: $grid-desktop-breakpoint){
+    .mdl-layout__drawer-button {
+      display: none;
+    }
   }
   .mdl-layout__drawer-button--close {
     display: none;
@@ -67,4 +76,6 @@
     }
   }
 }
-
+.mdl-layout__obfuscator.is-visible{
+  background:none;
+}

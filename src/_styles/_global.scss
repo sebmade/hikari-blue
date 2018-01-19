@@ -5,3 +5,9 @@
 .copyright{
   font-size: 10px;
 }
+@media(min-width: $grid-tablet-breakpoint){
+  .visible-mobile {
+    display:none;
+  }
+
+}

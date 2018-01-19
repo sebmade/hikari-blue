@@ -71,16 +71,16 @@
           <a href="#" target="_blank">Medium</a>
         </li>
       </ul>
-      <ul>
+      <ul class="menu-mobile-legal">
         <li>&copy; Hikari Blue</li>
-        <li style="float: right; margin-right: 30px;">ISO 9141 CCU</li>
+        <li style="float: right;">ISO 9141 CCU</li>
       </ul>
     </div>
     {% block content %}{% endblock %}
     <footer class="mdl-mega-footer">
       <div class="container">
         <div class="mdl-mega-footer__middle-section">
-          <div class="mdl-mega-footer__drop-down-section">
+          <div class="mdl-mega-footer__drop-down-section block-logo">
             <img src="images/hikari-blue-logo.svg" alt="hikari-blue" class="logo">
             <div class="copyright">
               &copy; 2017 Hikari Blue - Tous droits réservés
@@ -90,70 +90,70 @@
               ISO 9241 CCU
             </div>
           </div>
-          <div class="mdl-mega-footer__drop-down-section">
+          <div class="mdl-mega-footer__drop-down-section block-links">
             <span class="border-links"></span>
             <ul class="mdl-mega-footer__link-list">
               <li>
-                <a href="#">Nos histoires</a>
+                <a class="link" href="#">Nos histoires</a>
               </li>
               <li>
-                <a href="#">Notre raison d'être</a>
+                <a class="link" href="#">Notre raison d'être</a>
               </li>
               <li>
-                <a href="#">Notre méthode</a>
+                <a class="link" href="#">Notre méthode</a>
               </li>
               <li>
-                <a href="#">Nos Expertises</a>
+                <a class="link" href="#">Nos Expertises</a>
               </li>
               <li>
-                <a href="#">Actualités</a>
+                <a class="link" href="#">Actualités</a>
               </li>
               <li>
-                <a href="#">Contact</a>
+                <a class="link" href="#">Contact</a>
               </li>
             </ul>
           </div>
-          <div class="mdl-mega-footer__drop-down-section">
-            <input class="mdl-mega-footer__heading-checkbox" type="checkbox" checked>
-            <h1 class="mdl-mega-footer__heading">Suivez-nous</h1>
-            <ul class="mdl-mega-footer__link-list">
-              <li>
-                <a href="#">Facebook</a>
+          <div class="mdl-mega-footer__drop-down-section block-follow">
+            <span class="border-links"></span>
+            <div class="mdl-mega-footer__heading">Suivez-nous</div>
+            <ul class="mdl-mega-footer__link-list mdl-grid">
+              <li class="mdl-cell mdl-cell--6-col mdl-cell--2-col-phone">
+                <a class="link" href="#">Facebook</a>
               </li>
-              <li>
-                <a href="#">Twitter</a>
+              <li class="mdl-cell mdl-cell--6-col mdl-cell--2-col-phone">
+                <a class="link" href="#">Twitter</a>
               </li>
-              <li>
-                <a href="#">Linkedin</a>
+              <li class="mdl-cell mdl-cell--6-col mdl-cell--2-col-phone">
+                <a class="link" href="#">Linkedin</a>
               </li>
-              <li>
-                <a href="#">Medium</a>
+              <li class="mdl-cell mdl-cell--6-col mdl-cell--2-col-phone">
+                <a class="link" href="#">Medium</a>
               </li>
             </ul>
           </div>
-          <div class="mdl-mega-footer__drop-down-section">
-            <input class="mdl-mega-footer__heading-checkbox" type="checkbox" checked>
-            <h1 class="mdl-mega-footer__heading">Newsletter</h1>
-            <ul class="mdl-mega-footer__link-list">
-              <li>
-                <form action="#">
-                  <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-                    <input class="mdl-textfield__input" type="text" id="sample3">
-                    <label class="mdl-textfield__label" for="sample3">Votre email</label>
-                  </div>
-                  <button class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored">
-                    Je m'inscris
-                  </button>
-                </form>
-              </li>
-            </ul>
+          <div class="mdl-mega-footer__drop-down-section block-newsletter">
+            <span class="border-links"></span>
+            <div class="mdl-mega-footer__heading">
+              <div class="link">Newsletter</div>
+            </div>
+
+            <form action="#" class="form-newsletter">
+              <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                <input class="mdl-textfield__input" type="text" id="sample3">
+                <label class="mdl-textfield__label" for="sample3">Votre email</label>
+              </div>
+              <button class="">
+                <i class="material-icons">trending_flat</i>
+              </button>
+            </form>
+
           </div>
         </div>
       </div>
-      <div class="mdl-mega-footer__bottom-section">
-        <div class="mdl-logo">Mentions Légales</div>
+      <!--<div class="mdl-mega-footer__bottom-section">-->
+        <!--<div class="mdl-logo">Mentions Légales</div>-->
 
-      </div>
+      <!--</div>-->
     </footer>
   </div>
 </div>
