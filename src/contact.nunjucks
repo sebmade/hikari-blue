@@ -4,19 +4,19 @@
     <div class="mdl-grid">
       <div class="mdl-cell mdl-cell--6-col mdl-cell--12-col-phone">
         <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-          <input class="mdl-textfield__input" type="text" id="name">
+          <input class="mdl-textfield__input" type="text" name="name" id="name" required>
           <label class="mdl-textfield__label" for="name">Nom</label>
         </div>
       </div>
       <div class="mdl-cell mdl-cell--6-col mdl-cell--12-col-phone">
         <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-          <input class="mdl-textfield__input" type="text" id="email" required>
+          <input class="mdl-textfield__input" type="text" name="email" id="email" required>
           <label class="mdl-textfield__label" for="email">Email</label>
         </div>
       </div>
       <div class="mdl-cell mdl-cell--12-col">
         <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-          <input class="mdl-textfield__input" type="text" id="company">
+          <input class="mdl-textfield__input" type="text" name="company" id="company">
           <label class="mdl-textfield__label" for="company">Entreprise</label>
         </div>
       </div>
@@ -25,13 +25,13 @@
       </div>
       <div class="mdl-cell mdl-cell--12-col">
         <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option1">
-          <input type="radio" name="demand" id="option1" class="mdl-radio__button" checked>
+          <input type="radio" name="demand" id="option1" class="mdl-radio__button" value="hikariblue - projet" checked>
           <span class="mdl-radio__label">J'ai un super projet</span>
         </label>
       </div>
       <div class="mdl-cell mdl-cell--12-col">
         <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option2">
-          <input type="radio" name="demand" id="option2" class="mdl-radio__button">
+          <input type="radio" name="demand" id="option2" value="hikariblue - recrutement" class="mdl-radio__button">
           <span class="mdl-radio__label">Je voudrais rejoindre vos équipes</span>
         </label>
       </div>
@@ -40,13 +40,13 @@
       </div>
       <div class="mdl-cell mdl-cell--12-col">
         <div class="mdl-textfield mdl-js-textfield">
-          <textarea class="mdl-textfield__input" type="text" rows="3" id="message"></textarea>
+          <textarea class="mdl-textfield__input" type="text" rows="3" name="message" id="message"></textarea>
           <label class="mdl-textfield__label" for="message">Votre message ...</label>
         </div>
       </div>
       <div class="mdl-cell mdl-cell--12-col">
         <div class="mdl-textfield mdl-js-textfield">
-          <textarea class="mdl-textfield__input" type="text" rows="3" id="from"></textarea>
+          <textarea class="mdl-textfield__input" type="text" rows="3" name="from" id="from"></textarea>
           <label class="mdl-textfield__label" for="from">Comment nous avez-vous connu ?</label>
         </div>
       </div>
