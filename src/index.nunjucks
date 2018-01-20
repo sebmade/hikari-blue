@@ -21,7 +21,9 @@
       <i class="material-icons">trending_flat</i>
     </div>
   </section>
-  <section class="section-being">
+
+  <a name="about"></a>
+  <section class="section-about">
     <div class="mdl-grid container">
       <div class="mdl-cell mdl-cell--4-col mdl-cell--12-col-phone">
         <h3>Raison d'être</h3>
@@ -61,6 +63,8 @@
       </div>
     </div>
   </section>
+
+  <a name="casestudy"></a>
   <section>
     <div class="mdl-grid">
       <div class="mdl-cell mdl-cell--12-col">
@@ -144,7 +148,7 @@
     </div>
   </section>
 
-
+  <a name="expertise"></a>
   <section class="section-expertises">
     <h3>Expertises</h3>
     <div class="mdl-grid">
@@ -227,6 +231,8 @@
       </div>
     </div>
   </section>
+
+  <a name="method"></a>
   <section class="section-method">
     <h3>Méthode</h3>
     <h4><span class="mdl-typography--font-bold">L'innovation</span> en 4 étapes</h4>
@@ -256,14 +262,10 @@
             </div>
             <h5 class="mdl-typography--text-uppercase mdl-typography--font-bold">Validation</h5>
           </div>
-
-
         </div>
-
         <div class="method-underline">
           <h5>Répétition jusqu'à la preuve</h5>
         </div>
-
       </div>
       <div class="method-transition mdl-cell--4-col mdl-cell--12-col-tablet mdl-cell--12-col-phone margin-auto">
         <div class="mdl-grid">
@@ -281,7 +283,6 @@
               <i class="material-icons">keyboard_arrow_right</i>
             </div>
           </div>
-
         </div>
       </div>
       <div class="method-step  mdl-cell--4-col mdl-cell--12-col-tablet mdl-cell--12-col-phone margin-auto">
@@ -315,6 +316,8 @@
       </div>
     </div>
   </section>
+
+  <a name="news"></a>
   <section class="section-news">
     <h3>Actualités</h3>
     <div class="mdl-grid">
