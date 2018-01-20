@@ -7,6 +7,7 @@ var jQuery = require('jquery');
 require('material-design-lite');
 
 (function($){
+
   $(window).on('scroll', function(){
     if($(window).scrollTop() > 10 ){
       $('.mdl-layout__header').addClass('mini');
@@ -15,4 +16,24 @@ require('material-design-lite');
       $('.mdl-layout__header').removeClass('mini');
     }
   });
+
+   $('.contact-form').on('submit', function (e) {
+    var form = $(this);
+
+      $.ajax({
+        url: '/mail.php',
+        data: form.serialize(),
+        type: 'POST',
+        success: function(data){
+          console.log('mail sent');
+          form.html(data);
+        },
+        error: function(jqXHR, textStatus, errorThrown) {
+          console.log(textStatus + ' ' + errorThrown);
+        }
+      });
+
+    return false;
+  });
+
 })(jQuery);

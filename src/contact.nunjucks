@@ -1,6 +1,6 @@
 {% extends '_layouts/base.nunjucks' %} {% block content %}
 <main class="mdl-layout__content contact-page">
-  <form action="#">
+  <form class="contact-form">
     <div class="mdl-grid">
       <div class="mdl-cell mdl-cell--6-col mdl-cell--12-col-phone">
         <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
@@ -10,7 +10,7 @@
       </div>
       <div class="mdl-cell mdl-cell--6-col mdl-cell--12-col-phone">
         <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-          <input class="mdl-textfield__input" type="text" id="email">
+          <input class="mdl-textfield__input" type="text" id="email" required>
           <label class="mdl-textfield__label" for="email">Email</label>
         </div>
       </div>
@@ -21,17 +21,19 @@
         </div>
       </div>
       <div class="mdl-cell mdl-cell--12-col">
-        <h3>Comment peut on vous aider ?</h3>
+        <h3>Comment peut-on vous aider ?</h3>
       </div>
       <div class="mdl-cell mdl-cell--12-col">
-        <button class="mdl-button mdl-js-button mdl-js-ripple-effect">
-          J'ai un super projet
-        </button>
+        <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option1">
+          <input type="radio" name="demand" id="option1" class="mdl-radio__button" checked>
+          <span class="mdl-radio__label">J'ai un super projet</span>
+        </label>
       </div>
       <div class="mdl-cell mdl-cell--12-col">
-        <button class="mdl-button mdl-js-button mdl-js-ripple-effect">
-          Je voudrais rejoindre vos équipes
-        </button>
+        <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option2">
+          <input type="radio" name="demand" id="option2" class="mdl-radio__button">
+          <span class="mdl-radio__label">Je voudrais rejoindre vos équipes</span>
+        </label>
       </div>
       <div class="mdl-cell mdl-cell--12-col">
         <h3>Dites nous en plus</h3>
