@@ -9,12 +9,16 @@ require('material-design-lite');
 (function($){
 
   $(window).on('scroll', function(){
-    if($(window).scrollTop() > 10 ){
+    if($(window).scrollTop() > 10 || $('.mdl-layout__drawer.navigation-drawer').hasClass('is-visible')){
       $('.mdl-layout__header').addClass('mini');
     }
     else{
       $('.mdl-layout__header').removeClass('mini');
     }
+  });
+
+  $('.mdl-layout__drawer-button').on('click', function(e){
+    $('.mdl-layout__header').addClass('mini');
   });
 
    $('.contact-form').on('submit', function (e) {

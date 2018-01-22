@@ -8,7 +8,7 @@
   &.mini{
     padding-top: 0;
     padding-bottom: 0;
-    background-color: rgba(255,255,255,0.8);
+    background-color: rgba(255,255,255,1);
   }
   .mdl-layout__header-row {
     padding: 0 0 0 16px;
@@ -44,8 +44,17 @@
   }
   .mdl-layout__drawer-button[aria-expanded=true]{
     color: #fff;
+    background:none;
     & + .mdl-layout__header-row{
       background: #2962ff;
+
+      .logo{
+        background: url('../images/logomobile.svg') center center no-repeat;
+        background-size: contain;
+        img{
+          opacity: 0;
+        }
+      }
     }
   }
 

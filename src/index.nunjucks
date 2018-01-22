@@ -5,12 +5,12 @@
       <li>
         <span>Image 01</span>
       </li>
-      <li>
-        <span>Image 02</span>
-      </li>
-      <li>
-        <span>Image 03</span>
-      </li>
+      <!--<li>-->
+        <!--<span>Image 02</span>-->
+      <!--</li>-->
+      <!--<li>-->
+        <!--<span>Image 03</span>-->
+      <!--</li>-->
     </ul>
     <div class="section-intro-content">
       <h1 class="mdl-typography--font-light">Construire ensemble<br/>
@@ -18,12 +18,13 @@
       </h1>
       <h2>Analyser, proposer, concevoir, réaliser, pour chaque projet Hikari Blue vous apporte des solutions co-construite pour
         envisager l'avenir de manière innovante.</h2>
-      <i class="material-icons">trending_flat</i>
+      <i class="hb-icon hb-icon-btn-next"></i>
     </div>
   </section>
 
   <a name="about"></a>
   <section class="section-about">
+    <div class="separator-vertical"></div>
     <div class="mdl-grid container">
       <div class="mdl-cell mdl-cell--4-col mdl-cell--12-col-phone">
         <h3>Raison d'être</h3>
@@ -65,7 +66,8 @@
   </section>
 
   <a name="casestudy"></a>
-  <section>
+  <section class="section-case-study">
+      <div class="separator-vertical"></div>
     <div class="mdl-grid">
       <div class="mdl-cell mdl-cell--12-col">
         <h3>&Eacute;tudes de cas</h3>
@@ -84,10 +86,10 @@
               dans l'e-santé et découverte de l'écosystème de la santé numérique de la Silicon Valley.
             </div>
             <div class="hb-card__actions">
-              <i class="material-icons">content_paste</i>
+              <i class="hb-icon hb-icon-etudedecas"></i>
               <span>ETUDE DE CAS</span>
-              <a class="mdl-button mdl-js-button">
-                <i class="material-icons">trending_flat</i>
+              <a class="mdl-button mdl-button-icon mdl-js-button">
+                <i class="hb-icon hb-icon-btn-next"></i>
               </a>
             </div>
           </div>
@@ -107,10 +109,10 @@
               innovant leur permettant de créer de la valeur ajoutée en complément des solutions d'IA d'analyse d'image.
             </div>
             <div class="hb-card__actions">
-              <i class="material-icons">content_paste</i>
+              <i class="hb-icon hb-icon-etudedecas"></i>
               <span>ETUDE DE CAS</span>
-              <a class="mdl-button mdl-js-button">
-                <i class="material-icons">trending_flat</i>
+              <a class="mdl-button mdl-button-icon  mdl-js-button">
+                <i class="hb-icon hb-icon-btn-next"></i>
               </a>
             </div>
           </div>
@@ -131,10 +133,10 @@
               et pouvoir assurer tous types de biens.
             </div>
             <div class="hb-card__actions">
-              <i class="material-icons">content_paste</i>
+              <i class="hb-icon hb-icon-etudedecas"></i>
               <span>ETUDE DE CAS</span>
-              <a class="mdl-button mdl-js-button">
-                <i class="material-icons">trending_flat</i>
+              <a class="mdl-button mdl-button-icon mdl-js-button">
+                <i class="hb-icon hb-icon-btn-next"></i>
               </a>
             </div>
           </div>
@@ -150,9 +152,10 @@
 
   <a name="expertise"></a>
   <section class="section-expertises">
+    <div class="separator-vertical"></div>
     <h3>Expertises</h3>
-    <div class="mdl-grid">
-      <div class="mdl-cell mdl-cell--4-col">
+    <div class="mdl-grid container">
+      <div class="mdl-cell mdl-cell--6-col">
         <img src="images/business-model-design.svg" alt="">
         <h4><strong>Business</strong> Model Design</h4>
         <p>Imaginer avec tous les acteurs de l’entreprise des alternatives pour proposer de nouvelles formes de rentabilité,
@@ -162,7 +165,7 @@
         <i class="material-icons">keyboard_arrow_down</i>
       </div>
       <div class="mdl-layout-spacer"></div>
-      <div class="mdl-cell mdl-cell--4-col">
+      <div class="mdl-cell mdl-cell--6-col">
         <img src="images/value-proposition-design.svg" alt="">
         <h4><strong>Value</strong> Proposition Design</h4>
         <p>Pour chaque nouvelles idées, étudier avec tous les acteurs impliqués les points de frustrations, faire émerger les
@@ -173,7 +176,7 @@
         <i class="material-icons">keyboard_arrow_down</i>
       </div>
       <div class="mdl-layout-spacer"></div>
-      <div class="mdl-cell mdl-cell--4-col">
+      <div class="mdl-cell mdl-cell--6-col">
         <img src="images/design-thinking.svg" alt="">
         <h4><strong>Design</strong> Thinking</h4>
         <p>Faire émerger les idées des collaborateurs et les aider à prototyper des solutions et vérifier ainsi les hypothèses
@@ -183,7 +186,7 @@
         <i class="material-icons">keyboard_arrow_down</i>
       </div>
       <div class="mdl-layout-spacer"></div>
-      <div class="mdl-cell mdl-cell--4-col">
+      <div class="mdl-cell mdl-cell--6-col">
         <img src="images/user-experience.svg" alt="">
         <h4><strong>User</strong> Experience UX/UI</h4>
         <p>Concevoir et tester des expériences utilisateurs innovantes au plus près des attentes des clients. </p>
@@ -192,7 +195,7 @@
         <i class="material-icons">keyboard_arrow_down</i>
       </div>
       <div class="mdl-layout-spacer"></div>
-      <div class="mdl-cell mdl-cell--4-col">
+      <div class="mdl-cell mdl-cell--6-col">
         <img src="images/developpement.svg" alt="">
         <h4><strong>Développement</strong></h4>
         <p>Pour tous vos projets, développer la solution avec la technologie la plus adaptée pour mettre en production un produit
@@ -214,7 +217,7 @@
         <i class="material-icons">keyboard_arrow_down</i>
       </div>
       <div class="mdl-layout-spacer"></div>
-      <div class="mdl-cell mdl-cell--4-col">
+      <div class="mdl-cell mdl-cell--6-col">
         <img src="images/metriques-data.svg" alt="">
         <h4><strong>Métriques</strong> &amp; <strong>Data</strong></h4>
         <p>Étalonner en amont du projet, mettre en place les métriques pertinentes pour chaque projet et pouvoir ainsi valider
@@ -223,7 +226,7 @@
       <div class="mdl-cell visible-mobile icon-separator">
         <i class="material-icons">keyboard_arrow_down</i>
       </div>
-      <div class="mdl-cell mdl-cell--4-col">
+      <div class="mdl-cell mdl-cell--6-col">
         <img src="images/marketing-digital.svg" alt="">
         <h4><strong>Marketing</strong> Digital</h4>
         <p>Promouvoir les projets avec les outils adaptés, capter l'audience ciblée de la meilleure façon et activer la croissance.
@@ -234,6 +237,7 @@
 
   <a name="method"></a>
   <section class="section-method">
+    <div class="separator-vertical"></div>
     <h3>Méthode</h3>
     <h4><span class="mdl-typography--font-bold">L'innovation</span> en 4 étapes</h4>
     <div class="mdl-grid section-method-content">
@@ -319,6 +323,7 @@
 
   <a name="news"></a>
   <section class="section-news">
+    <div class="separator-vertical"></div>
     <h3>Actualités</h3>
     <div class="mdl-grid">
       <div class="mdl-cell mdl-cell--12-col-tablet mdl-cell--4-col">
@@ -334,8 +339,8 @@
             <div class="hb-card__actions">
               <i class="material-icons">border_color</i>
               <span>15 décembre 2018</span>
-              <a class="mdl-button mdl-js-button" data-upgraded=",MaterialButton">
-                <i class="material-icons">trending_flat</i>
+              <a class="mdl-button mdl-button-icon mdl-js-button" data-upgraded=",MaterialButton">
+                <i class="hb-icon hb-icon-btn-next"></i>
               </a>
             </div>
           </div>
@@ -354,8 +359,8 @@
             <div class="hb-card__actions">
               <i class="material-icons">border_color</i>
               <span>15 décembre 2018</span>
-              <a class="mdl-button mdl-js-button" data-upgraded=",MaterialButton">
-                <i class="material-icons">trending_flat</i>
+              <a class="mdl-button mdl-button-icon mdl-js-button" data-upgraded=",MaterialButton">
+                <i class="hb-icon hb-icon-btn-next"></i>
               </a>
             </div>
           </div>
@@ -374,8 +379,8 @@
             <div class="hb-card__actions">
               <i class="material-icons">border_color</i>
               <span>15 décembre 2018</span>
-              <a class="mdl-button mdl-js-button" data-upgraded=",MaterialButton">
-                <i class="material-icons">trending_flat</i>
+              <a class="mdl-button mdl-button-icon mdl-js-button" data-upgraded=",MaterialButton">
+                <i class="hb-icon hb-icon-btn-next"></i>
               </a>
             </div>
           </div>

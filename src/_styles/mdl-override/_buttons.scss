@@ -1,3 +1,22 @@
 .mdl-button{
   margin: 35px 0;
+  &:hover{
+    background: unquote('rgb(#{$color-primary})');
+    color: #fff;
+  }
+  &.mdl-button-icon{
+    &:hover{
+      background: none;
+      color: unquote('rgb(#{$color-primary})');
+    }
+  }
+}
+.mdl-button,
+button {
+  &:hover{
+    cursor: pointer;
+    .hb-icon-btn-next{
+      background-image: url(../images/icons/btn-next-black.svg);
+    }
+  }
 }

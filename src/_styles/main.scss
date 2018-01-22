@@ -16,7 +16,7 @@ $text-color: #CECECE;
 
 @import 'structure/footer';
 @import 'global';
-
+@import 'icons';
 
 .mdl-layout,
 .mdl_layout__container {
@@ -26,9 +26,11 @@ $text-color: #CECECE;
 }
 
 .logo {
-  width: 178px;
-  height: 39px;
-  object-fit: contain;
+  img{
+    width: 178px;
+    height: 39px;
+    object-fit: contain;
+  }
 }
 
 .highlight {
@@ -186,10 +188,11 @@ $text-color: #CECECE;
 
 
 section {
+  position: relative;
+  padding: 80px 100px 80px 100px;
   text-align: center;
-  padding: 24px 100px 0px 100px;
   @media screen and (max-width: $layout-screen-size-threshold) {
-    padding: 24px 15px 0px 15px;
+    padding: 24px 15px 0 15px;
   }
 }
 
@@ -249,16 +252,16 @@ section {
     }
   }
   li:nth-child(1) span { 
-    background-image: url(../images/1.jpg) 
+    background-image: url(../images/3.jpg)
   }
-  li:nth-child(2) span { 
-    background-image: url(../images/2.jpg);
-    animation-delay: 6s; 
-  }
-  li:nth-child(3) span { 
-    background-image: url(../images/3.jpg);
-    animation-delay: 12s; 
-  }
+  //li:nth-child(2) span {
+  //  background-image: url(../images/2.jpg);
+  //  animation-delay: 6s;
+  //}
+  //li:nth-child(3) span {
+  //  background-image: url(../images/3.jpg);
+  //  animation-delay: 12s;
+  //}
 }
 
 @keyframes imageAnimation { 
@@ -268,7 +271,9 @@ section {
   25% { opacity: 0 }
   100% { opacity: 0 }
 }
-
+.section-case-study{
+  padding-bottom: 80px;
+}
 .margin-auto {
   margin: 0 auto;
 }
@@ -282,11 +287,11 @@ section {
 
 .section-about {
   padding-top: 50px;
-  padding-bottom: 150px;
   h4{
     margin-bottom: 50px;
   }
   @media(min-width: $grid-tablet-breakpoint){
+    padding-bottom: 150px;
     background: url(/images/background.svg) no-repeat center 30px;
     background-size: 100%;
 
@@ -305,12 +310,13 @@ section {
 }
 
 .section-expertises {
+  padding-top: 100px;
   background-color: unquote("rgb(#{$color-black})");
   color: unquote("rgb(#{$color-white})");
   .mdl-cell{
     margin-top: 35px;
     margin-bottom: 35px;
-    max-width: 465px;
+    //max-width: 465px;
   }
   .icon-separator{
     margin: 20px 0;
@@ -354,6 +360,10 @@ section {
   .mdl-button {
     color: unquote("rgb(#{$color-white})");
     border-color: unquote("rgb(#{$color-white})");
+    &:hover{
+      color: unquote("rgb(#{$color-primary})");
+      background: #fff;
+    }
   }
 }
 

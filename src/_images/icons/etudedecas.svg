@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="17px" height="24px" viewBox="0 0 17 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>Page 1</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="ACCUEIL-DESKTOP" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-788.000000, -2800.000000)">
+        <g id="ÉTUDES-DE-CAS" transform="translate(95.000000, 2041.000000)" fill="#A8AFB2">
+            <g id="Group-Copy" transform="translate(647.000000, 167.000000)">
+                <g id="Page-1" transform="translate(46.000000, 592.000000)">
+                    <path d="M15,4 L15,22 L2,22 L2,4 L3,4 L3,7 L14,7 L14,4 L15,4 Z M5,3 L6.412,3 L7.413,2 L9.585,2 L10.587,3 L12,3 L12,5 L5,5 L5,3 Z M11.415,1 L10.413,0 L6.585,0 L5.584,1 L3,1 L3,2 L2,2 C0.897,2 0,2.897 0,4 L0,22 C0,23.103 0.897,24 2,24 L15,24 C16.103,24 17,23.103 17,22 L17,4 C17,2.897 16.103,2 15,2 L14,2 L14,1 L11.415,1 Z" id="Fill-1"></path>
+                    <path d="M8.499,3 C8.223,3 7.999,3.224 7.999,3.5 C7.999,3.776 8.223,4 8.499,4 C8.775,4 8.999,3.776 8.999,3.5 C8.999,3.224 8.775,3 8.499,3" id="Fill-3"></path>
+                    <polygon id="Fill-5" points="4.999 8 2.999 8 2.999 21 13.999 21 13.999 19 4.999 19"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
