@@ -1,8 +1,9 @@
 .mdl-mega-footer{
   padding-top: 50px;
+  padding-bottom: 50px;
   .logo{
     max-width: 100%;
-    width: 318px;
+    width: 278px;
     height: auto;
     margin-bottom: 30px;
   }
@@ -25,6 +26,10 @@
   }
   .mdl-mega-footer__link-list {
     padding:0;
+  }
+  @media(min-width: 768px){
+    padding-top: 120px;
+    padding-bottom: 50px;
   }
 }
 .block-newsletter{

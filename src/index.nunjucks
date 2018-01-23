@@ -1,3 +1,4 @@
+{% set bodyClass = 'home' %}
 {% extends '_layouts/base.nunjucks' %} {% block content %}
 <main class="mdl-layout__content main-content">
   <section class="section-intro">
@@ -154,7 +155,7 @@
   <section class="section-expertises">
     <div class="separator-vertical"></div>
     <h3>Expertises</h3>
-    <div class="mdl-grid container">
+    <div class="mdl-grid container grid-expertises">
       <div class="mdl-cell mdl-cell--6-col">
         <img src="images/business-model-design.svg" alt="">
         <h4><strong>Business</strong> Model Design</h4>

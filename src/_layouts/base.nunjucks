@@ -30,7 +30,7 @@
 
 </head>
 
-<body>
+<body class="{{bodyClass}}">
 <!--[if lt IE 11]>
 <p class="browsehappy">
   You are using an <strong>outdated</strong> browser. Please
