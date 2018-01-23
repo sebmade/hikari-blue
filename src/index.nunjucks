@@ -4,7 +4,7 @@
   <section class="section-intro">
     <ul class="cb-slideshow">
       <li>
-        <span>Image 01</span>
+        <span></span>
       </li>
       <!--<li>-->
         <!--<span>Image 02</span>-->
@@ -19,7 +19,7 @@
       </h1>
       <h2>Analyser, proposer, concevoir, réaliser, pour chaque projet Hikari Blue vous apporte des solutions co-construite pour
         envisager l'avenir de manière innovante.</h2>
-      <i class="hb-icon hb-icon-btn-next"></i>
+      <!--<i class="hb-icon hb-icon-btn-next"></i>-->
     </div>
   </section>
 
@@ -44,7 +44,7 @@
               <b>plus compétitives et plus rentables</b>. Le numérique permet de
               <b>réduire les couts</b>, de faciliter le travail des employés et principalement d’
               <b>améliorer la satisfaction des clients</b> par une
-              <b>meilleur expérience utilisateur</b>.</p>
+              <b>meilleure expérience utilisateur</b>.</p>
           </div>
           <div class="mdl-layout-spacer"></div>
           <div class="mdl-cell mdl-cell--6-col mdl-cell--12-col-phone">
@@ -89,7 +89,7 @@
             <div class="hb-card__actions">
               <i class="hb-icon hb-icon-etudedecas"></i>
               <span>ETUDE DE CAS</span>
-              <a class="mdl-button mdl-button-icon mdl-js-button">
+              <a class="mdl-button mdl-button-icon mdl-js-button" href="https://medium.com/@sebmade/repenser-experience-utilisateur-assurance-f3d13ceca938" target="_blank">
                 <i class="hb-icon hb-icon-btn-next"></i>
               </a>
             </div>
@@ -144,9 +144,9 @@
         </div>
       </div>
       <div class="mdl-cell mdl-cell--12-col">
-        <button class="mdl-button mdl-js-button mdl-js-ripple-effect hb-button__case-studies">
+        <a class="mdl-button mdl-js-button mdl-js-ripple-effect hb-button__case-studies" href="https://medium.com/hikari-blue" target="_blank">
           Toutes nos études de cas
-        </button>
+        </a>
       </div>
     </div>
   </section>
@@ -208,7 +208,7 @@
         <i class="material-icons">keyboard_arrow_down</i>
       </div>
       <div class="mdl-layout-spacer"></div>
-      <div class="mdl-cell mdl-cell--4-col">
+      <div class="mdl-cell mdl-cell--6-col">
         <img src="images/agilite.svg" alt="">
         <h4><strong>Agilité</strong></h4>
         <p>Pour chaque projet, mettre en place un mode d’organisation permettant de privilégier l’expérimentation par itérations
@@ -322,6 +322,7 @@
     </div>
   </section>
 
+  <!--
   <a name="news"></a>
   <section class="section-news">
     <div class="separator-vertical"></div>
@@ -390,6 +391,7 @@
     </div>
     <a href="#" class="mdl-button mdl-js-button mdl-js-ripple-effect">Toutes nos actualités</a>
   </section>
+-->
   <section class="section-contact">
     <h3>Travaillons ensemble</h3>
     <a href="contact.html" class="mdl-button mdj-js-button hb-button__contact">CONTACT</a>
