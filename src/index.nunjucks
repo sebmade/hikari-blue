@@ -7,17 +7,17 @@
         <span></span>
       </li>
       <!--<li>-->
-        <!--<span>Image 02</span>-->
+      <!--<span>Image 02</span>-->
       <!--</li>-->
       <!--<li>-->
-        <!--<span>Image 03</span>-->
+      <!--<span>Image 03</span>-->
       <!--</li>-->
     </ul>
     <div class="section-intro-content">
-      <h1 class="mdl-typography--font-light">Construire ensemble<br/>
-        <span class="mdl-typography--font-bold"> des solutions innovantes</span>
+      <h1 class="mdl-typography--font-light  text-white">Construire ensemble<br/>
+        <span class="mdl-typography--font-bold "> des solutions innovantes</span>
       </h1>
-      <h2>Analyser, proposer, concevoir, réaliser, pour chaque projet Hikari Blue vous apporte des solutions co-construite pour
+      <h2 class="text-white">Analyser, proposer, concevoir, réaliser, pour chaque projet Hikari Blue vous apporte des solutions co-construite pour
         envisager l'avenir de manière innovante.</h2>
       <!--<i class="hb-icon hb-icon-btn-next"></i>-->
     </div>
@@ -25,126 +25,115 @@
 
   <a name="about"></a>
   <section class="section-about">
-    <div class="separator-vertical"></div>
-    <div class="mdl-grid container">
-      <div class="mdl-cell mdl-cell--4-col mdl-cell--12-col-phone">
-        <h3>Raison d'être</h3>
-      </div>
-      <div class="mdl-cell mdl-cell--8-col mdl-cell--12-col-phone">
-        <div class="mdl-grid">
-          <div class="mdl-cell mdl-cell--6-col mdl-cell--12-col-tablet mdl-cell--12-col-phone">
-            <h4>
-              Implémenter l'innovation <br/><span class="mdl-typography--font-bold">au coeur des entreprises</span></h4>
-            <p>Notre société vit une transformation fondamentale liée au numérique et aux nouvelles technologies.
-              <b>Toutes les entreprises sont impactées et choisissent soit de subir et au final de mourir soit d’être un acteur
-                de cette transformation</b>.
-            </p>
-            <p>Pour chaque entreprise il y a des
-              <b>opportunités d’amélioration et d’optimisation</b> de leur modèle économique leur permettant d’être
-              <b>plus compétitives et plus rentables</b>. Le numérique permet de
-              <b>réduire les couts</b>, de faciliter le travail des employés et principalement d’
-              <b>améliorer la satisfaction des clients</b> par une
-              <b>meilleure expérience utilisateur</b>.</p>
-          </div>
-          <div class="mdl-layout-spacer"></div>
-          <div class="mdl-cell mdl-cell--6-col mdl-cell--12-col-phone">
-            <h4>Notre
-              <br>
-              <span class="mdl-typography--font-bold">approche</span>
-            </h4>
-            <p>
-              <span class="highlight">Hikari Blue</span> offre à ses clients toutes les compétences nécessaires pour être acteur de cette transformation.
-              Notre approche consiste à
-              <b>identifier avec vous les facteurs d’amélioration et d’optimisation</b> en analysant votre
-              <b>modèle économique existant</b> puis en testant des
-              <b>alternatives</b>. Nos
-              <b>experts</b> sont
-              <b>à votre disposition</b> pour construire avec vous le futur de votre entreprise.</p>
-          </div>
+    <div class="separator-vertical separator-white"></div>
+    <div class="mdl-typography--text-center">
+      <h3 class="mdl-typography--text-uppercase text-white">Raison d'être</h3>
+    </div>
+    <div class="container mdl-typography--text-left">
+      <div class="mdl-grid">
+        <div class="mdl-cell mdl-cell--6-col mdl-cell--12-col-tablet mdl-cell--12-col-phone">
+          <h4 class="mdl-typography--text-left">
+            La quatrième <br/><span class="mdl-typography--font-bold">révolution industrielle</span></h4>
+          <p>“Avec les nouvelles technologies, nos sociétés sont confrontées à des innovations toujours plus rapides et des bouleversements complexes et interdépendants.”
+          </p>
+          <p>
+            <strong>Klaus Schwab</strong>
+            <br/>
+            <span class="text-small">Fondateur & Président du World Ecomic Forum</span>
+          </p>
+          <p>
+            <strong>Rapidité :</strong>
+            <br/>
+            Contrairement aux revolutions industrielles précédentes, celle-ci se déploie à une vitesse exponentielle et non linéaire, parce que nous vivons dans un monde aux multiples facettes, profondément interconnecté : chaque technologie nouvelle en engendre d’autres, encore plus puissantes.
+          </p>
         </div>
+        <div class="mdl-layout-spacer"></div>
+        <div class="mdl-cell mdl-cell--6-col mdl-cell--12-col-phone">
+          <h4 class="mdl-typography--text-left">Notre
+            <br>
+            <span class="mdl-typography--font-bold">approche</span>
+          </h4>
+          <h5>
+            Hikari Blue propose à ses clients de les accompagner, de les éclairer pour être acteur de la quatrième révolution industrielle.
+          </h5>
+          <p>
+            Dessiner un nouveau référentiel pour l’homme qui doit ainsi réinventer sa manière de vivre et de travailler.
+            <br/>
+            Nous nous adressons à tous ceux qui s’intéressent à notre avenir et désirent saisir les opportunités offertes par ces changement inédits.
+          </p>
+
+        </div>
+
       </div>
     </div>
   </section>
 
   <a name="casestudy"></a>
-  <section class="section-case-study">
-      <div class="separator-vertical"></div>
+  <section class="section-case-study container">
     <div class="mdl-grid">
       <div class="mdl-cell mdl-cell--12-col">
         <h3>&Eacute;tudes de cas</h3>
       </div>
-      <div class="mdl-cell mdl-cell--4-col">
-        <div class="hb-card hb-card--media mdl-card mdl-shadow--2dp ">
-          <div class="hb-card__img-container">
-            <img src="images/servier.jpg" srcset="images/servier@2x.jpg 2x, images/servier@3x.jpg 3x">
-          </div>
-          <div class="hb-card__content">
-            <div class="hb-card__title">
-              Acculturation au numérique dans la santé
-            </div>
-            <div class="hb-card__body">
-              Voyages apprenant au coeur de la Silicon Valley pour 12 personnes de l'équipe dirigeante de Servier Brésil. Visites de startups
-              dans l'e-santé et découverte de l'écosystème de la santé numérique de la Silicon Valley.
-            </div>
-            <div class="hb-card__actions">
-              <i class="hb-icon hb-icon-etudedecas"></i>
-              <span>ETUDE DE CAS</span>
-              <a class="mdl-button mdl-button-icon mdl-js-button" href="https://medium.com/@sebmade/repenser-experience-utilisateur-assurance-f3d13ceca938" target="_blank">
-                <i class="hb-icon hb-icon-btn-next"></i>
-              </a>
-            </div>
-          </div>
+      <div class="mdl-cell mdl-cell--12-col hb-card hb-card--media mdl-card">
+        <div class="hb-card__img-container">
+          <img src="images/etude_cas/servier.jpg" srcset="images/etude_cas/servier@2x.jpg 2x, images/etude_cas/servier@3x.jpg 3x">
         </div>
+        <a class="hb-card__content" href="https://medium.com/@sebmade/repenser-experience-utilisateur-assurance-f3d13ceca938" target="_blank">
+          <div class="hb-card__title">
+            Acculturation au numérique dans la santé
+          </div>
+          <div class="hb-card__body">
+            Voyages apprenant au coeur de la Silicon Valley pour 12 personnes de l'équipe dirigeante de Servier Brésil. Visites de startups
+            dans l'e-santé et découverte de l'écosystème de la santé numérique de la Silicon Valley.
+          </div>
+          <div class="hb-card__actions mdl-typography--text-center">
+              <span class="mdl-button mdl-button-icon mdl-js-button">
+                <span>LIRE L'ETUDE</span>
+                <i class="hb-icon hb-icon-btn-next"></i>
+              </span>
+          </div>
+        </a>
       </div>
-      <div class="mdl-cell mdl-cell--4-col">
-        <div class="hb-card hb-card--media mdl-card mdl-shadow--2dp">
-          <div class="hb-card__img-container">
-            <img src="images/keydiag.png">
-          </div>
-          <div class="hb-card__content">
-            <div class="hb-card__title">
-              Le radiologue du futur
-            </div>
-            <div class="hb-card__body">
-              Issu de notre événement d'innovation Hacking Health Camp, nous avons accompagné une équipe de radiologue à concevoir l'outil
-              innovant leur permettant de créer de la valeur ajoutée en complément des solutions d'IA d'analyse d'image.
-            </div>
-            <div class="hb-card__actions">
-              <i class="hb-icon hb-icon-etudedecas"></i>
-              <span>ETUDE DE CAS</span>
-              <a class="mdl-button mdl-button-icon  mdl-js-button">
-                <i class="hb-icon hb-icon-btn-next"></i>
-              </a>
-            </div>
-          </div>
+      <div class="mdl-cell mdl-cell--12-col-tablet mdl-cell--6-col hb-card hb-card--media mdl-card">
+        <div class="hb-card__img-container">
+          <img src="images/etude_cas/keydiag.jpg" srcset="images/etude_cas/keydiag@2x.jpg, images/etude_cas/keydiag@3x.jpg">
         </div>
+        <a class="hb-card__content">
+          <div class="hb-card__title">
+            Le radiologue du futur
+          </div>
+          <div class="hb-card__body">
+            Issu de notre événement d'innovation Hacking Health Camp, nous avons accompagné une équipe de radiologue à concevoir l'outil innovant leur permettant de créer de la valeur ajoutée…
+          </div>
+          <div class="hb-card__actions">
+              <span class="mdl-button mdl-button-icon  mdl-js-button">
+                <span>LIRE L'ETUDE</span>
+                <i class="hb-icon hb-icon-btn-next"></i>
+              </span>
+          </div>
+        </a>
       </div>
-      <div class="mdl-cell mdl-cell--4-col">
-        <div class="hb-card hb-card--media mdl-card mdl-shadow--2dp">
-          <div class="hb-card__img-container">
-            <img src="images/hello-victor.jpg">
-          </div>
-          <div class="hb-card__content">
-            <div class="hb-card__title">
-              Réinventer l'assurance pour les millénials
-            </div>
-            <div class="hb-card__body">
-              Transformer le secteur de l'assurance pour proposer une expérience utilisateur répondant aux attentes des jeunes, c'est l'objectif
-              du projet Hello Victor développé sur la base d'une idée simple : pouvoir souscrire à une assurance en 3 clics
-              et pouvoir assurer tous types de biens.
-            </div>
-            <div class="hb-card__actions">
-              <i class="hb-icon hb-icon-etudedecas"></i>
-              <span>ETUDE DE CAS</span>
-              <a class="mdl-button mdl-button-icon mdl-js-button">
-                <i class="hb-icon hb-icon-btn-next"></i>
-              </a>
-            </div>
-          </div>
+      <div class="mdl-cell mdl-cell--12-col-tablet mdl-cell--6-col hb-card hb-card--media mdl-card">
+        <div class="hb-card__img-container">
+          <img src="images/etude_cas/hellovictor.jpg" srcset="images/etude_cas/hellovictor@2x.jpg, images/etude_cas/hellovictor@3x.jpg">
         </div>
+        <a class="hb-card__content">
+          <div class="hb-card__title">
+            Réinventer l'assurance pour les millénials
+          </div>
+          <div class="hb-card__body">
+            Transformer le secteur de l'assurance pour proposer une expérience utilisateur répondant aux attentes des jeunes, c'est l'objectif du projet Hello Victor développé sur la base d'une idée simple : pouvoir souscrire …
+          </div>
+          <div class="hb-card__actions">
+              <span class="mdl-button mdl-button-icon mdl-js-button">
+              <span>LIRE l'ETUDE</span>
+                <i class="hb-icon hb-icon-btn-next"></i>
+              </span>
+          </div>
+        </a>
       </div>
       <div class="mdl-cell mdl-cell--12-col">
-        <a class="mdl-button mdl-js-button mdl-js-ripple-effect hb-button__case-studies" href="https://medium.com/hikari-blue" target="_blank">
+        <a class="mdl-button mdl-button-primary mdl-button-color mdl-js-button hb-button__case-studies" href="https://medium.com/hikari-blue" target="_blank">
           Toutes nos études de cas
         </a>
       </div>
@@ -153,175 +142,270 @@
 
   <a name="expertise"></a>
   <section class="section-expertises">
-    <div class="separator-vertical"></div>
     <h3>Expertises</h3>
-    <div class="mdl-grid container grid-expertises">
-      <div class="mdl-cell mdl-cell--6-col">
-        <img src="images/business-model-design.svg" alt="">
-        <h4><strong>Business</strong> Model Design</h4>
-        <p>Imaginer avec tous les acteurs de l’entreprise des alternatives pour proposer de nouvelles formes de rentabilité,
-          de nouveaux produits, de nouvelles organisations.</p>
-      </div>
-      <div class="mdl-cell visible-mobile icon-separator">
-        <i class="material-icons">keyboard_arrow_down</i>
-      </div>
-      <div class="mdl-layout-spacer"></div>
-      <div class="mdl-cell mdl-cell--6-col">
-        <img src="images/value-proposition-design.svg" alt="">
-        <h4><strong>Value</strong> Proposition Design</h4>
-        <p>Pour chaque nouvelles idées, étudier avec tous les acteurs impliqués les points de frustrations, faire émerger les
-          gains et les attentes idéales en questionnant les acteurs, identifier les facteurs d’amélioration et ainsi créer
-          une proposition de valeur avec une adéquation entre produit et marché.</p>
-      </div>
-      <div class="mdl-cell visible-mobile icon-separator">
-        <i class="material-icons">keyboard_arrow_down</i>
-      </div>
-      <div class="mdl-layout-spacer"></div>
-      <div class="mdl-cell mdl-cell--6-col">
-        <img src="images/design-thinking.svg" alt="">
-        <h4><strong>Design</strong> Thinking</h4>
-        <p>Faire émerger les idées des collaborateurs et les aider à prototyper des solutions et vérifier ainsi les hypothèses
-          pour démarrer de nouveaux projets.</p>
-      </div>
-      <div class="mdl-cell visible-mobile icon-separator">
-        <i class="material-icons">keyboard_arrow_down</i>
-      </div>
-      <div class="mdl-layout-spacer"></div>
-      <div class="mdl-cell mdl-cell--6-col">
-        <img src="images/user-experience.svg" alt="">
-        <h4><strong>User</strong> Experience UX/UI</h4>
-        <p>Concevoir et tester des expériences utilisateurs innovantes au plus près des attentes des clients. </p>
-      </div>
-      <div class="mdl-cell visible-mobile icon-separator">
-        <i class="material-icons">keyboard_arrow_down</i>
-      </div>
-      <div class="mdl-layout-spacer"></div>
-      <div class="mdl-cell mdl-cell--6-col">
-        <img src="images/developpement.svg" alt="">
-        <h4><strong>Développement</strong></h4>
-        <p>Pour tous vos projets, développer la solution avec la technologie la plus adaptée pour mettre en production un produit
-          ou un service le plus rapidement possible. Nos experts maitrisent les technologies backend et frontend, les langages
-          les plus populaires (Java, JavaScript, C#, Python, Go, Swift), les frameworks du moment (Angular, React) et les
-          plateformes (iOS, Android, Google Cloud, Amazon, Azure)</p>
-      </div>
-      <div class="mdl-cell visible-mobile icon-separator">
-        <i class="material-icons">keyboard_arrow_down</i>
-      </div>
-      <div class="mdl-layout-spacer"></div>
-      <div class="mdl-cell mdl-cell--6-col">
-        <img src="images/agilite.svg" alt="">
-        <h4><strong>Agilité</strong></h4>
-        <p>Pour chaque projet, mettre en place un mode d’organisation permettant de privilégier l’expérimentation par itérations
-          courtes pour permettre de s’assurer au quotidien de la validité de la solution.</p>
-      </div>
-      <div class="mdl-cell visible-mobile icon-separator">
-        <i class="material-icons">keyboard_arrow_down</i>
-      </div>
-      <div class="mdl-layout-spacer"></div>
-      <div class="mdl-cell mdl-cell--6-col">
-        <img src="images/metriques-data.svg" alt="">
-        <h4><strong>Métriques</strong> &amp; <strong>Data</strong></h4>
-        <p>Étalonner en amont du projet, mettre en place les métriques pertinentes pour chaque projet et pouvoir ainsi valider
-          les hypothèses sur des élèments factuels et guider les décisions d'amélioration.</p>
-      </div>
-      <div class="mdl-cell visible-mobile icon-separator">
-        <i class="material-icons">keyboard_arrow_down</i>
-      </div>
-      <div class="mdl-cell mdl-cell--6-col">
-        <img src="images/marketing-digital.svg" alt="">
-        <h4><strong>Marketing</strong> Digital</h4>
-        <p>Promouvoir les projets avec les outils adaptés, capter l'audience ciblée de la meilleure façon et activer la croissance.
-        </p>
-      </div>
+    <div class="grid-expertises">
+      <div class="mdl-grid container ">
+        <div class="mdl-cell mdl-cell--4-col mdl-cell--12-col-tablet">
+          <img src="images/consulting.svg" alt="">
+          <h4>Consulting
+            <div class="dash"></div>
+          </h4>
+          <ul>
+            <li>étude de vos projets</li>
+            <li>analyse de l’existant</li>
+            <li>analyse concurrentielle & sectorielle</li>
+            <li>analyse de votre marché cible
+              <span class="mdl-typography--text-lowercase">(user testing, Value Proposition Design)</span></li>
+            <li>mise en place de stratégie d’innovation</li>
+            <li>recherche de nouveaux modèles économique & optimisation de l’existant
+              <span class="mdl-typography--text-lowercase">(Business Model Canvas)</span></li>
+            <li>plan d’action</li>
+          </ul>
+
+        </div>
+        <div class="mdl-cell mdl-cell--4-col mdl-cell--12-col-tablet">
+          <img src="images/exubation.svg" alt="">
+          <h4>Exubation
+            <div class="dash"></div>
+          </h4>
+          <ul>
+            <li>plan d’action</li>
+            <li>mise à disposition de ressources expertes
+              <span class="mdl-typography--text-lowercase">(régie, forfait)</span></li>
+            <li>experimentation terrain
+              <span class="mdl-typography--text-lowercase">(ateliers, immersion, tests utilisateurs)</span></li>
+          </ul>
+        </div>
+        <div class="mdl-cell mdl-cell--4-col mdl-cell--12-col-tablet">
+          <img src="images/incubation.svg" alt="">
+          <h4>Incubation
+            <div class="dash"></div>
+          </h4>
+          <ul>
+            <li>Développement de projets innovants en interne</li>
+            <li>expérimentation d’idées & de technologie</li>
+          </ul>
+        </div>
+        <div class="mdl-cell mdl-cell--4-col mdl-cell--12-col-tablet">
+          <img src="images/voyages.svg" alt="">
+          <h4>Voyages apprenants
+            <div class="dash"></div>
+          </h4>
+          <ul>
+            <li>immersion dans votre secteur d’activité</li>
+            <li>suivi des acquis & accompagnement à la transformation</li>
+            <li>suivi des acquis & accompagnementà la transformation
+              <span class="mdl-typography--text-lowercase">(mise en place d’outils de gestion interne de l’innovation)</span>
+            </li>
+
+          </ul>
+        </div>
+        <div class="mdl-cell mdl-cell--4-col mdl-cell--12-col-tablet">
+          <img src="images/evenementiel.svg" alt="">
+          <h4>Événementiel
+            <div class="dash"></div>
+          </h4>
+          <ul>
+            <li>conférence inspirantes avec intervenants de renom</li>
+            <li>formation à l’innovation</li>
+            <li>marathon d’innovation
+              <span class="mdl-typography--text-lowercase">(Hackathon, design challenge, séminaire)</span></li>
+          </ul>
+        </div>
+        <div class="mdl-cell mdl-cell--4-col mdl-cell--12-col-tablet">
+          <img src="images/academy.svg" alt="">
+          <h4>Hikarie Blue Academy
+            <div class="dash"></div>
+          </h4>
+          <ul>
+            <li>Mooc | innovative digital trends <span class="mdl-typography--text-lowercase">(Avril 2018)</span></li>
+          </ul>
+        </div>
+      </div
     </div>
+    >
   </section>
 
   <a name="method"></a>
   <section class="section-method">
-    <div class="separator-vertical"></div>
     <h3>Méthode</h3>
-    <h4><span class="mdl-typography--font-bold">L'innovation</span> en 4 étapes</h4>
-    <div class="mdl-grid section-method-content">
-      <div class="method-step mdl-cell--4-col mdl-cell--12-col-tablet mdl-cell--12-col-phone margin-auto">
-        <div class="highlight mdl-typography--text-uppercase mdl-typography--font-bold">étape 1</div>
-        <h5 class="mdl-typography--text-uppercase mdl-typography--font-bold">Recherche d'un modèle
-          <br>économique</h5>
-        <div class="mdl-grid ">
-
-          <div class="mdl-cell--5-col mdl-cell--3-col-tablet mdl-cell--12-col-phone margin-auto">
-            <div class="oval vertical-align-middle">
-              <img src="images/icon-recherche.svg">
+    <div class="section-method-content">
+      <h4 class="mdl-typography-text-center">L'innovation en 4 étapes</h4>
+      <div class="mdl-grid">
+        <div class="method-step step--1 mdl-cell--4-col mdl-cell--12-col-tablet mdl-cell--12-col-phone">
+          <div class="step-number">1</div>
+          <h5 class="mdl-typography--text-uppercase mdl-typography--font-bold">Recherche d'un modèle
+            <br>économique</h5>
+          <div class="mdl-grid grid-steps">
+            <div class="mdl-cell--5-col mdl-cell--3-col-tablet mdl-cell--12-col-phone margin-auto">
+              <div class="oval vertical-align-middle">
+                <img src="images/recherche.svg">
+              </div>
+              <h5>Recherche</h5>
             </div>
-            <h5 class="mdl-typography--text-uppercase mdl-typography--font-bold">Recherche</h5>
+            <div class="mdl-cell--1-col mdl-cell--1-col-tablet mdl-cell--12-col-phone margin-auto">
+              <div class="separator">
+                <i class="material-icons">keyboard_arrow_down</i>
+              </div>
+            </div>
+            <div class="mdl-cell--5-col mdl-cell--3-col-tablet mdl-cell--12-col-phone margin-auto">
+              <div class="oval vertical-align-middle">
+                <img src="images/validation.svg">
+              </div>
+              <h5>Validation</h5>
+            </div>
+            <div class="separator separator-mobile">
+              <i class="material-icons">keyboard_arrow_down</i>
+            </div>
+
           </div>
-
-          <div class="mdl-cell--1-col mdl-cell--1-col-tablet mdl-cell--12-col-phone margin-auto">
-            <div class="separator">
-              <i class="material-icons">keyboard_arrow_right</i>
-            </div>
-          </div>
-
-          <div class="mdl-cell--5-col mdl-cell--3-col-tablet mdl-cell--12-col-phone margin-auto">
-            <div class="oval vertical-align-middle">
-              <img src="images/icon-validation.svg">
-            </div>
-            <h5 class="mdl-typography--text-uppercase mdl-typography--font-bold">Validation</h5>
+          <div class="method-underline">
+            <h5>Répétition jusqu'à la preuve</h5>
           </div>
         </div>
-        <div class="method-underline">
-          <h5>Répétition jusqu'à la preuve</h5>
+        <div class="method-transition mdl-cell--4-col mdl-cell--12-col-tablet mdl-cell--12-col-phone">
+          <div class="mdl-grid">
+
+            <div class="method-transition-label mdl-cell--10-col  mdl-cell--3-col-tablet margin-auto">
+              <div class="separator">
+                <i class="material-icons">keyboard_arrow_down</i>
+              </div>
+              <h5 class="mdl-typography--text-uppercase mdl-typography--font-bold">Adéquation
+                <br>produit / marché</h5>
+              <div class="separator">
+                <i class="material-icons">keyboard_arrow_down</i>
+              </div>
+            </div>
+
+          </div>
+        </div>
+        <div class="method-step step--2 mdl-cell--4-col mdl-cell--12-col-tablet mdl-cell--12-col-phone">
+          <div class="step-number">2</div>
+          <h5 class="mdl-typography--text-uppercase mdl-typography--font-bold">Exécution du nouveau
+            <br>modèle économique</h5>
+
+          <div class="mdl-grid grid-steps">
+            <div class="separator separator-mobile">
+              <i class="material-icons">keyboard_arrow_down</i>
+            </div>
+
+            <div class="mdl-cell--5-col mdl-cell--3-col-tablet mdl-cell--12-col-phone margin-auto">
+              <div class="oval vertical-align-middle">
+                <img src="images/creation.svg">
+              </div>
+              <h5>Création</h5>
+            </div>
+
+            <div class="mdl-cell--1-col mdl-cell--1-col-tablet mdl-cell--12-col-phone margin-auto">
+              <div class="separator">
+                <i class="material-icons">keyboard_arrow_down</i>
+              </div>
+            </div>
+
+            <div class="mdl-cell--5-col mdl-cell--3-col-tablet mdl-cell--12-col-phone margin-auto">
+              <div class="oval vertical-align-middle">
+                <img src="images/execution.svg">
+              </div>
+              <h5>Exécution</h5>
+            </div>
+
+          </div>
         </div>
       </div>
-      <div class="method-transition mdl-cell--4-col mdl-cell--12-col-tablet mdl-cell--12-col-phone margin-auto">
-        <div class="mdl-grid">
-          <div class="mdl-cell--1-col mdl-cell--1-col-tablet mdl-cell--12-col-phone margin-auto">
-            <div class="separator">
-              <i class="material-icons">keyboard_arrow_right</i>
-            </div>
-          </div>
-          <div class="method-transition-label mdl-cell--10-col  mdl-cell--3-col-tablet">
-            <h5 class="mdl-typography--text-uppercase mdl-typography--font-bold">Adéquation
-              <br>produit / marché</h5>
-          </div>
-          <div class="mdl-cell--1-col mdl-cell--1-col-tablet mdl-cell--12-col-phone margin-auto">
-            <div class="separator">
-              <i class="material-icons">keyboard_arrow_right</i>
-            </div>
-          </div>
+    </div>
+  </section>
+  <a name="domaines-de-competence"></a>
+  <section class="section-competences">
+    <h3>Domaines de compétence</h3>
+    <div class="section-method-content">
+    </div>
+  </section>
+
+  <a name="aide"></a>
+  <section class="section-contact">
+    <h3>Comment pouvons-nous vous aider ?</h3>
+    <div class="section-contact-content">
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br/> Donec blandit non enim a pellentesque.</p>
+      <a href="contact.html" class="mdl-button mdl-button-color mdl-button-secondary mdj-js-button hb-button__contact">CONTACT</a>
+    </div>
+  </section>
+  <a name="partenaire"></a>
+  <section class="section-logos">
+    <h3>Partenaires</h3>
+    <div class="section-logos-content bg-white">
+      <div class="mdl-grid">
+        <div class="mdl-cell mdl-cell--4-col">
+          <img alt="thecamp" src="images/thecamp.jpg" srcset="images/thecamp@2x.jpg, images/thecamp@3x.jpg" class="img-responsive" />
         </div>
-      </div>
-      <div class="method-step  mdl-cell--4-col mdl-cell--12-col-tablet mdl-cell--12-col-phone margin-auto">
-        <div class="highlight mdl-typography--text-uppercase mdl-typography--font-bold">étape 2</div>
-        <h5 class="mdl-typography--text-uppercase mdl-typography--font-bold">Exécution du nouveau
-          <br>modèle économique</h5>
-
-        <div class="mdl-grid">
-          <div class="mdl-cell--5-col mdl-cell--3-col-tablet mdl-cell--12-col-phone margin-auto">
-            <div class="oval vertical-align-middle">
-              <img src="images/icon-creation.svg">
-            </div>
-            <h5 class="mdl-typography--text-uppercase mdl-typography--font-bold">Création</h5>
-          </div>
-
-          <div class="mdl-cell--1-col mdl-cell--1-col-tablet mdl-cell--12-col-phone margin-auto">
-            <div class="separator">
-              <i class="material-icons">keyboard_arrow_right</i>
-            </div>
-          </div>
-
-          <div class="mdl-cell--5-col mdl-cell--3-col-tablet mdl-cell--12-col-phone margin-auto">
-            <div class="oval vertical-align-middle">
-              <img src="images/icon-execution.svg">
-            </div>
-            <h5 class="mdl-typography--text-uppercase mdl-typography--font-bold">Exécution</h5>
-          </div>
-
+        <div class="mdl-cell mdl-cell--4-col">
+          <img alt="epfl" src="images/epfl.jpg" srcset="images/epfl@2x.jpg, images/epfl@3x.jpg" class="img-responsive" />
+        </div>
+        <div class="mdl-cell mdl-cell--4-col">
+          <img alt="inartis" src="images/inartis.jpg" srcset="images/inartis@2x.jpg, images/inartis@3x.jpg" class="img-responsive" />
+        </div>
+        <div class="mdl-cell mdl-cell--4-col">
+          <img alt="singularity" src="images/singularity.jpg" srcset="images/singularity@2x.jpg, images/singularity@3x.jpg" class="img-responsive" />
+        </div>
+        <div class="mdl-cell mdl-cell--4-col">
+          <img alt="codesign" src="images/codesign.jpg" srcset="images/codesign@2x.jpg, images/codesign@3x.jpg" class="img-responsive" />
+        </div>
+        <div class="mdl-cell mdl-cell--4-col">
+          <img alt="eurogroup" src="images/eurogroup.jpg" srcset="images/eurogroup@2x.jpg, images/eurogroup@3x.jpg" class="img-responsive" />
+        </div>
+        <div class="mdl-cell mdl-cell--4-col">
+          <img alt="frenchtech" src="images/frenchtech.jpg" srcset="images/frenchtech@2x.jpg, images/frenchtech@3x.jpg" class="img-responsive" />
         </div>
 
       </div>
     </div>
   </section>
-
+  <a name="clients"></a>
+  <section class="section-logos">
+    <h3>Ils nous font confiance</h3>
+    <div class="section-logos-content bg-white">
+      <div class="mdl-grid">
+        <div class="mdl-cell mdl-cell--4-col">
+          <img alt="gehealthcare" src="images/gehealthcare.jpg" srcset="images/gehealthcare@2x.jpg, images/gehealthcare@3x.jpg" class="img-responsive" />
+        </div>
+        <div class="mdl-cell mdl-cell--4-col">
+          <img alt="sanofi" src="images/sanofi.jpg" srcset="images/sanofi@2x.jpg, images/sanofi@3x.jpg" class="img-responsive" />
+        </div>
+        <div class="mdl-cell mdl-cell--4-col">
+          <img alt="roche" src="images/roche.jpg" srcset="images/roche@2x.jpg, images/roche@3x.jpg" class="img-responsive" />
+        </div>
+        <div class="mdl-cell mdl-cell--4-col">
+          <img alt="ihealth" src="images/ihealth.jpg" srcset="images/ihealth@2x.jpg, images/ihealth@3x.jpg" class="img-responsive" />
+        </div>
+        <div class="mdl-cell mdl-cell--4-col">
+          <img alt="allianz" src="images/allianz.jpg" srcset="images/allianz@2x.jpg, images/allianz@3x.jpg" class="img-responsive" />
+        </div>
+        <div class="mdl-cell mdl-cell--4-col">
+          <img alt="medtronic" src="images/medtronic.jpg" srcset="images/medtronic@2x.jpg, images/medtronic@3x.jpg" class="img-responsive" />
+        </div>
+        <div class="mdl-cell mdl-cell--4-col">
+          <img alt="servier" src="images/servier.jpg" srcset="images/servier@2x.jpg, images/servier@3x.jpg" class="img-responsive" />
+        </div>
+        <div class="mdl-cell mdl-cell--4-col">
+          <img alt="humanis" src="images/humanis.jpg" srcset="images/humanis@2x.jpg, images/humanis@3x.jpg" class="img-responsive" />
+        </div>
+        <div class="mdl-cell mdl-cell--4-col">
+          <img alt="doctissimo" src="images/doctissimo.jpg" srcset="images/doctissimo@2x.jpg, images/doctissimo@3x.jpg" class="img-responsive" />
+        </div>
+        <div class="mdl-cell mdl-cell--4-col">
+          <img alt="samsnung" src="images/samsnung.jpg" srcset="images/samsnung@2x.jpg, images/samsnung@3x.jpg" class="img-responsive" />
+        </div>
+        <div class="mdl-cell mdl-cell--4-col">
+          <img alt="mylan" src="images/mylan.jpg" srcset="images/mylan@2x.jpg, images/mylan@3x.jpg" class="img-responsive" />
+        </div>
+        <div class="mdl-cell mdl-cell--4-col">
+          <img alt="asip" src="images/asip.jpg" srcset="images/asip@2x.jpg, images/asip@3x.jpg" class="img-responsive" />
+        </div>
+        <div class="mdl-cell mdl-cell--4-col">
+          <img alt="vyv" src="images/vyv.jpg" srcset="images/vyv@2x.jpg, images/vyv@3x.jpg" class="img-responsive" />
+        </div>
+      </div>
+    </div>
+  </section>
   <!--
   <a name="news"></a>
   <section class="section-news">
@@ -392,10 +476,7 @@
     <a href="#" class="mdl-button mdl-js-button mdl-js-ripple-effect">Toutes nos actualités</a>
   </section>
 -->
-  <section class="section-contact">
-    <h3>Travaillons ensemble</h3>
-    <a href="contact.html" class="mdl-button mdj-js-button hb-button__contact">CONTACT</a>
-  </section>
+
 
 </main>
 {% endblock %}

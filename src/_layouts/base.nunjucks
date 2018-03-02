@@ -114,17 +114,21 @@
             <span class="border-links"></span>
             <ul class="mdl-mega-footer__link-list">
               <li>
+                <a class="link" href="index.html#about">Raison d'être</a>
+              </li>
+              <li>
                 <a class="link" href="index.html#casestudy">Études de cas</a>
               </li>
               <li>
-                <a class="link" href="index.html#about">Raison d'être</a>
+                <a class="link" href="index.html#expertise">Expertises</a>
               </li>
               <li>
                 <a class="link" href="index.html#method">Méthode</a>
               </li>
               <li>
-                <a class="link" href="index.html#expertise">Expertises</a>
+                <a class="link" href="index.html#competences">Domaines de compétences</a>
               </li>
+
               <!--<li>
                 <a class="link" href="index.html#news">Actualités</a>
               </li>-->
@@ -174,7 +178,14 @@
       <!--<div class="mdl-logo">Mentions Légales</div>-->
 
       <!--</div>-->
+
     </footer>
+  </div>
+  <div class="btn-sticky">
+    <a class="btn-contact" href="/contact.html">
+      <span>Comment pouvons-nous vous aider ?</span>
+      <i class="material-icons">keyboard_arrow_up</i>
+    </a>
   </div>
 </div>
 

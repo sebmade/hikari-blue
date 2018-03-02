@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="81px" height="42px" viewBox="0 0 81 42" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>E461261D-9CE7-45C3-848F-9F5A89C41236</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <polygon id="path-1" points="0 0 80.574 0 80.574 40.681 0 40.681"></polygon>
+    </defs>
+    <g id="ACCUEIL-DESKTOP-2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-1431.000000, -4543.000000)">
+        <g id="EXPERTISES" transform="translate(94.000000, 3602.000000)">
+            <g id="Page-1" transform="translate(1337.000000, 941.000000)">
+                <g id="Group-3" transform="translate(0.000000, 0.681600)">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <g id="Clip-2"></g>
+                    <path d="M39.999,23.118 L4.821,12.309 L40.576,1.471 L75.754,12.279 L39.999,23.118 Z M75.122,29.217 L74.769,29.108 L74.769,14.047 L80.575,12.287 L40.579,0 L0,12.301 L39.997,24.59 L73.361,14.474 L73.361,29.109 L73.008,29.218 C71.507,29.68 70.48,31.035 70.455,32.59 L70.455,32.715 C70.48,34.266 71.507,35.622 73.008,36.084 L73.361,36.192 L73.361,40.681 L74.769,40.681 L74.769,36.193 L75.121,36.085 C76.651,35.613 77.701,34.176 77.675,32.591 C77.649,31.035 76.623,29.68 75.122,29.217 Z" id="Fill-1" fill="#2962FF" mask="url(#mask-2)"></path>
+                </g>
+                <path d="M67.707,30.792 L67.416,30.926 C50.349,38.769 30.77,38.767 13.699,30.924 L13.408,30.79 L13.408,22 L12,22 L12,31.688 L12.901,32.105 C21.657,36.166 30.963,38.225 40.561,38.225 C50.345,38.225 59.816,36.088 68.712,31.874 L69.114,31.684 L69.114,22 L67.707,22 L67.707,30.792 Z" id="Fill-4" fill="#2962FF"></path>
+            </g>
+        </g>
+    </g>
+</svg>

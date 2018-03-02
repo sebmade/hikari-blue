@@ -23,5 +23,22 @@
     margin: 0 auto;
     transform: translateY(-50%);
     background: unquote('rgb(#{$color-primary})');
+    &.separator-white{
+      background: #fff;
+    }
   }
+}
+
+.text-white{
+  color: #fff;
+}
+.bg-primary{
+  background: unquote('rgb(#{$color-primary})');
+}
+.bg-white{
+  background: #fff;
+}
+.img-responsive{
+  max-width: 100%;
+  height: auto;
 }
