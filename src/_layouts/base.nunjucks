@@ -190,6 +190,7 @@
 </div>
 
 <script src="{{baseUrl}}scripts/main.js"></script>
+
 {% block scripts %}{% endblock %}
 </body>
 

@@ -317,7 +317,20 @@
   <a name="domaines-de-competence"></a>
   <section class="section-competences">
     <h3>Domaines de compétence</h3>
-    <div class="section-method-content">
+    <div class="section-competences-content">
+      <div class="owl-carousel owl-theme">
+        <div class="mdl-grid">
+          <div class="mdl-cell mdl-cell--4-col mdl-cell--12-col-tablet mdl-cell--12-col-phone">
+            <img src="images/sant.jpg" srcset="images/sant@2x.jpg, images/sant@3x.jpg" alt="sante"  class="img-responsive"/>
+          </div>
+          <div class="mdl-cell mdl-cell--9-col mdl-cell--12-col-tablet mdl-cell--12-col-phone hb-col-text">
+            <h5>Santé</h5>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce eu mi lacus. Curabitur ultrices tortor nulla. Curabitur magna nisi, volutpat eu nunc at, pharetra porttitor tellus. Nullam sagittis eros aliquam consectetur imperdiet. Maecenas rhoncus, sapien quis aliquam rhoncus, erat lectus tincidunt ante, in ultrices sapien nisl sagittis neque. </p>
+            <div class="question">Vous avez un projet en santé ?</div>
+            <a href="#" class="mdl-button mdl-button-primary mdl-button-color mdl-js-button">Rencontrons-nous</a>
+          </div>
+        </div>
+      </div>
     </div>
   </section>
 

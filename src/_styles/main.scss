@@ -240,7 +240,79 @@ section {
     }
   }
 }
+.section-competences {
+  &-content{
+    background: unquote('rgb(#{$color-black})');
+    color: #fff;
+    h5 {
+      &:after{
+        content: '';
+        width: 45px;
+        height: 1px;
+        background: unquote('rgb(#{$color-primary})');
+        display: block;
+        margin: 35px auto;
+      }
+    }
+    .mdl-grid{
+      align-items: center;
+      padding-bottom: 40px;
+      .hb-col-text{
+        position: relative;
+        background: #283240;
+        margin: -20% auto 0;
+        padding: 20px 10px 80px;
+        @media(max-width: $grid-desktop-breakpoint){
+          width: 85%;
+        }
+      }
+    }
+    .question{
+      margin-top: 50px;
+      font-size:30px;
+      font-weight: 300;
+      letter-spacing: 1px;
+      line-height: 1.3;
+    }
+    .mdl-button{
+      position: absolute;
+      bottom: 0;
+      margin: 0;
+      transform: translateY(50%);
+      left: 40px;
+      right: 40px;
 
+    }
+  }
+  @media(min-width: $grid-desktop-breakpoint){
+    &-content {
+      padding: 80px;
+      h5{
+        &:after{
+          margin-left: 0;
+        }
+      }
+      .mdl-grid{
+        margin-left: -8%;
+        margin-top: 0;
+        padding-left: 80px;
+        padding-right: 80px;
+        text-align: left;
+        .hb-col-text{
+          padding-left: 80px;
+          padding-right: 80px;
+          margin-top: 0;
+          margin-left: -8%;
+        }
+      }
+      .mdl-button{
+        left: auto;
+        right: auto;
+      }
+
+    }
+  }
+}
 .margin-auto {
   margin: 0 auto;
 }
