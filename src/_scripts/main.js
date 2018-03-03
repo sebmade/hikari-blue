@@ -5,7 +5,7 @@
 
 var jQuery = require('jquery');
 
-//require('owl.carousel');
+require('owl.carousel');
 require('material-design-lite');
 
 (function($){
