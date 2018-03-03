@@ -93,7 +93,6 @@
       </ul>
       <ul class="menu-mobile-legal">
         <li>&copy; Hikari Blue</li>
-        <li style="float: right;">ISO 9141 CCU</li>
       </ul>
     </div>
     {% block content %}{% endblock %}
@@ -105,9 +104,7 @@
             <div class="copyright">
               &copy; 2017 Hikari Blue - Tous droits réservés
               <br/>
-              Liberty Finances, SARL au capital de 1.000.000 €
-              <br/>
-              ISO 9241 CCU
+              Liberty au capital de 1.000.000 €
             </div>
           </div>
           <div class="mdl-mega-footer__drop-down-section block-links">
