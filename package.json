@@ -2,6 +2,7 @@
   "name": "hikariblue",
   "version": "0.0.1",
   "dependencies": {
+    "browserify-shim": "^3.8.14",
     "jquery": "~3.1.1",
     "material-design-lite": "^1.3.0",
     "normalize.css": "~5.0.0",
@@ -83,5 +84,20 @@
       "js": "main**.js",
       "css": "main**.{sass,scss}"
     }
-  }
+  },
+  "browserify": {
+    "transform": [
+      "browserify-shim"
+    ]
+  },
+  "browser": {
+    "owl.carousel": "./node_modules/owl.carousel/dist/owl.carousel.js",
+    "jquery": "./node_modules/jquery/dist/jquery.js"
+  },
+  "browserify-shim": {
+    "owl.carousel": {
+      "exports": null,
+      "depends": "jquery:$"
+    }
+  }  
 }

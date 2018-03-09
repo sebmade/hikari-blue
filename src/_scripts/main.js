@@ -4,10 +4,11 @@
 'use strict';
 
 var jQuery = require('jquery');
-var $ = jQuery;
+window.jQuery = jQuery;
+
+require('material-design-lite');
 
 require('owl.carousel');
-require('material-design-lite');
 
 (function($){
 
