@@ -11,7 +11,29 @@ require('material-design-lite');
 require('owl.carousel');
 
 (function($){
+  var carousel = $('.owl-carousel');
 
+  carousel.on('initialized.owl.carousel', function(event){
+    carousel.before($('<div class="carousel-counter pull-right" />').html('<span class="text-up">'+(event.item.index + 1)+'</span>/' + event.item.count));
+  });
+
+  carousel.owlCarousel({
+    items: 1,
+    dotsContainer: '#dots-competences',
+    navText: ['<i class="hb-icon hb-icon-btn-next-white"></i>','<i class="hb-icon hb-icon-btn-next-white"></i>'],
+    responsive: {
+      0 : {
+        nav: true
+      },
+      1200: {
+        nav: false
+      }
+    }
+  });
+
+  carousel.on('changed.owl.carousel', function(event) {
+    $('.carousel-counter .text-up').text(event.item.index + 1);
+  });
   $(window).on('scroll', function(){
     if($(window).scrollTop() > 10 || $('.mdl-layout__drawer.navigation-drawer').hasClass('is-visible')){
       $('.mdl-layout__header').addClass('mini');

@@ -1,5 +1,7 @@
 // Normalize Styles
 @import 'node_modules/normalize.css/normalize';
+@import 'node_modules/owl.carousel/src/scss/owl.carousel';
+@import 'node_modules/owl.carousel/src/scss/owl.theme.default';
 @import url('https://fonts.googleapis.com/css?family=Raleway:300,400,600,700');
 $custom-black: #111114;
 $color-primary: '48,79,254';
@@ -242,6 +244,7 @@ section {
 }
 .section-competences {
   &-content{
+    position: relative;
     background: unquote('rgb(#{$color-black})');
     color: #fff;
     h5 {
@@ -257,6 +260,9 @@ section {
     .mdl-grid{
       align-items: center;
       padding-bottom: 40px;
+      .hb-col-img{
+        margin: 10px auto;
+      }
       .hb-col-text{
         position: relative;
         background: #283240;
@@ -283,6 +289,146 @@ section {
       right: 40px;
 
     }
+    .owl-carousel{
+      clear: both;
+    }
+
+    .carousel-counter{
+      float: right;
+      padding-right: 25px;
+      font-size: 40px;
+      font-weight: 100;
+      color: #5c6879;
+      .text-up{
+        font-size: 70px;
+        vertical-align: super;
+      }
+
+    }
+    @media(max-width: 1199px){
+      padding-bottom: 10px !important;
+      .carousel-counter {
+        position: absolute;
+        bottom: 40px;
+        left: 0;
+        right: 0;
+        padding:0;
+      }
+      .owl-nav{
+        margin-bottom: 20px;
+        .hb-icon{
+          margin-top: 4px;
+        }
+        [class*='owl-']{
+          background: $color-blue;
+          position: relative;
+          border-radius: 0;
+          height: 47px;
+          &:before {
+            content: "";
+            position: absolute;
+            top: 0;
+            right: 100%;
+            display: inline-block;
+            width: 0;
+            height: 0;
+            border-style: solid;
+            border-width: 0 0 55px 20px;
+            border-color: transparent transparent $color-blue transparent;
+          }
+          &:after {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 100%;
+            display: inline-block;
+            width: 0;
+            height: 0;
+            border-style: solid;
+            border-width: 55px 20px 0 0;
+            border-color: $color-blue transparent transparent transparent;
+          }
+        }
+        .owl-prev{
+          margin-right: 80px;
+          .hb-icon{
+            transform: rotate(180deg);
+          }
+        }
+        .owl-next{
+          margin-left: 80px;
+        }
+      }
+    }
+    .owl-dots{
+      position: relative;
+      display: none;
+      justify-content: space-around;
+      margin-top: 50px;
+      .dot{
+        position: relative;
+        font-size: 15px;
+        font-weight: 600;
+        text-transform: uppercase;
+        padding: 40px 15px;
+        text-align: center;
+        cursor: pointer;
+        .bullet{
+          position: absolute;
+          top: 0;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          display:block;
+          width: 16px;
+          height: 16px;
+          background: #3c495c;
+          border-radius: 50%;
+
+          $bullet-halo : 4px;
+          &:before,
+          &:after{
+            content: "";
+            position: absolute;
+            border-radius: 50%;
+          }
+          &:before{
+            left: -$bullet-halo;
+            top: -$bullet-halo;
+            right: -$bullet-halo;
+            bottom: -$bullet-halo;
+          }
+          &:after{
+            left: -$bullet-halo * 2;
+            top: -$bullet-halo * 2;
+            right: -$bullet-halo * 2;
+            bottom: -$bullet-halo * 2;
+          }
+        }
+        &.active{
+          color: $color-blue;
+          .bullet{
+            background: $color-blue;
+            &:before{
+              background: rgba($color-blue, 0.29);
+            }
+            &:after{
+              background: rgba($color-blue, 0.29);
+            }
+          }
+        }
+      }
+      &:before{
+        content: "";
+        position: absolute;
+        width: 100%;
+        height: 1px;
+        background: #3c495c;
+      }
+      @media(min-width: 1200px){
+        display:flex;
+
+      }
+    }
   }
   @media(min-width: $grid-desktop-breakpoint){
     &-content {
@@ -293,16 +439,16 @@ section {
         }
       }
       .mdl-grid{
-        margin-left: -8%;
+        //margin-left: -8%;
         margin-top: 0;
-        padding-left: 80px;
-        padding-right: 80px;
+        //padding-left: 80px;
+        //padding-right: 80px;
         text-align: left;
         .hb-col-text{
           padding-left: 80px;
           padding-right: 80px;
           margin-top: 0;
-          margin-left: -8%;
+          margin-left: -6%;
         }
       }
       .mdl-button{

@@ -319,17 +319,99 @@
     <h3>Domaines de compétence</h3>
     <div class="section-competences-content">
       <div class="owl-carousel owl-theme">
-        <div class="mdl-grid">
-          <div class="mdl-cell mdl-cell--4-col mdl-cell--12-col-tablet mdl-cell--12-col-phone">
+        <div class="item mdl-grid" data-dot="Santé">
+          <div class="hb-col-img mdl-cell mdl-cell--5-col mdl-cell--12-col-tablet mdl-cell--12-col-phone">
             <img src="images/sant.jpg" srcset="images/sant@2x.jpg, images/sant@3x.jpg" alt="sante"  class="img-responsive"/>
           </div>
-          <div class="mdl-cell mdl-cell--9-col mdl-cell--12-col-tablet mdl-cell--12-col-phone hb-col-text">
+          <div class="mdl-cell mdl-cell--8-col mdl-cell--12-col-tablet mdl-cell--12-col-phone hb-col-text">
             <h5>Santé</h5>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce eu mi lacus. Curabitur ultrices tortor nulla. Curabitur magna nisi, volutpat eu nunc at, pharetra porttitor tellus. Nullam sagittis eros aliquam consectetur imperdiet. Maecenas rhoncus, sapien quis aliquam rhoncus, erat lectus tincidunt ante, in ultrices sapien nisl sagittis neque. </p>
             <div class="question">Vous avez un projet en santé ?</div>
             <a href="#" class="mdl-button mdl-button-primary mdl-button-color mdl-js-button">Rencontrons-nous</a>
           </div>
         </div>
+        <div class="item mdl-grid" data-dot="Santé">
+          <div class="hb-col-img mdl-cell mdl-cell--5-col mdl-cell--12-col-tablet mdl-cell--12-col-phone">
+            <img src="images/sant.jpg" srcset="images/sant@2x.jpg, images/sant@3x.jpg" alt="sante"  class="img-responsive"/>
+          </div>
+          <div class="mdl-cell mdl-cell--8-col mdl-cell--12-col-tablet mdl-cell--12-col-phone hb-col-text">
+            <h5>Assurance</h5>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce eu mi lacus. Curabitur ultrices tortor nulla. Curabitur magna nisi, volutpat eu nunc at, pharetra porttitor tellus. Nullam sagittis eros aliquam consectetur imperdiet. Maecenas rhoncus, sapien quis aliquam rhoncus, erat lectus tincidunt ante, in ultrices sapien nisl sagittis neque. </p>
+            <div class="question">Vous avez un projet en assurance ?</div>
+            <a href="#" class="mdl-button mdl-button-primary mdl-button-color mdl-js-button">Rencontrons-nous</a>
+          </div>
+        </div>
+        <div class="item mdl-grid" data-dot="Santé">
+          <div class="hb-col-img mdl-cell mdl-cell--5-col mdl-cell--12-col-tablet mdl-cell--12-col-phone">
+            <img src="images/sant.jpg" srcset="images/sant@2x.jpg, images/sant@3x.jpg" alt="sante"  class="img-responsive"/>
+          </div>
+          <div class="mdl-cell mdl-cell--8-col mdl-cell--12-col-tablet mdl-cell--12-col-phone hb-col-text">
+            <h5>Banque</h5>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce eu mi lacus. Curabitur ultrices tortor nulla. Curabitur magna nisi, volutpat eu nunc at, pharetra porttitor tellus. Nullam sagittis eros aliquam consectetur imperdiet. Maecenas rhoncus, sapien quis aliquam rhoncus, erat lectus tincidunt ante, in ultrices sapien nisl sagittis neque. </p>
+            <div class="question">Vous avez un projet bancaire ?</div>
+            <a href="#" class="mdl-button mdl-button-primary mdl-button-color mdl-js-button">Rencontrons-nous</a>
+          </div>
+        </div><div class="item mdl-grid" data-dot="Santé">
+          <div class="hb-col-img mdl-cell mdl-cell--5-col mdl-cell--12-col-tablet mdl-cell--12-col-phone">
+            <img src="images/sant.jpg" srcset="images/sant@2x.jpg, images/sant@3x.jpg" alt="sante"  class="img-responsive"/>
+          </div>
+          <div class="mdl-cell mdl-cell--8-col mdl-cell--12-col-tablet mdl-cell--12-col-phone hb-col-text">
+            <h5>Télécommunication</h5>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce eu mi lacus. Curabitur ultrices tortor nulla. Curabitur magna nisi, volutpat eu nunc at, pharetra porttitor tellus. Nullam sagittis eros aliquam consectetur imperdiet. Maecenas rhoncus, sapien quis aliquam rhoncus, erat lectus tincidunt ante, in ultrices sapien nisl sagittis neque. </p>
+            <div class="question">Vous avez un projet en télécommunication ?</div>
+            <a href="#" class="mdl-button mdl-button-primary mdl-button-color mdl-js-button">Rencontrons-nous</a>
+          </div>
+        </div><div class="item mdl-grid" data-dot="Santé">
+          <div class="hb-col-img mdl-cell mdl-cell--5-col mdl-cell--12-col-tablet mdl-cell--12-col-phone">
+            <img src="images/sant.jpg" srcset="images/sant@2x.jpg, images/sant@3x.jpg" alt="sante"  class="img-responsive"/>
+          </div>
+          <div class="mdl-cell mdl-cell--8-col mdl-cell--12-col-tablet mdl-cell--12-col-phone hb-col-text">
+            <h5>Automobile</h5>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce eu mi lacus. Curabitur ultrices tortor nulla. Curabitur magna nisi, volutpat eu nunc at, pharetra porttitor tellus. Nullam sagittis eros aliquam consectetur imperdiet. Maecenas rhoncus, sapien quis aliquam rhoncus, erat lectus tincidunt ante, in ultrices sapien nisl sagittis neque. </p>
+            <div class="question">Vous avez un projet automobile ?</div>
+            <a href="#" class="mdl-button mdl-button-primary mdl-button-color mdl-js-button">Rencontrons-nous</a>
+          </div>
+        </div><div class="item mdl-grid" data-dot="Santé">
+          <div class="hb-col-img mdl-cell mdl-cell--5-col mdl-cell--12-col-tablet mdl-cell--12-col-phone">
+            <img src="images/sant.jpg" srcset="images/sant@2x.jpg, images/sant@3x.jpg" alt="sante"  class="img-responsive"/>
+          </div>
+          <div class="mdl-cell mdl-cell--8-col mdl-cell--12-col-tablet mdl-cell--12-col-phone hb-col-text">
+            <h5>Aéronautique</h5>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce eu mi lacus. Curabitur ultrices tortor nulla. Curabitur magna nisi, volutpat eu nunc at, pharetra porttitor tellus. Nullam sagittis eros aliquam consectetur imperdiet. Maecenas rhoncus, sapien quis aliquam rhoncus, erat lectus tincidunt ante, in ultrices sapien nisl sagittis neque. </p>
+            <div class="question">Vous avez un projet dans l'aéronautique ?</div>
+            <a href="#" class="mdl-button mdl-button-primary mdl-button-color mdl-js-button">Rencontrons-nous</a>
+          </div>
+        </div><div class="item mdl-grid" data-dot="Santé">
+          <div class="hb-col-img mdl-cell mdl-cell--5-col mdl-cell--12-col-tablet mdl-cell--12-col-phone">
+            <img src="images/sant.jpg" srcset="images/sant@2x.jpg, images/sant@3x.jpg" alt="sante"  class="img-responsive"/>
+          </div>
+          <div class="mdl-cell mdl-cell--8-col mdl-cell--12-col-tablet mdl-cell--12-col-phone hb-col-text">
+            <h5>Agroalimentaire</h5>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce eu mi lacus. Curabitur ultrices tortor nulla. Curabitur magna nisi, volutpat eu nunc at, pharetra porttitor tellus. Nullam sagittis eros aliquam consectetur imperdiet. Maecenas rhoncus, sapien quis aliquam rhoncus, erat lectus tincidunt ante, in ultrices sapien nisl sagittis neque. </p>
+            <div class="question">Vous avez un projet en agroalimentaire ?</div>
+            <a href="#" class="mdl-button mdl-button-primary mdl-button-color mdl-js-button">Rencontrons-nous</a>
+          </div>
+        </div><div class="item mdl-grid" data-dot="Santé">
+          <div class="hb-col-img mdl-cell mdl-cell--5-col mdl-cell--12-col-tablet mdl-cell--12-col-phone">
+            <img src="images/sant.jpg" srcset="images/sant@2x.jpg, images/sant@3x.jpg" alt="sante"  class="img-responsive"/>
+          </div>
+          <div class="mdl-cell mdl-cell--8-col mdl-cell--12-col-tablet mdl-cell--12-col-phone hb-col-text">
+            <h5>Retail</h5>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce eu mi lacus. Curabitur ultrices tortor nulla. Curabitur magna nisi, volutpat eu nunc at, pharetra porttitor tellus. Nullam sagittis eros aliquam consectetur imperdiet. Maecenas rhoncus, sapien quis aliquam rhoncus, erat lectus tincidunt ante, in ultrices sapien nisl sagittis neque. </p>
+            <div class="question">Vous avez un projet retail ?</div>
+            <a href="#" class="mdl-button mdl-button-primary mdl-button-color mdl-js-button">Rencontrons-nous</a>
+          </div>
+        </div>
+      </div>
+      <div id="dots-competences" class="owl-dots">
+        <div class="dot"><span class="bullet"></span>Santé</div>
+        <div class="dot"><span class="bullet"></span>Assurance</div>
+        <div class="dot"><span class="bullet"></span>Banque</div>
+        <div class="dot"><span class="bullet"></span>Télécommunication</div>
+        <div class="dot"><span class="bullet"></span>Automobile</div>
+        <div class="dot"><span class="bullet"></span>Aéronautique</div>
+        <div class="dot"><span class="bullet"></span>Agroalimentaire</div>
+        <div class="dot"><span class="bullet"></span>Retail</div>
       </div>
     </div>
   </section>
