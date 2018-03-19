@@ -21,8 +21,14 @@
   .link{
     display: inline-block;
     color: $custom-black;
-    font-size: 19px;
+    font-size: 17px;
     padding: 5px 0;
+    &:hover{
+      color: unquote('rgb(#{$color-primary})');
+    }
+    @media(min-width: $grid-tablet-breakpoint){
+      font-size: 19px;
+    }
   }
   .mdl-mega-footer__link-list {
     padding:0;

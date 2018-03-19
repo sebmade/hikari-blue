@@ -6,12 +6,12 @@
       <li>
         <span></span>
       </li>
-      <!--<li>-->
-      <!--<span>Image 02</span>-->
-      <!--</li>-->
-      <!--<li>-->
-      <!--<span>Image 03</span>-->
-      <!--</li>-->
+      <li>
+      <span>Image 02</span>
+      </li>
+      <li>
+      <span>Image 03</span>
+      </li>
     </ul>
     <div class="section-intro-content">
       <h1 class="mdl-typography--font-light  text-white">Construire ensemble<br/>
@@ -74,11 +74,11 @@
       <div class="mdl-cell mdl-cell--12-col">
         <h3>&Eacute;tudes de cas</h3>
       </div>
-      <div class="mdl-cell mdl-cell--12-col hb-card hb-card--media mdl-card">
+      <div class="mdl-cell mdl-cell--12-col hb-card hb-card--media hb-card--media-full-width mdl-card">
         <div class="hb-card__img-container">
           <img src="images/etude_cas/servier.jpg" srcset="images/etude_cas/servier@2x.jpg 2x, images/etude_cas/servier@3x.jpg 3x">
         </div>
-        <a class="hb-card__content" href="https://medium.com/@sebmade/repenser-experience-utilisateur-assurance-f3d13ceca938" target="_blank">
+        <div class="hb-card__content" >
           <div class="hb-card__title">
             Acculturation au numérique dans la santé
           </div>
@@ -87,18 +87,18 @@
             dans l'e-santé et découverte de l'écosystème de la santé numérique de la Silicon Valley.
           </div>
           <div class="hb-card__actions mdl-typography--text-center">
-              <span class="mdl-button mdl-button-icon mdl-js-button">
+              <a class="mdl-button mdl-button-icon mdl-js-button" href="https://medium.com/@sebmade/repenser-experience-utilisateur-assurance-f3d13ceca938" target="_blank">
                 <span>LIRE L'ETUDE</span>
                 <i class="hb-icon hb-icon-btn-next"></i>
-              </span>
+              </a>
           </div>
-        </a>
+        </div>
       </div>
       <div class="mdl-cell mdl-cell--12-col-tablet mdl-cell--6-col hb-card hb-card--media mdl-card">
         <div class="hb-card__img-container">
           <img src="images/etude_cas/keydiag.jpg" srcset="images/etude_cas/keydiag@2x.jpg, images/etude_cas/keydiag@3x.jpg">
         </div>
-        <a class="hb-card__content">
+        <div class="hb-card__content">
           <div class="hb-card__title">
             Le radiologue du futur
           </div>
@@ -106,18 +106,18 @@
             Issu de notre événement d'innovation Hacking Health Camp, nous avons accompagné une équipe de radiologue à concevoir l'outil innovant leur permettant de créer de la valeur ajoutée…
           </div>
           <div class="hb-card__actions">
-              <span class="mdl-button mdl-button-icon  mdl-js-button">
+              <a class="mdl-button mdl-button-icon mdl-js-button">
                 <span>LIRE L'ETUDE</span>
                 <i class="hb-icon hb-icon-btn-next"></i>
-              </span>
+              </a>
           </div>
-        </a>
+        </div>
       </div>
       <div class="mdl-cell mdl-cell--12-col-tablet mdl-cell--6-col hb-card hb-card--media mdl-card">
         <div class="hb-card__img-container">
           <img src="images/etude_cas/hellovictor.jpg" srcset="images/etude_cas/hellovictor@2x.jpg, images/etude_cas/hellovictor@3x.jpg">
         </div>
-        <a class="hb-card__content">
+        <div class="hb-card__content">
           <div class="hb-card__title">
             Réinventer l'assurance pour les millénials
           </div>
@@ -125,12 +125,12 @@
             Transformer le secteur de l'assurance pour proposer une expérience utilisateur répondant aux attentes des jeunes, c'est l'objectif du projet Hello Victor développé sur la base d'une idée simple : pouvoir souscrire …
           </div>
           <div class="hb-card__actions">
-              <span class="mdl-button mdl-button-icon mdl-js-button">
+              <a class="mdl-button mdl-button-icon mdl-js-button">
               <span>LIRE l'ETUDE</span>
                 <i class="hb-icon hb-icon-btn-next"></i>
-              </span>
+              </a>
           </div>
-        </a>
+        </div>
       </div>
       <div class="mdl-cell mdl-cell--12-col">
         <a class="mdl-button mdl-button-primary mdl-button-color mdl-js-button hb-button__case-studies" href="https://medium.com/hikari-blue" target="_blank">
@@ -146,7 +146,7 @@
     <div class="grid-expertises">
       <div class="mdl-grid container ">
         <div class="mdl-cell mdl-cell--4-col mdl-cell--12-col-tablet">
-          <img src="images/consulting.svg" alt="">
+          <div class="img"><img src="images/consulting.svg" alt=""></div>
           <h4>Consulting
             <div class="dash"></div>
           </h4>
@@ -164,7 +164,7 @@
 
         </div>
         <div class="mdl-cell mdl-cell--4-col mdl-cell--12-col-tablet">
-          <img src="images/exubation.svg" alt="">
+          <div class="img"><img src="images/exubation.svg" alt=""></div>
           <h4>Exubation
             <div class="dash"></div>
           </h4>
@@ -177,7 +177,7 @@
           </ul>
         </div>
         <div class="mdl-cell mdl-cell--4-col mdl-cell--12-col-tablet">
-          <img src="images/incubation.svg" alt="">
+          <div class="img"><img src="images/incubation.svg" alt=""></div>
           <h4>Incubation
             <div class="dash"></div>
           </h4>
@@ -201,7 +201,7 @@
           </ul>
         </div>
         <div class="mdl-cell mdl-cell--4-col mdl-cell--12-col-tablet">
-          <img src="images/evenementiel.svg" alt="">
+          <div class="img"><img src="images/evenementiel.svg" alt=""></div>
           <h4>Événementiel
             <div class="dash"></div>
           </h4>
@@ -213,17 +213,17 @@
           </ul>
         </div>
         <div class="mdl-cell mdl-cell--4-col mdl-cell--12-col-tablet">
-          <img src="images/academy.svg" alt="">
-          <h4>Hikarie Blue Academy
+          <div class="img"><img src="images/academy.svg" alt=""></div>
+          <h4>Hikari Blue Academy
             <div class="dash"></div>
           </h4>
           <ul>
             <li>Mooc | innovative digital trends <span class="mdl-typography--text-lowercase">(Avril 2018)</span></li>
           </ul>
         </div>
-      </div
+      </div>
     </div>
-    >
+
   </section>
 
   <a name="method"></a>
@@ -332,7 +332,7 @@
         </div>
         <div class="item mdl-grid" data-dot="Santé">
           <div class="hb-col-img mdl-cell mdl-cell--5-col mdl-cell--12-col-tablet mdl-cell--12-col-phone">
-            <img src="images/sant.jpg" srcset="images/sant@2x.jpg, images/sant@3x.jpg" alt="sante"  class="img-responsive"/>
+            <img src="images/assurance.jpg" srcset="images/assurance@2x.jpg, images/assurance@3x.jpg" alt="sante"  class="img-responsive"/>
           </div>
           <div class="mdl-cell mdl-cell--8-col mdl-cell--12-col-tablet mdl-cell--12-col-phone hb-col-text">
             <h5>Assurance</h5>
@@ -343,7 +343,7 @@
         </div>
         <div class="item mdl-grid" data-dot="Santé">
           <div class="hb-col-img mdl-cell mdl-cell--5-col mdl-cell--12-col-tablet mdl-cell--12-col-phone">
-            <img src="images/sant.jpg" srcset="images/sant@2x.jpg, images/sant@3x.jpg" alt="sante"  class="img-responsive"/>
+            <img src="images/banque.jpg" srcset="images/banque@2x.jpg, images/banque@3x.jpg" alt="sante"  class="img-responsive"/>
           </div>
           <div class="mdl-cell mdl-cell--8-col mdl-cell--12-col-tablet mdl-cell--12-col-phone hb-col-text">
             <h5>Banque</h5>
@@ -353,7 +353,7 @@
           </div>
         </div><div class="item mdl-grid" data-dot="Santé">
           <div class="hb-col-img mdl-cell mdl-cell--5-col mdl-cell--12-col-tablet mdl-cell--12-col-phone">
-            <img src="images/sant.jpg" srcset="images/sant@2x.jpg, images/sant@3x.jpg" alt="sante"  class="img-responsive"/>
+            <img src="images/t-l-communication.jpg" srcset="images/t-l-communication@2x.jpg, images/t-l-communication@3x.jpg" alt="sante"  class="img-responsive"/>
           </div>
           <div class="mdl-cell mdl-cell--8-col mdl-cell--12-col-tablet mdl-cell--12-col-phone hb-col-text">
             <h5>Télécommunication</h5>
@@ -363,7 +363,7 @@
           </div>
         </div><div class="item mdl-grid" data-dot="Santé">
           <div class="hb-col-img mdl-cell mdl-cell--5-col mdl-cell--12-col-tablet mdl-cell--12-col-phone">
-            <img src="images/sant.jpg" srcset="images/sant@2x.jpg, images/sant@3x.jpg" alt="sante"  class="img-responsive"/>
+            <img src="images/automobile.jpg" srcset="images/automobile@2x.jpg, images/automobile@3x.jpg" alt="sante"  class="img-responsive"/>
           </div>
           <div class="mdl-cell mdl-cell--8-col mdl-cell--12-col-tablet mdl-cell--12-col-phone hb-col-text">
             <h5>Automobile</h5>
@@ -373,7 +373,7 @@
           </div>
         </div><div class="item mdl-grid" data-dot="Santé">
           <div class="hb-col-img mdl-cell mdl-cell--5-col mdl-cell--12-col-tablet mdl-cell--12-col-phone">
-            <img src="images/sant.jpg" srcset="images/sant@2x.jpg, images/sant@3x.jpg" alt="sante"  class="img-responsive"/>
+            <img src="images/a-ronautique.jpg" srcset="images/a-ronautique@2x.jpg, images/a-ronautique@3x.jpg" alt="sante"  class="img-responsive"/>
           </div>
           <div class="mdl-cell mdl-cell--8-col mdl-cell--12-col-tablet mdl-cell--12-col-phone hb-col-text">
             <h5>Aéronautique</h5>
@@ -383,7 +383,7 @@
           </div>
         </div><div class="item mdl-grid" data-dot="Santé">
           <div class="hb-col-img mdl-cell mdl-cell--5-col mdl-cell--12-col-tablet mdl-cell--12-col-phone">
-            <img src="images/sant.jpg" srcset="images/sant@2x.jpg, images/sant@3x.jpg" alt="sante"  class="img-responsive"/>
+            <img src="images/agroalimentaire.jpg" srcset="images/agroalimentaire@2x.jpg, images/agroalimentaire@3x.jpg" alt="sante"  class="img-responsive"/>
           </div>
           <div class="mdl-cell mdl-cell--8-col mdl-cell--12-col-tablet mdl-cell--12-col-phone hb-col-text">
             <h5>Agroalimentaire</h5>
@@ -393,7 +393,7 @@
           </div>
         </div><div class="item mdl-grid" data-dot="Santé">
           <div class="hb-col-img mdl-cell mdl-cell--5-col mdl-cell--12-col-tablet mdl-cell--12-col-phone">
-            <img src="images/sant.jpg" srcset="images/sant@2x.jpg, images/sant@3x.jpg" alt="sante"  class="img-responsive"/>
+            <img src="images/retail.jpg" srcset="images/retail@2x.jpg, images/retail@3x.jpg" alt="sante"  class="img-responsive"/>
           </div>
           <div class="mdl-cell mdl-cell--8-col mdl-cell--12-col-tablet mdl-cell--12-col-phone hb-col-text">
             <h5>Retail</h5>

@@ -42,3 +42,18 @@
   max-width: 100%;
   height: auto;
 }
+
+.cover{
+  position: relative;
+  overflow: hidden;
+  img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    min-width: 100%;
+    height: auto;
+    min-height: 100%;
+    transform: translate(-50%, -50%);
+  }
+}

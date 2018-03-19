@@ -55,14 +55,14 @@
         <i class="material-icons icon icon--close" role="presentation">close</i>
       </a>
       <div class="mdl-layout__header-row">
-        <a href="/" class="logo"><img src="images/hikari-blue-logo.svg" alt="hikari-blue" ></a>
+        <a href="/" class="logo"><img src="images/logo.svg" alt="hikari-blue" ></a>
         <div class="mdl-layout-spacer"></div>
         <nav class="mdl-navigation mdl-layout--large-screen-only">
-          <a class="mdl-navigation__link" href="index.html#casestudy">Études de cas</a>
           <a class="mdl-navigation__link" href="index.html#about">Raison d'être</a>
-          <a class="mdl-navigation__link" href="index.html#method">Méthode</a>
+          <a class="mdl-navigation__link" href="index.html#casestudy">Études de cas</a>
           <a class="mdl-navigation__link" href="index.html#expertise">Expertises</a>
-          <!--<a class="mdl-navigation__link" href="index.html#news">Actualités</a>-->
+          <a class="mdl-navigation__link" href="index.html#method">Méthode</a>
+          <a class="mdl-navigation__link" href="index.html#competences">Domaines de compétences</a>
           <a class="mdl-navigation__link" href="contact.html">Contact</a>
         </nav>
       </div>
@@ -102,7 +102,7 @@
           <div class="mdl-mega-footer__drop-down-section block-logo">
             <img src="images/hikari-blue-logo.svg" alt="hikari-blue" class="logo">
             <div class="copyright">
-              &copy; 2017 Hikari Blue - Tous droits réservés
+              &copy; 2018 Hikari Blue - Tous droits réservés
               <br/>
               Liberty au capital de 1.000.000 €
             </div>
@@ -130,7 +130,7 @@
                 <a class="link" href="index.html#news">Actualités</a>
               </li>-->
               <li>
-                <a class="link" href="/contact.html">Contact</a>
+                <a class="link" href="mailto:hello@hikariblue.com">Contact</a>
               </li>
             </ul>
           </div>

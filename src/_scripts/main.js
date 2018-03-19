@@ -47,6 +47,12 @@ require('owl.carousel');
     $('.mdl-layout__header').addClass('mini');
   });
 
+  $('.hb-card--media .mdl-button').on('mouseenter',function(){
+    $(this).parents('.hb-card').addClass('hover');
+  }).on('mouseleave', function(){
+    $(this).parents('.hb-card').removeClass('hover');
+  });
+
    $('.contact-form').on('submit', function (e) {
     var form = $(this);
 
