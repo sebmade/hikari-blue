@@ -17,7 +17,7 @@
       <h1 class="mdl-typography--font-light  text-white">Construire ensemble<br/>
         <span class="mdl-typography--font-bold "> des solutions innovantes</span>
       </h1>
-      <h2 class="text-white">Analyser, proposer, concevoir, réaliser, pour chaque projet Hikari Blue vous apporte des solutions co-construite pour
+      <h2 class="text-white">Analyser, proposer, concevoir, réaliser, pour chaque projet Hikari Blue vous apporte des solutions co-construites pour
         envisager l'avenir de manière innovante.</h2>
       <!--<i class="hb-icon hb-icon-btn-next"></i>-->
     </div>
@@ -87,7 +87,7 @@
             dans l'e-santé et découverte de l'écosystème de la santé numérique de la Silicon Valley.
           </div>
           <div class="hb-card__actions mdl-typography--text-center">
-              <a class="mdl-button mdl-button-icon mdl-js-button" href="https://medium.com/@sebmade/repenser-experience-utilisateur-assurance-f3d13ceca938" target="_blank">
+              <a class="mdl-button mdl-button-icon mdl-js-button" href="https://medium.com/hikari-blue/acculturation-au-num%C3%A9rique-dans-la-sant%C3%A9-a8a67c33f39e" target="_blank">
                 <span>LIRE L'ETUDE</span>
                 <i class="hb-icon hb-icon-btn-next"></i>
               </a>
@@ -125,7 +125,7 @@
             Transformer le secteur de l'assurance pour proposer une expérience utilisateur répondant aux attentes des jeunes, c'est l'objectif du projet Hello Victor développé sur la base d'une idée simple : pouvoir souscrire …
           </div>
           <div class="hb-card__actions">
-              <a class="mdl-button mdl-button-icon mdl-js-button">
+              <a href="https://medium.com/hikari-blue/repenser-experience-utilisateur-assurance-f3d13ceca938" target="_blank" class="mdl-button mdl-button-icon mdl-js-button">
               <span>LIRE l'ETUDE</span>
                 <i class="hb-icon hb-icon-btn-next"></i>
               </a>
@@ -142,7 +142,7 @@
 
   <a name="expertise"></a>
   <section class="section-expertises">
-    <h3>Expertises</h3>
+    <h3>Nos expertises</h3>
     <div class="grid-expertises">
       <div class="mdl-grid container ">
         <div class="mdl-cell mdl-cell--4-col mdl-cell--12-col-tablet">
@@ -182,7 +182,7 @@
             <div class="dash"></div>
           </h4>
           <ul>
-            <li>Développement de projets innovants en interne</li>
+            <li>développement de projets innovants en interne</li>
             <li>expérimentation d’idées & de technologie</li>
           </ul>
         </div>
@@ -218,7 +218,7 @@
             <div class="dash"></div>
           </h4>
           <ul>
-            <li>Mooc | innovative digital trends <span class="mdl-typography--text-lowercase">(Avril 2018)</span></li>
+            <li>mooc | innovative digital trends <span class="mdl-typography--text-lowercase">(Avril 2018)</span></li>
           </ul>
         </div>
       </div>
@@ -234,8 +234,7 @@
       <div class="mdl-grid">
         <div class="method-step step--1 mdl-cell--4-col mdl-cell--12-col-tablet mdl-cell--12-col-phone">
           <div class="step-number">1</div>
-          <h5 class="mdl-typography--text-uppercase mdl-typography--font-bold">Recherche d'un modèle
-            <br>économique</h5>
+          <h5 class="mdl-typography--text-uppercase mdl-typography--font-bold">recherche d'un nouveau<br/> modèle économique</h5>
           <div class="mdl-grid grid-steps">
             <div class="mdl-cell--5-col mdl-cell--3-col-tablet mdl-cell--12-col-phone margin-auto">
               <div class="oval vertical-align-middle">

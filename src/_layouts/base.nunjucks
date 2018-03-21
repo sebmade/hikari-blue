@@ -60,7 +60,7 @@
         <nav class="mdl-navigation mdl-layout--large-screen-only">
           <a class="mdl-navigation__link" href="index.html#about">Raison d'être</a>
           <a class="mdl-navigation__link" href="index.html#casestudy">Études de cas</a>
-          <a class="mdl-navigation__link" href="index.html#expertise">Expertises</a>
+          <a class="mdl-navigation__link" href="index.html#expertise">Nos expertises</a>
           <a class="mdl-navigation__link" href="index.html#method">Méthode</a>
           <a class="mdl-navigation__link" href="index.html#competences">Domaines de compétences</a>
           <a class="mdl-navigation__link" href="contact.html">Contact</a>
@@ -72,7 +72,7 @@
         <a class="mdl-navigation__link" href="index.html#casestudy">Études de cas</a>
         <a class="mdl-navigation__link" href="index.html#about">Raison d'être</a>
         <a class="mdl-navigation__link" href="index.html#method">Méthode</a>
-        <a class="mdl-navigation__link" href="index.html#expertise">Expertises</a>
+        <a class="mdl-navigation__link" href="index.html#expertise">Nos expertises</a>
         <!--<a class="mdl-navigation__link" href="index.html#news">Actualités</a>-->
         <a class="mdl-navigation__link" href="contact.html">Contact</a>
       </nav>
@@ -117,7 +117,7 @@
                 <a class="link" href="index.html#casestudy">Études de cas</a>
               </li>
               <li>
-                <a class="link" href="index.html#expertise">Expertises</a>
+                <a class="link" href="index.html#expertise">Nos expertises</a>
               </li>
               <li>
                 <a class="link" href="index.html#method">Méthode</a>
