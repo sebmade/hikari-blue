@@ -317,7 +317,7 @@
   <a name="domaines-de-competence"></a>
   <section class="section-competences">
     <h3>Domaines de compétence</h3>
-    <div class="section-competences-content">
+    <div class="section-competences-content bg-black">
       <div class="owl-carousel owl-theme">
         <div class="item mdl-grid" data-dot="Santé">
           <div class="hb-col-img mdl-cell mdl-cell--5-col mdl-cell--12-col-tablet mdl-cell--12-col-phone">
@@ -327,10 +327,10 @@
             <h5>Santé</h5>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce eu mi lacus. Curabitur ultrices tortor nulla. Curabitur magna nisi, volutpat eu nunc at, pharetra porttitor tellus. Nullam sagittis eros aliquam consectetur imperdiet. Maecenas rhoncus, sapien quis aliquam rhoncus, erat lectus tincidunt ante, in ultrices sapien nisl sagittis neque. </p>
             <div class="question">Vous avez un projet en santé ?</div>
-            <a href="#" class="mdl-button mdl-button-primary mdl-button-color mdl-js-button">Rencontrons-nous</a>
+            <a href="mailto:hello@hikariblue.com" class="mdl-button mdl-button-primary mdl-button-color mdl-js-button">Rencontrons-nous</a>
           </div>
         </div>
-        <div class="item mdl-grid" data-dot="Santé">
+        <div class="item mdl-grid" data-dot="Assurance">
           <div class="hb-col-img mdl-cell mdl-cell--5-col mdl-cell--12-col-tablet mdl-cell--12-col-phone">
             <img src="images/assurance.jpg" srcset="images/assurance@2x.jpg, images/assurance@3x.jpg" alt="sante"  class="img-responsive"/>
           </div>
@@ -338,10 +338,10 @@
             <h5>Assurance</h5>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce eu mi lacus. Curabitur ultrices tortor nulla. Curabitur magna nisi, volutpat eu nunc at, pharetra porttitor tellus. Nullam sagittis eros aliquam consectetur imperdiet. Maecenas rhoncus, sapien quis aliquam rhoncus, erat lectus tincidunt ante, in ultrices sapien nisl sagittis neque. </p>
             <div class="question">Vous avez un projet en assurance ?</div>
-            <a href="#" class="mdl-button mdl-button-primary mdl-button-color mdl-js-button">Rencontrons-nous</a>
+            <a href="mailto:hello@hikariblue.com" class="mdl-button mdl-button-primary mdl-button-color mdl-js-button">Rencontrons-nous</a>
           </div>
         </div>
-        <div class="item mdl-grid" data-dot="Santé">
+        <div class="item mdl-grid" data-dot="Banque">
           <div class="hb-col-img mdl-cell mdl-cell--5-col mdl-cell--12-col-tablet mdl-cell--12-col-phone">
             <img src="images/banque.jpg" srcset="images/banque@2x.jpg, images/banque@3x.jpg" alt="sante"  class="img-responsive"/>
           </div>
@@ -349,49 +349,32 @@
             <h5>Banque</h5>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce eu mi lacus. Curabitur ultrices tortor nulla. Curabitur magna nisi, volutpat eu nunc at, pharetra porttitor tellus. Nullam sagittis eros aliquam consectetur imperdiet. Maecenas rhoncus, sapien quis aliquam rhoncus, erat lectus tincidunt ante, in ultrices sapien nisl sagittis neque. </p>
             <div class="question">Vous avez un projet bancaire ?</div>
-            <a href="#" class="mdl-button mdl-button-primary mdl-button-color mdl-js-button">Rencontrons-nous</a>
+            <a href="mailto:hello@hikariblue.com" class="mdl-button mdl-button-primary mdl-button-color mdl-js-button">Rencontrons-nous</a>
           </div>
-        </div><div class="item mdl-grid" data-dot="Santé">
+        </div><div class="item mdl-grid" data-dot="Immobilier">
           <div class="hb-col-img mdl-cell mdl-cell--5-col mdl-cell--12-col-tablet mdl-cell--12-col-phone">
-            <img src="images/t-l-communication.jpg" srcset="images/t-l-communication@2x.jpg, images/t-l-communication@3x.jpg" alt="sante"  class="img-responsive"/>
+            <img src="images/immobilier.jpg"  alt="sante"  class="img-responsive"/>
           </div>
           <div class="mdl-cell mdl-cell--8-col mdl-cell--12-col-tablet mdl-cell--12-col-phone hb-col-text">
-            <h5>Télécommunication</h5>
+            <h5>Immobilier</h5>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce eu mi lacus. Curabitur ultrices tortor nulla. Curabitur magna nisi, volutpat eu nunc at, pharetra porttitor tellus. Nullam sagittis eros aliquam consectetur imperdiet. Maecenas rhoncus, sapien quis aliquam rhoncus, erat lectus tincidunt ante, in ultrices sapien nisl sagittis neque. </p>
             <div class="question">Vous avez un projet en télécommunication ?</div>
-            <a href="#" class="mdl-button mdl-button-primary mdl-button-color mdl-js-button">Rencontrons-nous</a>
+            <a href="mailto:hello@hikariblue.com" class="mdl-button mdl-button-primary mdl-button-color mdl-js-button">Rencontrons-nous</a>
           </div>
-        </div><div class="item mdl-grid" data-dot="Santé">
-          <div class="hb-col-img mdl-cell mdl-cell--5-col mdl-cell--12-col-tablet mdl-cell--12-col-phone">
-            <img src="images/automobile.jpg" srcset="images/automobile@2x.jpg, images/automobile@3x.jpg" alt="sante"  class="img-responsive"/>
-          </div>
-          <div class="mdl-cell mdl-cell--8-col mdl-cell--12-col-tablet mdl-cell--12-col-phone hb-col-text">
-            <h5>Automobile</h5>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce eu mi lacus. Curabitur ultrices tortor nulla. Curabitur magna nisi, volutpat eu nunc at, pharetra porttitor tellus. Nullam sagittis eros aliquam consectetur imperdiet. Maecenas rhoncus, sapien quis aliquam rhoncus, erat lectus tincidunt ante, in ultrices sapien nisl sagittis neque. </p>
-            <div class="question">Vous avez un projet automobile ?</div>
-            <a href="#" class="mdl-button mdl-button-primary mdl-button-color mdl-js-button">Rencontrons-nous</a>
-          </div>
-        </div><div class="item mdl-grid" data-dot="Santé">
+        </div>
+        <div class="item mdl-grid" data-dot="Industrie">
           <div class="hb-col-img mdl-cell mdl-cell--5-col mdl-cell--12-col-tablet mdl-cell--12-col-phone">
             <img src="images/a-ronautique.jpg" srcset="images/a-ronautique@2x.jpg, images/a-ronautique@3x.jpg" alt="sante"  class="img-responsive"/>
           </div>
           <div class="mdl-cell mdl-cell--8-col mdl-cell--12-col-tablet mdl-cell--12-col-phone hb-col-text">
-            <h5>Aéronautique</h5>
+            <h5>Industrie</h5>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce eu mi lacus. Curabitur ultrices tortor nulla. Curabitur magna nisi, volutpat eu nunc at, pharetra porttitor tellus. Nullam sagittis eros aliquam consectetur imperdiet. Maecenas rhoncus, sapien quis aliquam rhoncus, erat lectus tincidunt ante, in ultrices sapien nisl sagittis neque. </p>
             <div class="question">Vous avez un projet dans l'aéronautique ?</div>
-            <a href="#" class="mdl-button mdl-button-primary mdl-button-color mdl-js-button">Rencontrons-nous</a>
+            <a href="mailto:hello@hikariblue.com" class="mdl-button mdl-button-primary mdl-button-color mdl-js-button">Rencontrons-nous</a>
           </div>
-        </div><div class="item mdl-grid" data-dot="Santé">
-          <div class="hb-col-img mdl-cell mdl-cell--5-col mdl-cell--12-col-tablet mdl-cell--12-col-phone">
-            <img src="images/agroalimentaire.jpg" srcset="images/agroalimentaire@2x.jpg, images/agroalimentaire@3x.jpg" alt="sante"  class="img-responsive"/>
-          </div>
-          <div class="mdl-cell mdl-cell--8-col mdl-cell--12-col-tablet mdl-cell--12-col-phone hb-col-text">
-            <h5>Agroalimentaire</h5>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce eu mi lacus. Curabitur ultrices tortor nulla. Curabitur magna nisi, volutpat eu nunc at, pharetra porttitor tellus. Nullam sagittis eros aliquam consectetur imperdiet. Maecenas rhoncus, sapien quis aliquam rhoncus, erat lectus tincidunt ante, in ultrices sapien nisl sagittis neque. </p>
-            <div class="question">Vous avez un projet en agroalimentaire ?</div>
-            <a href="#" class="mdl-button mdl-button-primary mdl-button-color mdl-js-button">Rencontrons-nous</a>
-          </div>
-        </div><div class="item mdl-grid" data-dot="Santé">
+        </div>
+
+        <div class="item mdl-grid" data-dot="Retail">
           <div class="hb-col-img mdl-cell mdl-cell--5-col mdl-cell--12-col-tablet mdl-cell--12-col-phone">
             <img src="images/retail.jpg" srcset="images/retail@2x.jpg, images/retail@3x.jpg" alt="sante"  class="img-responsive"/>
           </div>
@@ -399,7 +382,7 @@
             <h5>Retail</h5>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce eu mi lacus. Curabitur ultrices tortor nulla. Curabitur magna nisi, volutpat eu nunc at, pharetra porttitor tellus. Nullam sagittis eros aliquam consectetur imperdiet. Maecenas rhoncus, sapien quis aliquam rhoncus, erat lectus tincidunt ante, in ultrices sapien nisl sagittis neque. </p>
             <div class="question">Vous avez un projet retail ?</div>
-            <a href="#" class="mdl-button mdl-button-primary mdl-button-color mdl-js-button">Rencontrons-nous</a>
+            <a href="mailto:hello@hikariblue.com" class="mdl-button mdl-button-primary mdl-button-color mdl-js-button">Rencontrons-nous</a>
           </div>
         </div>
       </div>
@@ -407,21 +390,23 @@
         <div class="dot"><span class="bullet"></span>Santé</div>
         <div class="dot"><span class="bullet"></span>Assurance</div>
         <div class="dot"><span class="bullet"></span>Banque</div>
-        <div class="dot"><span class="bullet"></span>Télécommunication</div>
-        <div class="dot"><span class="bullet"></span>Automobile</div>
-        <div class="dot"><span class="bullet"></span>Aéronautique</div>
-        <div class="dot"><span class="bullet"></span>Agroalimentaire</div>
+        <div class="dot"><span class="bullet"></span>Immobilier</div>
+        <div class="dot"><span class="bullet"></span>Industrie</div>
         <div class="dot"><span class="bullet"></span>Retail</div>
       </div>
+    </div>
+    <div class="section-competences-bottom bg-black">
+      <img src="images/revolutionindustrielle.png" alt="Révolution industrielle" class="img-responsive block-center"/>
     </div>
   </section>
 
   <a name="aide"></a>
   <section class="section-contact">
-    <h3>Comment pouvons-nous vous aider ?</h3>
+    <h3>Vous avez un projet dans un de ces secteurs?</h3>
     <div class="section-contact-content">
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br/> Donec blandit non enim a pellentesque.</p>
-      <a href="contact.html" class="mdl-button mdl-button-color mdl-button-secondary mdj-js-button hb-button__contact">CONTACT</a>
+      <p> Innovation is the ability to see change as an opportunity...not a treat. </p>
+      <p class="author">Steve Jobs</p>
+      <a href="mailto:hello@hikariblue.com" class="mdl-button mdl-button-color mdl-button-secondary mdj-js-button hb-button__contact">CONTACT</a>
     </div>
   </section>
   <a name="partenaire"></a>

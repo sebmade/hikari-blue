@@ -286,8 +286,7 @@ section {
 .section-competences {
   &-content{
     position: relative;
-    background: unquote('rgb(#{$color-black})');
-    color: #fff;
+
     h5 {
       &:after{
         content: '';
@@ -477,9 +476,12 @@ section {
       }
     }
   }
+  &-bottom{
+    padding-bottom: 30px;
+  }
   @media(min-width: $grid-desktop-breakpoint){
     &-content {
-      padding: 80px;
+      padding: 80px 80px 30px;
       h5{
         &:after{
           margin-left: 0;
@@ -542,8 +544,10 @@ section {
     margin-left: 60px;
     margin-right: 60px;
   }
-  .container, h4{
-    text-align: center;
+  @media(max-width: $grid-tablet-breakpoint){
+    .container, h4{
+      text-align: center;
+    }
   }
   //@media (max-width: 480px){
   //  background-image: url(/images/background-mobile.svg);
@@ -625,6 +629,10 @@ section {
     position: relative;
     background: url(../images/cerveau.png) center center no-repeat unquote("rgb(#{$color-primary})");
     padding: 60px 0 80px;
+    .author{
+      font-size: 18px;
+      font-style: italic;
+    }
     &, p{
       font-size: 22px;
       font-weight: 300;
