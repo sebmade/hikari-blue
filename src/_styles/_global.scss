@@ -1,6 +1,8 @@
 .container{
   margin:auto;
   max-width: 1500px;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 .copyright{
   font-size: 10px;
@@ -32,6 +34,9 @@
 .text-white{
   color: #fff;
 }
+.text-blue{
+  color: $color-blue;
+}
 .bg-primary{
   background: unquote('rgb(#{$color-primary})');
 }
@@ -42,9 +47,27 @@
   background: #1b222c;
   color: #fff;
 }
+.bloc-text{
+  margin: 50px auto;
+  padding: 75px 11%;
+  font-size: 17px;
+  line-height: 1.4;
+  font-weight: 300;
+  @media(min-width: $grid-desktop-breakpoint){
+    font-size: 24px;
+  }
+
+}
 .img-responsive{
   max-width: 100%;
   height: auto;
+}
+.text-large{
+  &, p{
+    font-size:24px;
+    line-height: 1.3;
+    font-weight: 300;
+  }
 }
 
 .cover{

@@ -1,0 +1,86 @@
+<a name="aide"></a>
+<section class="section-contact">
+  <h3>Vous avez un projet dans un de ces secteurs?</h3>
+  <div class="section-contact-content">
+    <div> Innovation is the ability to see change as an opportunity...not a treat. </div>
+    <div class="author">Steve Jobs</div>
+    <a href="mailto:hello@hikariblue.com" class="mdl-button mdl-button-color mdl-button-secondary mdj-js-button hb-button__contact">CONTACT</a>
+  </div>
+</section>
+<a name="partenaire"></a>
+<section class="section-logos">
+  <h3>Partenaires</h3>
+  <div class="section-logos-content bg-white">
+    <div class="mdl-grid">
+      <div class="mdl-cell mdl-cell--4-col">
+        <img alt="thecamp" src="images/thecamp.jpg" srcset="images/thecamp@2x.jpg, images/thecamp@3x.jpg" class="img-responsive" />
+      </div>
+      <div class="mdl-cell mdl-cell--4-col">
+        <img alt="epfl" src="images/epfl.jpg" srcset="images/epfl@2x.jpg, images/epfl@3x.jpg" class="img-responsive" />
+      </div>
+      <div class="mdl-cell mdl-cell--4-col">
+        <img alt="inartis" src="images/inartis.jpg" srcset="images/inartis@2x.jpg, images/inartis@3x.jpg" class="img-responsive" />
+      </div>
+      <div class="mdl-cell mdl-cell--4-col">
+        <img alt="singularity" src="images/singularity.jpg" srcset="images/singularity@2x.jpg, images/singularity@3x.jpg" class="img-responsive" />
+      </div>
+      <div class="mdl-cell mdl-cell--4-col">
+        <img alt="codesign" src="images/codesign.jpg" srcset="images/codesign@2x.jpg, images/codesign@3x.jpg" class="img-responsive" />
+      </div>
+      <div class="mdl-cell mdl-cell--4-col">
+        <img alt="eurogroup" src="images/eurogroup.jpg" srcset="images/eurogroup@2x.jpg, images/eurogroup@3x.jpg" class="img-responsive" />
+      </div>
+      <div class="mdl-cell mdl-cell--4-col">
+        <img alt="frenchtech" src="images/frenchtech.jpg" srcset="images/frenchtech@2x.jpg, images/frenchtech@3x.jpg" class="img-responsive" />
+      </div>
+
+    </div>
+  </div>
+</section>
+<a name="clients"></a>
+<section class="section-logos">
+  <h3>Ils nous font confiance</h3>
+  <div class="section-logos-content bg-white">
+    <div class="mdl-grid">
+      <div class="mdl-cell mdl-cell--4-col">
+        <img alt="gehealthcare" src="images/gehealthcare.jpg" srcset="images/gehealthcare@2x.jpg, images/gehealthcare@3x.jpg" class="img-responsive" />
+      </div>
+      <div class="mdl-cell mdl-cell--4-col">
+        <img alt="sanofi" src="images/sanofi.jpg" srcset="images/sanofi@2x.jpg, images/sanofi@3x.jpg" class="img-responsive" />
+      </div>
+      <div class="mdl-cell mdl-cell--4-col">
+        <img alt="roche" src="images/roche.jpg" srcset="images/roche@2x.jpg, images/roche@3x.jpg" class="img-responsive" />
+      </div>
+      <div class="mdl-cell mdl-cell--4-col">
+        <img alt="ihealth" src="images/ihealth.jpg" srcset="images/ihealth@2x.jpg, images/ihealth@3x.jpg" class="img-responsive" />
+      </div>
+      <div class="mdl-cell mdl-cell--4-col">
+        <img alt="allianz" src="images/allianz.jpg" srcset="images/allianz@2x.jpg, images/allianz@3x.jpg" class="img-responsive" />
+      </div>
+      <div class="mdl-cell mdl-cell--4-col">
+        <img alt="medtronic" src="images/medtronic.jpg" srcset="images/medtronic@2x.jpg, images/medtronic@3x.jpg" class="img-responsive" />
+      </div>
+      <div class="mdl-cell mdl-cell--4-col">
+        <img alt="servier" src="images/servier.jpg" srcset="images/servier@2x.jpg, images/servier@3x.jpg" class="img-responsive" />
+      </div>
+      <div class="mdl-cell mdl-cell--4-col">
+        <img alt="humanis" src="images/humanis.jpg" srcset="images/humanis@2x.jpg, images/humanis@3x.jpg" class="img-responsive" />
+      </div>
+      <div class="mdl-cell mdl-cell--4-col">
+        <img alt="doctissimo" src="images/doctissimo.jpg" srcset="images/doctissimo@2x.jpg, images/doctissimo@3x.jpg" class="img-responsive" />
+      </div>
+      <div class="mdl-cell mdl-cell--4-col">
+        <img alt="samsnung" src="images/samsnung.jpg" srcset="images/samsnung@2x.jpg, images/samsnung@3x.jpg" class="img-responsive" />
+      </div>
+      <div class="mdl-cell mdl-cell--4-col">
+        <img alt="mylan" src="images/mylan.jpg" srcset="images/mylan@2x.jpg, images/mylan@3x.jpg" class="img-responsive" />
+      </div>
+      <div class="mdl-cell mdl-cell--4-col">
+        <img alt="asip" src="images/asip.jpg" srcset="images/asip@2x.jpg, images/asip@3x.jpg" class="img-responsive" />
+      </div>
+      <div class="mdl-cell mdl-cell--4-col">
+        <img alt="vyv" src="images/vyv.jpg" srcset="images/vyv@2x.jpg, images/vyv@3x.jpg" class="img-responsive" />
+      </div>
+    </div>
+  </div>
+</section>

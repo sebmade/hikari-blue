@@ -1,0 +1,152 @@
+{% set bodyClass = 'home' %}
+{% extends '_layouts/base.nunjucks' %} {% block content %}
+<main class="mdl-layout__content main-content" id="hello-victor">
+  <section class="section-intro">
+    <div class="section-intro-content">
+      <img src="images/hello-victor.svg" alt="Hello Victor"/>
+      <h1 class="mdl-typography--font-light  text-white">
+        <span class="mdl-typography--font-bold ">Réinventez l'assurance</span> pour les milléniales
+      </h1>
+    </div>
+  </section>
+
+  <a name="about"></a>
+  <section class="section-about">
+    <div class="section-about-content">
+      <div class="separator-vertical separator-white"></div>
+      <div class="mdl-typography--text-center">
+        <h3 class="mdl-typography--text-uppercase text-white">repenser entièrement l’expérience utilisateur</h3>
+      </div>
+      <div class="container mdl-typography--text-left">
+        <div class="mdl-grid">
+          <div class="mdl-cell mdl-cell--6-col mdl-cell--12-col-tablet mdl-cell--12-col-phone">
+            <p>L’experience utilisateur dans le secteur de l’assurance est totalement dépassée. La souscription est un vrai calvaire, une fois souscrit la seule interaction est la facture annuelle et au final dès lors qu’il y a un sinistre c’est le démarrage d’une négociation pour vérifier la validité de la demande. Pourtant ce secteur se porte bien, en effet les assurances les plus importantes sont obligatoires (auto, logement, responsabilité civile) et les acteurs ne rivalisent pas d’innovation pour améliorer leur offre.</p>
+
+            <p>
+              <strong>Les startups de l’assurtech commencent à faire bouger les lignes et les grands acteurs de l’assurance rivalisent à tenter de les intégrer à leurs offres.</strong> Il est vrai que la barrière à l’entrée est forte pour un nouvel acteur. Créer une société d’assurance de 0 nécessite des fonds (3M € de fonds minimum) pour garantir la solvabilité. Certains ont eu le courage de le faire comme Alan, une assurance santé entièrement digitale. Il n’y avait pas eu de demande d’agrément depuis 1986 !
+            </p>
+          </div>
+          <div class="mdl-layout-spacer"></div>
+          <div class="mdl-cell mdl-cell--6-col mdl-cell--12-col-phone">
+            <p>Comme beaucoup de grandes entreprises, les acteurs majeurs de l’assurance ont beaucoup de mal à créer des innovations. La lourdeur de l’existant, le manque d’agilité et la difficulté d’entreprendre en interne empêchent ces acteurs de proposer des expériences utilisateurs moderne et adaptées à la nouvelle génération.</p>
+
+            <p>Nous avons donc choisi de développer une expérience utilisateur la plus innovante possible. Nous avons lancé le projet Hello Victor.</p>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="">
+    <div class="section-content bg-white">
+      <div class="container">
+        <h3 class="text-center text-notransform text-large">Un développement réussi <br/> grâce à la méthode <strong>lean startup</strong></h3>
+        <div class="mdl-grid mdl-typography--text-left">
+          <div class="mdl-cell mdl-cell--6-col mdl-cell--12-col-tablet mdl-cell--12-col-phone">
+            <p>En mode <strong>lean startup</strong> comme d’habitude nous avons engagé plusieurs interviews auprès du grand public. Combiné à une suite d’ateliers <strong>Value Proposition Design</strong> nous avons identifié que l’attente est forte pour voir émerger des offres plus simple, mieux ciblées et surtout avec une expérience utilisateur digitale adaptée à la jeune génération : <strong>les millenials</strong>.</p>
+          </div>
+          <div class="mdl-layout-spacer"></div>
+          <div class="mdl-layout-spacer"></div>
+          <div class="mdl-cell mdl-cell--6-col mdl-cell--12-col-phone text-large">
+            <p class="text-blue">Il nous fallait alors marketer une proposition de valeur et valider nos hypothèses. Première étape : <strong>développer un site web et mettre en avant une offre.</strong></p>
+          </div>
+        </div>
+        <p><img src="images/visuel-hv.jpg" srcset="images/visuel-hv@2x.jpg 2x, images/visuel-hv@3x.jpg 3x" alt="Offres" class="img-responsive" /></p>
+        <div class="mdl-grid mdl-typography--text-left">
+          <div class="mdl-cell mdl-cell--6-col mdl-cell--12-col-tablet mdl-cell--12-col-phone">
+            <p><strong>Une offre adaptée à leurs besoins, une souscription simple et rapide et une déclaration de sinistre par messagerie instantanée intégrant un chatbot pour une réponse rapide.</strong> L’objectif est de se concentrer sur l’essentiel : assurer seulement ce qui est important, accéder rapidement à l’information (notamment pour les attestations), déclarer simplement un sinistre sans attente téléphonique interminable. Le tout dans une expérience <strong>entièrement sur mobile</strong>.
+              <br/>
+              Techniquement le projet est tout à fait adapté au principe de la Progressive Web App : un site web responsive, qui s’affiche instantanément (moins d’1s), qui fonctionne même sans réseau et qui propose une expérience identique à une application mobile native.</p>
+          </div>
+          <div class="mdl-layout-spacer"></div>
+          <div class="mdl-layout-spacer"></div>
+          <div class="mdl-cell mdl-cell--6-col mdl-cell--12-col-tablet mdl-cell--12-col-phone">
+            <p>Le site web intègre une partie présentation de l’offre et une partie souscription.<br/>
+              Pour ne pas séparer le site web de l’application nécessaire à la souscription il faut intégrer l’ensemble dans une application web et la rendre indexable. Nous avons choisi d’utiliser Angular pour proposer une expérience utilisateur forte et bien adaptée au mobile. Pour rendre indexable la partie présentation il a fallu utiliser une approche “server side rendering” qui permet de générer statiquement des pages de l’application pour lesquelles les interactions utilisateurs sont simples. C’est la raison d’être du projet Angular Universal. Ainsi l’application s’affiche rapidement, le JavaScript se charge en tâche de fond, le temps pour l’utilisateur d’accéder au formulaire de souscription.</p>
+          </div>
+        </div>
+        <p><img src="images/screenshot-hv.jpg" srcset="images/screenshot-hv@2x.jpg 2x, images/screenshot-hv@3x.jpg 3x" alt="Aperçu d'écrans de l'application" class="img-responsive" /></p>
+        <p>&nbsp;</p>
+        <p>Adossée à une campagne de publicité Facebook nous avons pu tester la viabilité de l’offre et vérifier les hypothèses. En testant différente manière de présenter l’offre, de dérouler le formulaire, de cibler ou pas certains besoins <strong>nous avons pu obtenir une traction importante sur la base d’une cohorte de près de 100 000 utilisateurs avec un taux de conversion proche des 10%.</strong></p>
+        <div class="bloc-text bg-primary text-white">
+          Au final la question se posait de lancer notre propre assurance ou de s’adosser à une acteur existant. Etant déjà en très bonne relation avec une des plus grand groupe de banque-assurance français nous avons choisi de lui présenter la solution.
+        </div>
+      </div>
+    </div>
+  </section>
+
+  {% include '_layouts/page-bottom.nunjucks' %}
+  <!--
+  <a name="news"></a>
+  <section class="section-news">
+    <div class="separator-vertical"></div>
+    <h3>Actualités</h3>
+    <div class="mdl-grid">
+      <div class="mdl-cell mdl-cell--12-col-tablet mdl-cell--4-col">
+        <div class="hb-card hb-card--actu mdl-card mdl-shadow--2dp">
+          <div class="hb-card__content">
+            <div class="hb-card__title">
+              Le radiologue du futur
+            </div>
+            <div class="hb-card__body">
+              Issu de notre événement d'innovation Hacking Health Camp, nous avons accompagné une équipe de radiologue à concevoir l'outil
+              innovant leur permettant de créer de la valeur ajoutée en complément des solutions d'IA d'analyse d'image.
+            </div>
+            <div class="hb-card__actions">
+              <i class="material-icons">border_color</i>
+              <span>15 décembre 2018</span>
+              <a class="mdl-button mdl-button-icon mdl-js-button" data-upgraded=",MaterialButton">
+                <i class="hb-icon hb-icon-btn-next"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="mdl-cell mdl-cell--12-col-tablet mdl-cell--4-col">
+        <div class="hb-card hb-card--actu mdl-card mdl-shadow--2dp">
+          <div class="hb-card__content">
+            <div class="hb-card__title">
+              Le radiologue du futur
+            </div>
+            <div class="hb-card__body">
+              Issu de notre événement d'innovation Hacking Health Camp, nous avons accompagné une équipe de radiologue à concevoir l'outil
+              innovant leur permettant de créer de la valeur ajoutée en complément des solutions d'IA d'analyse d'image.
+            </div>
+            <div class="hb-card__actions">
+              <i class="material-icons">border_color</i>
+              <span>15 décembre 2018</span>
+              <a class="mdl-button mdl-button-icon mdl-js-button" data-upgraded=",MaterialButton">
+                <i class="hb-icon hb-icon-btn-next"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="mdl-cell mdl-cell--12-col-tablet mdl-cell--4-col">
+        <div class="hb-card hb-card--actu mdl-card mdl-shadow--2dp">
+          <div class="hb-card__content">
+            <div class="hb-card__title">
+              Le radiologue du futur
+            </div>
+            <div class="hb-card__body">
+              Issu de notre événement d'innovation Hacking Health Camp, nous avons accompagné une équipe de radiologue à concevoir l'outil
+              innovant leur permettant de créer de la valeur ajoutée en complément des solutions d'IA d'analyse d'image.
+            </div>
+            <div class="hb-card__actions">
+              <i class="material-icons">border_color</i>
+              <span>15 décembre 2018</span>
+              <a class="mdl-button mdl-button-icon mdl-js-button" data-upgraded=",MaterialButton">
+                <i class="hb-icon hb-icon-btn-next"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <a href="#" class="mdl-button mdl-js-button mdl-js-ripple-effect">Toutes nos actualités</a>
+  </section>
+-->
+
+
+</main>
+{% endblock %}
