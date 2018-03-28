@@ -39,10 +39,10 @@
   </section>
   <section class="">
     <div class="section-content bg-white">
-      <div class="container">
+      <div class="container-inner">
         <h3 class="text-center text-notransform text-large">Un développement réussi <br/> grâce à la méthode <strong>lean startup</strong></h3>
         <div class="mdl-grid mdl-typography--text-left">
-          <div class="mdl-cell mdl-cell--6-col mdl-cell--12-col-tablet mdl-cell--12-col-phone">
+          <div class="col-text-left mdl-cell mdl-cell--6-col mdl-cell--12-col-tablet mdl-cell--12-col-phone">
             <p>En mode <strong>lean startup</strong> comme d’habitude nous avons engagé plusieurs interviews auprès du grand public. Combiné à une suite d’ateliers <strong>Value Proposition Design</strong> nous avons identifié que l’attente est forte pour voir émerger des offres plus simple, mieux ciblées et surtout avec une expérience utilisateur digitale adaptée à la jeune génération : <strong>les millenials</strong>.</p>
           </div>
           <div class="mdl-layout-spacer"></div>
@@ -53,7 +53,7 @@
         </div>
         <p><img src="images/visuel-hv.jpg" srcset="images/visuel-hv@2x.jpg 2x, images/visuel-hv@3x.jpg 3x" alt="Offres" class="img-responsive" /></p>
         <div class="mdl-grid mdl-typography--text-left">
-          <div class="mdl-cell mdl-cell--6-col mdl-cell--12-col-tablet mdl-cell--12-col-phone">
+          <div class="col-text-left mdl-cell mdl-cell--6-col mdl-cell--12-col-tablet mdl-cell--12-col-phone">
             <p><strong>Une offre adaptée à leurs besoins, une souscription simple et rapide et une déclaration de sinistre par messagerie instantanée intégrant un chatbot pour une réponse rapide.</strong> L’objectif est de se concentrer sur l’essentiel : assurer seulement ce qui est important, accéder rapidement à l’information (notamment pour les attestations), déclarer simplement un sinistre sans attente téléphonique interminable. Le tout dans une expérience <strong>entièrement sur mobile</strong>.
               <br/>
               Techniquement le projet est tout à fait adapté au principe de la Progressive Web App : un site web responsive, qui s’affiche instantanément (moins d’1s), qui fonctionne même sans réseau et qui propose une expérience identique à une application mobile native.</p>
@@ -72,6 +72,15 @@
           Au final la question se posait de lancer notre propre assurance ou de s’adosser à une acteur existant. Etant déjà en très bonne relation avec une des plus grand groupe de banque-assurance français nous avons choisi de lui présenter la solution.
         </div>
       </div>
+    </div>
+  </section>
+  <a name="aide"></a>
+  <section class="section-contact">
+    <h3>Vous avez un projet dans un de ces secteurs?</h3>
+    <div class="section-contact-content">
+      <div> Innovation is the ability to see change as an opportunity...not a treat. </div>
+      <div class="author">Steve Jobs</div>
+      <a href="mailto:hello@hikariblue.com" class="mdl-button mdl-button-color mdl-button-secondary mdj-js-button hb-button__contact">CONTACT</a>
     </div>
   </section>
 

@@ -1,0 +1,194 @@
+{% set bodyClass = 'home' %}
+{% extends '_layouts/base.nunjucks' %} {% block content %}
+<main class="mdl-layout__content main-content" id="hello-victor">
+  <section class="section-intro">
+    <div class="section-intro-content">
+      <img src="images/servier.svg" alt="Servier"/>
+      <h1 class="mdl-typography--font-light  text-white">
+        <div class="mdl-typography--font-bold ">Acculturation au numérique</div><div>dans la santé</div>
+      </h1>
+    </div>
+  </section>
+
+  <a name="about"></a>
+  <section class="section-about">
+    <div class="section-about-content">
+      <div class="separator-vertical separator-white"></div>
+      <div class="container mdl-typography--text-center">
+        <h3 class="mdl-typography--text-uppercase text-white">Voyages apprenant au coeur de la Silicon Valley pour 12 personnes de l'équipe dirigeante de Servier Brésil</h3>
+      </div>
+      <div class="container mdl-typography--text-left">
+        <div class="mdl-grid">
+          <div class="mdl-cell mdl-cell--6-col mdl-cell--12-col-tablet mdl-cell--12-col-phone">
+            <p>Lorsqu’une entreprise prend conscience de la nécessité de se réinventer, le processus de la transformation est enclenché. Pour se réinventer il faut être en mesure de mettre en place les conditions de l’innovation : l’agilité et l’intrapreneuriat. C’est à dire la capacité de sortir des processus liés au modèle économique existant de l’entreprise et qui la fait vivre, pour permettre à des acteurs internes et/ou externes de l’entreprise de mettre en oeuvre des idées pour optimiser ou réinventer le modèle économique existant.</p>
+          </div>
+          <div class="mdl-layout-spacer"></div>
+          <div class="mdl-cell mdl-cell--6-col mdl-cell--12-col-phone text-large">
+            <p>Pour avoir des idées, être innovant, il faut être créatif et bien connaître les enjeux de son secteur d’activité pour faire face à la vague du numérique. Pour cela il faut s’inspirer.</p>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="">
+    <div class="section-content bg-white">
+      <div class="container-inner">
+        <h3 class="text-center text-notransform text-large">Une “learning expedition” (voyage apprenant) <br/><strong>pour s’inspirer</strong></h3>
+        <div class="mdl-grid mdl-typography--text-left">
+          <div class="col-text-left mdl-cell mdl-cell--6-col mdl-cell--12-col-tablet mdl-cell--12-col-phone">
+            <p>Le secteur de la santé est particulièrement la BigPharma va vivre une transformation majeure liée aux nouvelles technologies et notamment le Big Bata et l’Intelligence Artificielle. L’ensemble des connaissances nécessaires pour bien soigner est trop important pour un médecin. <strong>La technologie permet de gérer cette connaissance et fournir des services pour mieux soigner et ce n’est que le début.</strong></p>
+          </div>
+          <div class="mdl-layout-spacer"></div>
+          <div class="mdl-layout-spacer"></div>
+          <div class="mdl-cell mdl-cell--6-col mdl-cell--12-col-phone text-large">
+            <p class="text-blue">Il nous fallait alors marketer une proposition de valeur et valider nos hypothèses. Première étape : <strong>développer un site web et mettre en avant une offre.</strong></p>
+          </div>
+        </div>
+        <div class="block-alternate container-fluid mdl-grid ">
+          <div class="block-alternate-image mdl-cell mdl-cell--6-col mdl-cell--12-col-phone mdl-cell--middle ">
+            <img src="images/wework.jpg" srcset="images/wework@2x.jpg 2x, images/wework@3x.jpg 3x" alt="WeWork" class="img-responsive" />
+          </div>
+          <div class="block-alternate-text mdl-cell mdl-cell--6-col mdl-cell--12-col-phone mdl-cell--middle ">
+            <div class="text-center block-alternate-number">1</div>
+            <div class="">Départ avec une introduction par <strong>Mark Silva</strong> dans les locaux de <strong>WeWork</strong>, sur son experience de l’open innovation avec les grandes entreprises notamment dans la santé. Suivi d’un rencontre avec la première startup du voyage : <strong>Friendly</strong>.</div>
+          </div>
+        </div>
+        <div class="block-alternate container-fluid mdl-grid ">
+          <div class="block-alternate-image mdl-cell mdl-cell--6-col mdl-cell--12-col-phone mdl-cell--middle ">
+            <img src="images/eatsa.jpg" srcset="images/eatsa@2x.jpg 2x, images/eatsa@3x.jpg 3x" alt="Eatsa" class="img-responsive" />
+          </div>
+          <div class="block-alternate-text mdl-cell mdl-cell--6-col mdl-cell--12-col-phone mdl-cell--middle ">
+            <div class="text-center block-alternate-number">2</div>
+            <div class="">Un déjeuner à <strong>Eatsa</strong> pour vivre une approche très innovante dans la FoodTech.</div>
+          </div>
+        </div>
+        <div class="block-alternate container-fluid mdl-grid ">
+          <div class="block-alternate-image mdl-cell mdl-cell--6-col mdl-cell--12-col-phone mdl-cell--middle ">
+            <img src="images/indie-bio.jpg" srcset="images/indie-bio@2x.jpg 2x, indie-bio/wework@3x.jpg 3x" alt="Indie bio" class="img-responsive" />
+          </div>
+          <div class="block-alternate-text mdl-cell mdl-cell--6-col mdl-cell--12-col-phone mdl-cell--middle ">
+            <div class="text-center block-alternate-number">3</div>
+            <div class="">Puis rencontre avec <strong>Malika Cantor</strong> de <strong>Comet Labs</strong> pour parler accélération et financement des innovations en santé. Pour finir par une visite d’un bio hacker space <strong>Indie Bio</strong>, le plus grand accélérateur d’innovation dans la biotech.</div>
+          </div>
+        </div>
+        <div class="block-alternate container-fluid mdl-grid ">
+          <div class="block-alternate-image mdl-cell mdl-cell--6-col mdl-cell--12-col-phone mdl-cell--middle ">
+            <img src="images/healthtap.jpg" srcset="images/healthtap@2x.jpg 2x, images/healthtap@3x.jpg 3x" alt="Healthtop" class="img-responsive" />
+          </div>
+          <div class="block-alternate-text mdl-cell mdl-cell--6-col mdl-cell--12-col-phone mdl-cell--middle ">
+            <div class="text-center block-alternate-number">4</div>
+            <div class="">Le lendemain s’ensuit par la visite de <strong>Lexigram</strong> une jeune startup dans l’intelligence artificielle dédiée à la santé. Puis rencontre avec la startup <strong>HealthTap</strong>, une solution d’échange entre médecins et patients, très utilisée aux Etats-Unis, en Asie et en Amérique Latine.</div>
+          </div>
+        </div>
+        <div class="block-alternate container-fluid mdl-grid ">
+          <div class="block-alternate-image mdl-cell mdl-cell--6-col mdl-cell--12-col-phone mdl-cell--middle ">
+            <img src="images/plugandplay.jpg" srcset="images/plugandplay@2x.jpg 2x, images/plugandplay@3x.jpg 3x" alt="WeWork" class="img-responsive" />
+          </div>
+          <div class="block-alternate-text mdl-cell mdl-cell--6-col mdl-cell--12-col-phone mdl-cell--middle ">
+            <div class="text-center block-alternate-number">5</div>
+            <div class="">Puis après un déjeuner au coeur de la Silicon Valley sur l’<strong>University Avenue</strong>, direction le <strong>Plug And Play Accelerator</strong>, lieu d’innovation qui a vu émerger entre autres PayPal, pour une rencontre avec la startup <strong>Doctella</strong>. Suivi de meetings avec <strong>Arun Kumar</strong>, directeur du lab d’innovation de Bayer et <strong>Patrick Suel</strong> investisseur dans la santé, au board de Tesla.</div>
+          </div>
+        </div>
+      </div>
+      <div class="container-inner">
+        <div class="mdl-grid">
+          <div class="col-text-left mdl-typography--text-left mdl-cell mdl-cell--6-col mdl-cell-12-col-mobile">
+            <p>Des rencontres très enrichissantes pour l’équipe de 12 personnes présentes lors de cette learning expedition. Le bilan à bien montré l’impact sur les personnes notamment dans la compréhension que l’innovation passe par une suite d’échecs dont il faut savoir extraire la valeur pour apprendre mais aussi dans la maitrise des sujets BigData et Intelligence Artificielle qui pour le secteur de la pharma vont être des technologies révolutionnaires.</p>
+            <p>L’équipe est repartie enchantée et a directement pris les devants pour mettre en application leur apprentissage. Plusieurs projets d’innovation ont depuis était lancé et le groupe a réellement démarré sa transformation.</p>
+          </div>
+          <div class="mdl-cell mdl-cell--6-col mdl-cell-12-col-mobile bg-primary text-white text-center mdl-grid">
+            <div class="text-large mdl-cell--middle bloc-text-mini ">
+              Une learning expedition est une vraie opportunité pour faire <strong>monter en compétences les décideurs et anticiper les enjeux majeurs de transformation des entreprises.</strong>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+  <a name="aide"></a>
+  <section class="section-contact">
+    <h3>Vous êtes intéressé par une learning expedition ?</h3>
+    <div class="section-contact-content">
+      <div> Innovation is the ability to see change as an opportunity...not a treat. </div>
+      <div class="author">Steve Jobs</div>
+      <a href="mailto:hello@hikariblue.com" class="mdl-button mdl-button-color mdl-button-secondary mdj-js-button hb-button__contact">CONTACT</a>
+    </div>
+  </section>
+
+  {% include '_layouts/page-bottom.nunjucks' %}
+  <!--
+  <a name="news"></a>
+  <section class="section-news">
+    <div class="separator-vertical"></div>
+    <h3>Actualités</h3>
+    <div class="mdl-grid">
+      <div class="mdl-cell mdl-cell--12-col-tablet mdl-cell--4-col">
+        <div class="hb-card hb-card--actu mdl-card mdl-shadow--2dp">
+          <div class="hb-card__content">
+            <div class="hb-card__title">
+              Le radiologue du futur
+            </div>
+            <div class="hb-card__body">
+              Issu de notre événement d'innovation Hacking Health Camp, nous avons accompagné une équipe de radiologue à concevoir l'outil
+              innovant leur permettant de créer de la valeur ajoutée en complément des solutions d'IA d'analyse d'image.
+            </div>
+            <div class="hb-card__actions">
+              <i class="material-icons">border_color</i>
+              <span>15 décembre 2018</span>
+              <a class="mdl-button mdl-button-icon mdl-js-button" data-upgraded=",MaterialButton">
+                <i class="hb-icon hb-icon-btn-next"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="mdl-cell mdl-cell--12-col-tablet mdl-cell--4-col">
+        <div class="hb-card hb-card--actu mdl-card mdl-shadow--2dp">
+          <div class="hb-card__content">
+            <div class="hb-card__title">
+              Le radiologue du futur
+            </div>
+            <div class="hb-card__body">
+              Issu de notre événement d'innovation Hacking Health Camp, nous avons accompagné une équipe de radiologue à concevoir l'outil
+              innovant leur permettant de créer de la valeur ajoutée en complément des solutions d'IA d'analyse d'image.
+            </div>
+            <div class="hb-card__actions">
+              <i class="material-icons">border_color</i>
+              <span>15 décembre 2018</span>
+              <a class="mdl-button mdl-button-icon mdl-js-button" data-upgraded=",MaterialButton">
+                <i class="hb-icon hb-icon-btn-next"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="mdl-cell mdl-cell--12-col-tablet mdl-cell--4-col">
+        <div class="hb-card hb-card--actu mdl-card mdl-shadow--2dp">
+          <div class="hb-card__content">
+            <div class="hb-card__title">
+              Le radiologue du futur
+            </div>
+            <div class="hb-card__body">
+              Issu de notre événement d'innovation Hacking Health Camp, nous avons accompagné une équipe de radiologue à concevoir l'outil
+              innovant leur permettant de créer de la valeur ajoutée en complément des solutions d'IA d'analyse d'image.
+            </div>
+            <div class="hb-card__actions">
+              <i class="material-icons">border_color</i>
+              <span>15 décembre 2018</span>
+              <a class="mdl-button mdl-button-icon mdl-js-button" data-upgraded=",MaterialButton">
+                <i class="hb-icon hb-icon-btn-next"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <a href="#" class="mdl-button mdl-js-button mdl-js-ripple-effect">Toutes nos actualités</a>
+  </section>
+-->
+
+
+</main>
+{% endblock %}
