@@ -1,0 +1,64 @@
+#contact{
+  .mdl-cell{
+    margin: 0 $grid-desktop-gutter / 2;
+  }
+  .section-intro{
+    background: url(../images/header-interne-contact.jpg) center center no-repeat #1b222c;
+    background-size: auto 100%;
+  }
+  .section-about-content{
+    padding-left:0;
+    padding-right: 0;
+  }
+  .contact-bottom{
+    border-top: solid 1px #5a86ff;
+    margin: 50px 32.5px 0 32.5px;
+    padding-top: 75px;
+
+    .mdl-button{
+      margin-top: 10px;
+    }
+  }
+  .contact-bottom-label{
+    font-size: 15px;
+    margin-bottom: 30px;
+  }
+  .contact-rs{
+    .link{
+      display:inline-block;
+      margin: 5px 0;
+    }
+    @media (min-width: $grid-desktop-breakpoint){
+      li{
+        font-size: 19px;
+      }
+    }
+  }
+  .block-linkedin-autofill{
+    position: relative;
+    .mdl-button{
+      position: absolute;
+      left: 0;
+      right: 0;
+      margin:auto;
+      width: 90%;
+
+      @media(min-width: $grid-tablet-breakpoint){
+        width: auto;
+        left: 50%;
+        transform: translate(-50%);
+      }
+      span, img{
+        display:inline-block;
+        vertical-align: middle;
+      }
+      img{
+        margin-left: 10px;
+      }
+    }
+    .btn-linkedin-autofill{
+      opacity: 0;
+      min-height: 75px;
+    }
+  }
+}

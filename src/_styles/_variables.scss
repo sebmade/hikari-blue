@@ -14,3 +14,9 @@ $footer-min-padding: 8px;
 
 $color-blue: #2962ff;
 //$color-black: #1b222c;
+
+$input-text-label-color: #fff;
+$input-text-bottom-border-color: #fff;
+$input-text-highlight-color: #fff;
+$input-text-disabled-color: $input-text-bottom-border-color;
+$input-text-disabled-text-color: $input-text-label-color;

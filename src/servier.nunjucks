@@ -1,6 +1,6 @@
 {% set bodyClass = 'home' %}
 {% extends '_layouts/base.nunjucks' %} {% block content %}
-<main class="mdl-layout__content main-content" id="hello-victor">
+<main class="mdl-layout__content main-content" id="servier">
   <section class="section-intro">
     <div class="section-intro-content">
       <img src="images/servier.svg" alt="Servier"/>

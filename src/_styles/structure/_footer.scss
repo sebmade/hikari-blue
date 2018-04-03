@@ -18,22 +18,23 @@
     padding-top: 10px;
   }
 
-  .link{
-    display: inline-block;
-    color: $custom-black;
-    font-size: 17px;
-    padding: 5px 0;
-    &:hover{
-      color: unquote('rgb(#{$color-primary})');
-    }
-    @media(min-width: $grid-tablet-breakpoint){
-      font-size: 19px;
-    }
-  }
+
   .mdl-mega-footer__link-list {
     padding:0;
     li{
       margin: 0;
+    }
+    .link{
+      display: inline-block;
+      color: $custom-black;
+      font-size: 17px;
+      padding: 5px 0;
+      &:hover{
+        color: unquote('rgb(#{$color-primary})');
+      }
+      @media(min-width: $grid-tablet-breakpoint){
+        font-size: 19px;
+      }
     }
   }
   @media(min-width: 768px){

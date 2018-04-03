@@ -19,10 +19,15 @@ $text-color: #cecece;
 @import 'node_modules/material-design-lite/src/material-design-lite';
 @import 'mdl-override/buttons';
 @import 'mdl-override/typographie';
+@import 'mdl-override/textfield';
 @import 'structure/footer';
+@import 'structure/form';
 @import 'global';
 @import 'icons';
 @import 'case-studies/hello-victor';
+@import 'case-studies/servier';
+@import 'case-studies/contact';
+
 
 .mdl-layout,
 .mdl_layout__container {
@@ -1068,23 +1073,7 @@ section {
   }
 }
 ////////////////////////
-.contact-page {
-  .mdl-cell {
-    max-width: 800px;
-  }
-  .mdl-cell div,
-  h3,
-  button {
-    width: 100%;
-  }
-  .mdl-cell h3 {
-    font-size: 24px;
-    text-align: center;
-  }
-  .mdl-cell button {
-    margin: 15px 0;
-  }
-}
+
 .section-news {
   background: url(/images/background.svg) no-repeat center -60px;
   background-size: 100%;

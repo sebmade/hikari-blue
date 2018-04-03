@@ -88,6 +88,21 @@
       }
     }
   }
+  &.mdl-button-secondary-inverse{
+
+    &:before{
+      content: "";
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      left: 0;
+      border: 1px solid #000;
+      transform: skew(-15deg);
+    }
+    &:after{
+      content: none;
+    }
+  }
 }
 
 .mdl-button,

@@ -52,7 +52,10 @@ require('owl.carousel');
   }).on('mouseleave', function(){
     $(this).parents('.hb-card').removeClass('hover');
   });
-
+  $('.btn-linkedin-autofill').on('mouseover', function(e){
+    e.preventDefault();
+    $('.mdl-textfield').addClass('is-dirty');
+  });
    $('.contact-form').on('submit', function (e) {
     var form = $(this);
 

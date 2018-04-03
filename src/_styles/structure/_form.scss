@@ -1,0 +1,9 @@
+.form-section{
+  margin-top: 80px;
+}
+
+.section-about{
+  .mdl-cell.form-section{
+   @extend .form-section;
+  }
+}

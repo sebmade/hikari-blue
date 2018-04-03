@@ -1,0 +1,17 @@
+.mdl-textfield {
+  width: 100%;
+  @media(min-width: $grid-desktop-breakpoint) {
+    padding-left: 20px;
+    padding-right: 20px;
+
+    .mdl-textfield__label {
+      left: 20px;
+    }
+  }
+  &.is-focused {
+    .mdl-textfield__label:after {
+      width: calc(100% - 40px);
+    }
+  }
+
+}
