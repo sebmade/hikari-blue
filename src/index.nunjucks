@@ -108,10 +108,10 @@
             Issu de notre événement d'innovation Hacking Health Camp, nous avons accompagné une équipe de radiologue à concevoir l'outil innovant leur permettant de créer de la valeur ajoutée…
           </div>
           <div class="hb-card__actions">
-              <a class="mdl-button mdl-button-icon mdl-js-button">
-                <span>LIRE L'ETUDE</span>
-                <i class="hb-icon hb-icon-btn-next"></i>
-              </a>
+              <span class="mdl-button mdl-button-icon mdl-js-button">
+                <span>En cours</span>
+                <!--<i class="hb-icon hb-icon-btn-next"></i>-->
+              </span>
           </div>
         </div>
       </div>
@@ -319,6 +319,14 @@
   <section class="section-competences">
     <h3>Domaines de compétence</h3>
     <div class="section-competences-content bg-black">
+      <div id="dots-competences" class="owl-dots">
+        <div class="dot"><span class="bullet"></span>Santé</div>
+        <div class="dot"><span class="bullet"></span>Assurance</div>
+        <div class="dot"><span class="bullet"></span>Banque</div>
+        <!--<div class="dot"><span class="bullet"></span>Immobilier</div>-->
+        <div class="dot"><span class="bullet"></span>Industrie</div>
+        <div class="dot"><span class="bullet"></span>Retail</div>
+      </div>
       <div class="owl-carousel owl-theme">
         <div class="item mdl-grid" data-dot="Santé">
           <div class="hb-col-img mdl-cell mdl-cell--5-col mdl-cell--12-col-tablet mdl-cell--12-col-phone">
@@ -404,14 +412,7 @@
           </div>
         </div>
       </div>
-      <div id="dots-competences" class="owl-dots">
-        <div class="dot"><span class="bullet"></span>Santé</div>
-        <div class="dot"><span class="bullet"></span>Assurance</div>
-        <div class="dot"><span class="bullet"></span>Banque</div>
-        <!--<div class="dot"><span class="bullet"></span>Immobilier</div>-->
-        <div class="dot"><span class="bullet"></span>Industrie</div>
-        <div class="dot"><span class="bullet"></span>Retail</div>
-      </div>
+
     </div>
     <div class="section-competences-bottom bg-black">
       <img src="images/revolutionindustrielle.png" alt="Révolution industrielle" class="img-responsive block-center"/>

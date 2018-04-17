@@ -99,5 +99,5 @@
       "exports": null,
       "depends": "jquery:$"
     }
-  }  
+  }
 }

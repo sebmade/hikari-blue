@@ -14,90 +14,60 @@
       <form id="contact-form" class="contact-form container">
         <div class="block-linkedin-autofill">
           <button class="mdl-button mdl-button-color mdl-button-secondary-inverse">
-            <span>Remplir avec</span> <img src="images/linkedin.svg" alt="Linkedin" /></button>
+            <span>Remplir avec</span> <img src="images/linkedin.svg" alt="Linkedin" />
+          </button>
           <div class="btn-linkedin-autofill">
-            <script src="https://www.linkedin.com/autofill/js/autofill.js" type="text/javascript" async></script><script type="IN/Form2" data-form="contact-form" data-field-firstname="firstname" data-field-lastname="name" data-field-phone="telephone" data-field-email="email" data-field-company="company" data-field-title="job" data-field-city="city" data-field-zip="postalcode"></script>
+            <script src="https://www.linkedin.com/autofill/js/autofill.js" type="text/javascript" async></script>
+            <script type="IN/Form2" data-form="contact-form" data-field-firstname="firstname" data-field-lastname="name" data-field-phone="telephone" data-field-email="email" data-field-company="company" data-field-title="job" data-field-city="city" data-field-zip="postalcode"></script>
           </div>
         </div>
         <div class="mdl-grid">
           <div class="mdl-cell mdl-cell--6-col mdl-cell--12-col-phone">
             <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-              <input class="mdl-textfield__input" type="text" name="name" id="name" required>
-              <label class="mdl-textfield__label" for="name">Nom*</label>
+              <input class="form-field" type="text" name="name" id="name" placeholder="Nom*" required>
             </div>
           </div>
           <div class="mdl-cell mdl-cell--6-col mdl-cell--12-col-phone">
             <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-              <input class="mdl-textfield__input" type="text" name="firstname" id="firstname" required>
-              <label class="mdl-textfield__label" for="firstname">Prénom*</label>
+              <input class="form-field" type="text" name="firstname" id="firstname" placeholder="Prenom*" required>
             </div>
           </div>
           <div class="mdl-cell mdl-cell--6-col mdl-cell--12-col-phone">
             <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-              <input class="mdl-textfield__input" type="text" name="job" id="job">
-              <label class="mdl-textfield__label" for="job">Fonction</label>
+              <input class="form-field" type="text" name="job" id="job" placeholder="Fonction">
             </div>
           </div>
           <div class="mdl-cell mdl-cell--6-col mdl-cell--12-col-phone">
             <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-              <input class="mdl-textfield__input" type="text" name="company" id="company">
-              <label class="mdl-textfield__label" for="email">Société</label>
+              <input class="form-field" type="text" name="company" id="company" placeholder="Société">
             </div>
           </div>
           <div class="mdl-cell mdl-cell--6-col mdl-cell--12-col-phone">
             <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-              <input class="mdl-textfield__input" type="email" name="email" id="email" required>
-              <label class="mdl-textfield__label" for="email">Email*</label>
+              <input class="form-field" type="email" name="email" id="email" required placeholder="Email*">
             </div>
           </div>
           <div class="mdl-cell mdl-cell--6-col mdl-cell--12-col-phone">
             <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-              <input class="mdl-textfield__input" type="text" name="telephone" id="telephone">
-              <label class="mdl-textfield__label" for="telephone">Téléphone</label>
+              <input class="form-field" type="text" name="telephone" id="telephone" placeholder="Téléphone">
             </div>
           </div>
           <div class="mdl-cell mdl-cell--6-col mdl-cell--12-col-phone">
             <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-              <input class="mdl-textfield__input" type="text" name="postalcode" id="postalcode" required>
-              <label class="mdl-textfield__label" for="postalcode">Code postal*</label>
+              <input class="form-field" type="text" name="postalcode" id="postalcode" required placeholder="Code postal*">
             </div>
           </div>
           <div class="mdl-cell mdl-cell--6-col mdl-cell--12-col-phone">
             <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-              <input class="mdl-textfield__input" type="text" name="city" id="city" required>
-              <label class="mdl-textfield__label" for="city">Ville*</label>
-            </div>
-          </div>
-          <div class="mdl-cell mdl-cell--12-col form-section">
-            <h3 class="text-white">Comment peut-on vous aider ?</h3>
-          </div>
-          <div class="mdl-cell mdl-cell--12-col mdl-typography--text-left">
-            <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option1">
-              <input type="radio" name="demand" id="option1" class="mdl-radio__button" value="hikariblue - projet" checked>
-              <span class="mdl-radio__label">J'ai un super projet</span>
-            </label>
-          </div>
-          <div class="mdl-cell mdl-cell--12-col mdl-typography--text-left">
-            <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option2">
-              <input type="radio" name="demand" id="option2" value="hikariblue - recrutement" class="mdl-radio__button">
-              <span class="mdl-radio__label">Je voudrais rejoindre vos équipes</span>
-            </label>
-          </div>
-          <div class="mdl-cell mdl-cell--12-col  form-section">
-            <h3 class="text-white">Dites nous en plus</h3>
-          </div>
-          <div class="mdl-cell mdl-cell--12-col">
-            <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-              <textarea class="mdl-textfield__input" type="text" rows="3" name="message" id="message"></textarea>
-              <label class="mdl-textfield__label" for="message">Message*</label>
+              <input class="form-field" type="text" name="city" id="city" required placeholder="Ville*">
             </div>
           </div>
           <div class="mdl-cell mdl-cell--12-col">
             <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-              <textarea class="mdl-textfield__input" type="text" rows="3" name="from" id="from"></textarea>
-              <label class="mdl-textfield__label" for="from">Comment nous avez-vous connu ?</label>
+              <textarea class="form-field" type="text" rows="8" name="message" id="message" placeholder="Message*"></textarea>
             </div>
           </div>
+          <div class="mdl-cell mdl-cell--12-col mdl-typography--text-left text-small">* Champ obligatoire</div>
           <div class="mdl-cell mdl-cell--12-col">
             <button class="mdl-button mdl-button-color mdl-js-button mdl-button-secondary ">
               Envoyer

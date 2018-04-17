@@ -158,6 +158,11 @@ $text-color: #cecece;
 section {
   position: relative;
   padding: 40px 100px;
+  @media(max-width: $grid-tablet-breakpoint){
+    .mdl-typography--text-left{
+      text-align: center;
+    }
+  }
   text-align: center;
   @media screen and (max-width: $layout-screen-size-threshold) {
     padding: 24px 15px 0 15px;
@@ -187,14 +192,19 @@ section {
   &-content {
     align-self: center;
     z-index: 1000;
+    .logo{
+      max-width: 80%;
+    }
   }
   h1,
   h2 {
     margin: 30px auto;
   }
-  h2 {
-    line-height: 1.6;
-    font-size: 20px;
+  @media(min-width: $grid-tablet-breakpoint){
+    h2 {
+      line-height: 1.6;
+      font-size: 20px;
+    }
   }
   .material-icons {
     font-size: 45px;
@@ -340,7 +350,10 @@ section {
       transform: translateY(50%);
       left: 40px;
       right: 40px;
-
+      @media(max-width: $grid-tablet-breakpoint){
+        padding: 0 10px;
+        font-size: 12px;
+      }
     }
     .owl-carousel{
       clear: both;
@@ -528,8 +541,12 @@ section {
   height: 100%;
 }
 .section-content{
-  padding-top: 50px;
-  padding-bottom: 50px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  @media(min-width: $grid-tablet-breakpoint){
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
 }
 .section-about {
   color: #fff;
@@ -537,9 +554,12 @@ section {
   padding-top: 0;
   &-content{
     background: $color-blue;
-    padding-top: 100px;
-    padding-left: 55px;
-    padding-right: 55px;
+    padding-top: 30px;
+    @media(min-width: $grid-tablet-breakpoint){
+      padding-top: 100px;
+      padding-left: 55px;
+      padding-right: 55px;
+    }
 
   }
   h3:after {
@@ -577,8 +597,8 @@ section {
   padding-top: 0;
 
   .grid-expertises {
-    padding-top: 80px;
-    padding-bottom: 80px;
+    padding-top: 30px;
+    padding-bottom: 30px;
     background: url(../images/robot.jpg) right bottom no-repeat #fff;
     //background-size: auto 75%;
     .container {
@@ -622,6 +642,10 @@ section {
         color: #878d8f;
         //text-transform: uppercase;
       }
+    }
+    @media(min-width: $grid-tablet-breakpoint){
+      padding-top: 80px;
+      padding-bottom: 80px;
     }
   }
 
@@ -687,6 +711,7 @@ section {
     @media(min-width: $grid-tablet-breakpoint){
       font-size: 19px;
     }
+    margin-bottom: 0;
   }
   h4{
     color: inherit;
@@ -733,7 +758,7 @@ section {
     margin: 30px 0;
     .grid-steps {
       position: relative;
-      margin-top: 60px;
+
       &:before {
         content: '';
         position: absolute;
@@ -749,6 +774,9 @@ section {
           width: 80%;
           height: 1px;
         }
+      }
+      @media(min-width: $grid-tablet-breakpoint){
+        margin-top: 60px;
       }
     }
 
@@ -830,7 +858,7 @@ section {
   .method-transition {
     position: relative;
     align-self: center;
-    margin-top: 51px;
+
     @media(min-width: $grid-desktop-breakpoint) {
       &:before {
         content: '';
@@ -863,6 +891,9 @@ section {
       @media(max-width: $grid-desktop-breakpoint) {
         display: none;
       }
+    }
+    @media(min-width: $grid-tablet-breakpoint){
+      margin-top: 51px;
     }
   }
   .oval {

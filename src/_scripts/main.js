@@ -14,13 +14,14 @@ require('owl.carousel');
   var carousel = $('.owl-carousel');
 
   carousel.on('initialized.owl.carousel', function(event){
-    carousel.before($('<div class="carousel-counter pull-right" />').html('<span class="text-up">'+(event.item.index + 1)+'</span>/' + event.item.count));
+    carousel.after($('<div class="carousel-counter pull-right" />').html('<span class="text-up">'+(event.item.index + 1)+'</span>/' + event.item.count));
   });
 
   carousel.owlCarousel({
     items: 1,
     dotsContainer: '#dots-competences',
     navText: ['<i class="hb-icon hb-icon-btn-next-white"></i>','<i class="hb-icon hb-icon-btn-next-white"></i>'],
+    autoHeight:true,
     responsive: {
       0 : {
         nav: true

@@ -1,17 +1,27 @@
 .mdl-textfield {
   width: 100%;
-  @media(min-width: $grid-desktop-breakpoint) {
-    padding-left: 20px;
-    padding-right: 20px;
-
-    .mdl-textfield__label {
-      left: 20px;
+  .form-field{
+    background:none;
+    border: 1px solid #5a86ff;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 15px 20px;
+    color: #fff;
+    @media(min-width: $grid-desktop-breakpoint) {
+      padding-left: 20px;
+      padding-right: 20px;
     }
   }
-  &.is-focused {
-    .mdl-textfield__label:after {
-      width: calc(100% - 40px);
-    }
-  }
-
+}
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: #fff;
+}
+::-moz-placeholder { /* Firefox 19+ */
+  color: #fff;
+}
+:-ms-input-placeholder { /* IE 10+ */
+  color: #fff;
+}
+:-moz-placeholder { /* Firefox 18- */
+  color: #fff;
 }

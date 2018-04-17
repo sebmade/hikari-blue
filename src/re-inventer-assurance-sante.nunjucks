@@ -3,7 +3,7 @@
 <main class="mdl-layout__content main-content" id="hello-victor">
   <section class="section-intro">
     <div class="section-intro-content">
-      <img src="images/hello-victor.svg" alt="Hello Victor"/>
+      <img class="logo" src="images/hello-victor.svg" alt="Hello Victor"/>
       <h1 class="mdl-typography--font-light  text-white">
         <span class="mdl-typography--font-bold ">Réinventez l'assurance</span> pour les milléniales
       </h1>
@@ -66,7 +66,7 @@
           </div>
         </div>
         <p><img src="images/screenshot-hv.jpg" srcset="images/screenshot-hv@2x.jpg 2x, images/screenshot-hv@3x.jpg 3x" alt="Aperçu d'écrans de l'application" class="img-responsive" /></p>
-        <p>&nbsp;</p>
+
         <p>Adossée à une campagne de publicité Facebook nous avons pu tester la viabilité de l’offre et vérifier les hypothèses. En testant différente manière de présenter l’offre, de dérouler le formulaire, de cibler ou pas certains besoins <strong>nous avons pu obtenir une traction importante sur la base d’une cohorte de près de 100 000 utilisateurs avec un taux de conversion proche des 10%.</strong></p>
         <div class="bloc-text bg-primary text-white">
           Au final la question se posait de lancer notre propre assurance ou de s’adosser à une acteur existant. Etant déjà en très bonne relation avec une des plus grand groupe de banque-assurance français nous avons choisi de lui présenter la solution.
